@@ -459,7 +459,9 @@ export default function Home() {
             </span>
             <div className="flex gap-[20px] md:gap-[32px]">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/martinvymetal/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-mono text-[10px] md:text-[11px] font-semibold text-[var(--color-white)] tracking-[1px] hover:text-[var(--color-gold)] transition-colors"
               >
                 LINKEDIN
