@@ -298,14 +298,18 @@ export default function Home() {
           </p>
           {/* Mobile link */}
           <a
-            href="#"
+            href="https://cnn.iprima.cz/srdce-z-masa-turbo-z-kremiku-jak-uspet-v-ere-ai-488670"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-mono text-[10px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition md:hidden"
           >
             ČÍST ČLÁNEK →
           </a>
           {/* Desktop link */}
           <a
-            href="#"
+            href="https://cnn.iprima.cz/srdce-z-masa-turbo-z-kremiku-jak-uspet-v-ere-ai-488670"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:block font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
           >
             CELÝ ROZHOVOR →
