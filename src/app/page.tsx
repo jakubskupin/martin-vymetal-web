@@ -351,7 +351,12 @@ export default function Home() {
               className="flex flex-col border border-[var(--color-border)] md:flex-1 overflow-hidden"
             >
               {/* Thumbnail with bottom fade */}
-              <div className="relative h-[180px] md:h-[240px] w-full overflow-hidden">
+              <a
+                href={card.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative h-[180px] md:h-[240px] w-full overflow-hidden block"
+              >
                 <div
                   className="absolute inset-0 bg-cover bg-center"
                   style={{ backgroundImage: `url('${card.img}')` }}
@@ -363,7 +368,7 @@ export default function Home() {
                       "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 40%, #0A0A0ABB 80%, #0A0A0AFF 100%)",
                   }}
                 />
-              </div>
+              </a>
               <div className="flex flex-col gap-[10px] md:gap-[12px] p-[20px] md:p-[24px]">
                 <span className="font-mono text-[9px] md:text-[10px] text-[var(--color-gold)] tracking-[1px]">
                   {card.label}
