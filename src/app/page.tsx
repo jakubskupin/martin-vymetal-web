@@ -118,15 +118,15 @@ export default function Home() {
           </span>
           <span
             ref={(el) => { logoTexts.current[1] = el; }}
-            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] tracking-[0.1em]"
+            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] uppercase tracking-[0.1em]"
           >
-            Medový Voice
+            MEDOVÝ VOICE
           </span>
           <span
             ref={(el) => { logoTexts.current[2] = el; }}
-            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] tracking-[0.1em]"
+            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] uppercase tracking-[0.1em]"
           >
-            Martin Vymětal
+            MARTIN VYMĚTAL
           </span>
         </div>
         {/* Hamburger — mobile only */}
