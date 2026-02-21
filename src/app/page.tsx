@@ -10,16 +10,17 @@ export default function Home() {
   // Animated logo state
   const logoTexts = useRef<(HTMLSpanElement | null)[]>([null, null, null]);
   const logoCurrent = useRef(0);
-  const logoNextState = useRef(1);
   const logoBusy = useRef(false);
+  const logoSequence = [1, 2, 2, 2];
+  const logoSeqIndex = useRef(0);
 
   const handleLogoEnter = useCallback(() => {
     if (logoBusy.current) return;
     logoBusy.current = true;
 
     const prev = logoCurrent.current;
-    logoCurrent.current = logoNextState.current;
-    logoNextState.current = logoNextState.current === 1 ? 2 : 1;
+    logoCurrent.current = logoSequence[logoSeqIndex.current];
+    logoSeqIndex.current = (logoSeqIndex.current + 1) % logoSequence.length;
 
     logoTexts.current[prev]?.classList.remove("visible");
     logoTexts.current[prev]?.classList.add("gone");
