@@ -66,11 +66,11 @@ export default function Home() {
       {/* ─── Hero ─── */}
       <section className="relative h-[600px] md:h-[800px] overflow-hidden">
         {/* Top fade from nav */}
-        <div className="absolute top-0 left-0 right-0 h-[80px] md:h-[120px] bg-gradient-to-b from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
+        <div className="absolute top-0 left-0 right-0 h-[60px] md:h-[60px] bg-gradient-to-b from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
         {/* Background image — parallax with safe top offset so head stays visible */}
         <div
           ref={heroImageRef}
-          className="absolute inset-0 -top-[40px] md:-top-[50px] bottom-0 bg-cover bg-[center_20%] rounded-[60px] md:rounded-[94px] will-change-transform"
+          className="absolute inset-0 -top-[40px] md:-top-[20px] bottom-0 bg-cover bg-[center_15%] rounded-[60px] md:rounded-[94px] will-change-transform"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
         {/* Gradient overlay */}
