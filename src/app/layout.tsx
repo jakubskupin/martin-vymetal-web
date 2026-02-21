@@ -3,10 +3,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Martin Vymětal — Marketing & Komunikace",
-  description: "Najdeme 3 rozhodnutí, která změní marketing během 14 dní.",
+  description: "Zajistím vám pozornost. Se mnou vyhrajete.",
   openGraph: {
     title: "Martin Vymětal — Marketing & Komunikace",
-    description: "Najdeme 3 rozhodnutí, která změní marketing během 14 dní.",
+    description: "Zajistím vám pozornost. Se mnou vyhrajete.",
     images: [
       {
         url: "/og-image.png",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Martin Vymětal — Marketing & Komunikace",
-    description: "Najdeme 3 rozhodnutí, která změní marketing během 14 dní.",
+    description: "Zajistím vám pozornost. Se mnou vyhrajete.",
     images: ["/og-image.png"],
   },
 };
