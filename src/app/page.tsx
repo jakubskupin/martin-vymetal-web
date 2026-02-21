@@ -94,7 +94,9 @@ export default function Home() {
             Najdeme tři rozhodnutí, která změní váš marketing během 14 dní.
           </p>
           <a
-            href="#kontakt"
+            href="https://www.linkedin.com/in/martinvymetal/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-mono text-[11px] md:text-[12px] font-semibold tracking-[1px] text-[var(--color-dark)] bg-[var(--color-gold)] px-[24px] md:px-[32px] py-[14px] md:py-[16px] w-fit hover:brightness-110 transition"
           >
             OZVĚTE SE MI →
