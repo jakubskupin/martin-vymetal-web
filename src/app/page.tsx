@@ -278,7 +278,7 @@ export default function Home() {
           PROCES
         </span>
         <h2 className="font-grotesk text-[32px] md:text-[42px] font-bold text-[var(--color-white)] tracking-[-1px]">
-          TŘI KROKY.
+          TŘI KROKY
         </h2>
         <div className="flex flex-col md:flex-row gap-[16px] md:gap-0 w-full">
           {[
