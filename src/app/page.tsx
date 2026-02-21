@@ -192,7 +192,7 @@ export default function Home() {
             <br />
             BOJ O POZORNOST.
             <br />
-            VYHRAJETE HO.
+            VYHRAJETE HO
           </h1>
           <p className="font-mono text-[13px] md:text-[16px] text-[var(--color-gray)] leading-[1.6]">
             Najdeme tři rozhodnutí, která změní váš marketing během 14 dní.
