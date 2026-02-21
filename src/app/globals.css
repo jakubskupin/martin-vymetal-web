@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --color-gold: #C9A962;
+  --color-bg: #0A0A0A;
+  --color-white: #FFFFFF;
+  --color-gray: #777777;
+  --color-border: #333333;
+  --color-dark: #0A0A0A;
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+  }
+
+  .font-playfair {
+    font-family: "Playfair Display", serif;
+  }
+
+  .font-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  .font-mono {
+    font-family: "IBM Plex Mono", monospace;
+  }
+}
