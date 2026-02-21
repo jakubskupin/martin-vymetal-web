@@ -97,7 +97,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="flex flex-col bg-[var(--color-bg)]">
+    <div className="flex flex-col bg-[var(--color-bg)] overflow-x-hidden">
       {/* ─── Navigation ─── */}
       <nav className="flex items-center justify-between h-[60px] px-[24px] md:h-[80px] md:px-[56px]">
         {/* Mobile logo */}
@@ -560,7 +560,7 @@ export default function Home() {
 
         {/* Přednášky Row — photo left, text right */}
         <div className="flex flex-col-reverse md:flex-row h-auto md:h-[560px] border-t border-[var(--color-border)]">
-          <div className="relative h-[300px] md:h-[560px] md:w-[780px] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
+          <div className="relative h-[300px] md:h-[560px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{ backgroundImage: "url('/mv-speaker.jpg')" }}
@@ -573,7 +573,7 @@ export default function Home() {
               }}
             />
           </div>
-          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:w-[660px] md:shrink-0 md:h-[560px]">
+          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:flex-1 md:h-[560px]">
             <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
               POTKEJTE
             </span>
@@ -628,7 +628,7 @@ export default function Home() {
 
         {/* Influencing Row — photo left, text right */}
         <div className="flex flex-col-reverse md:flex-row h-auto md:h-[560px] border-t border-[var(--color-border)]">
-          <div className="relative h-[300px] md:h-[560px] md:w-[780px] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
+          <div className="relative h-[300px] md:h-[560px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{ backgroundImage: "url('/vymetal-drivalia.jpg')" }}
@@ -641,7 +641,7 @@ export default function Home() {
               }}
             />
           </div>
-          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:w-[660px] md:shrink-0 md:h-[560px]">
+          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:flex-1 md:h-[560px]">
             <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
               INFLUENCING
             </span>
