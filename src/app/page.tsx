@@ -630,7 +630,7 @@ export default function Home() {
         <div className="flex flex-col-reverse md:flex-row h-auto md:h-[420px] border-t border-[var(--color-border)]">
           <div className="relative h-[280px] md:h-[420px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
             <div
-              className="absolute inset-0 bg-cover bg-[center_35%]"
+              className="absolute inset-0 bg-cover bg-bottom"
               style={{ backgroundImage: "url('/vymetal-drivalia.jpg')" }}
             />
             <div
