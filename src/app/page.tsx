@@ -547,10 +547,14 @@ export default function Home() {
               POSLECHNOUT NA SPOTIFY →
             </a>
           </div>
-          <div className="h-[300px] md:h-[560px] md:flex-1 bg-[#1A1A1A] flex items-center justify-center">
-            <span className="font-mono text-[14px] text-[#33333388]">
-              youtube video tady bude
-            </span>
+          <div className="h-[300px] md:h-[560px] md:flex-1 bg-[#0A0A0A] overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/dorc3Lajtyw?start=1060"
+              title="Středo/věk"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
 
