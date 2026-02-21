@@ -627,21 +627,21 @@ export default function Home() {
         </div>
 
         {/* Influencing Row — photo left, text right */}
-        <div className="flex flex-col-reverse md:flex-row h-auto md:h-[560px] border-t border-[var(--color-border)]">
-          <div className="relative h-[300px] md:h-[560px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
+        <div className="flex flex-col-reverse md:flex-row h-auto md:h-[420px] border-t border-[var(--color-border)]">
+          <div className="relative h-[280px] md:h-[420px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
             <div
-              className="absolute inset-0 bg-cover bg-center"
+              className="absolute inset-0 bg-cover bg-[center_35%]"
               style={{ backgroundImage: "url('/vymetal-drivalia.jpg')" }}
             />
             <div
               className="absolute inset-0"
               style={{
                 background:
-                  "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 40%, #0A0A0ABB 80%, #0A0A0AFF 100%)",
+                  "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 60%, #0A0A0A99 85%, #0A0A0ADD 100%)",
               }}
             />
           </div>
-          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:flex-1 md:h-[560px]">
+          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[56px_56px] md:flex-1 md:h-[420px]">
             <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
               INFLUENCING
             </span>
