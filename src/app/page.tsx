@@ -379,7 +379,7 @@ export default function Home() {
                 className="relative h-[180px] md:h-[240px] w-full overflow-hidden block"
               >
                 <div
-                  className="absolute inset-0 bg-cover bg-center"
+                  className="absolute inset-0 bg-cover bg-[center_20%]"
                   style={{ backgroundImage: `url('${card.img}')` }}
                 />
                 <div
