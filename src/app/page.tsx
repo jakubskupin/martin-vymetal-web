@@ -22,6 +22,23 @@ export default function Home() {
     logoCurrent.current = logoSequence[logoSeqIndex.current];
     logoSeqIndex.current = (logoSeqIndex.current + 1) % logoSequence.length;
 
+    // Same text repeated — quick opacity fade
+    if (prev === logoCurrent.current) {
+      const el = logoTexts.current[logoCurrent.current];
+      if (el) {
+        el.style.transition = "opacity 0.25s ease";
+        el.style.opacity = "0";
+        setTimeout(() => {
+          el.style.opacity = "1";
+          setTimeout(() => {
+            el.style.transition = "";
+            logoBusy.current = false;
+          }, 300);
+        }, 280);
+      }
+      return;
+    }
+
     logoTexts.current[prev]?.classList.remove("visible");
     logoTexts.current[prev]?.classList.add("gone");
 
@@ -101,15 +118,15 @@ export default function Home() {
           </span>
           <span
             ref={(el) => { logoTexts.current[1] = el; }}
-            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] uppercase tracking-[0.1em]"
+            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] tracking-[0.1em]"
           >
-            MEDOVÝ VOICE
+            Medový Voice
           </span>
           <span
             ref={(el) => { logoTexts.current[2] = el; }}
-            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] uppercase tracking-[0.1em]"
+            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] tracking-[0.1em]"
           >
-            MARTIN VYMĚTAL
+            Martin Vymětal
           </span>
         </div>
         {/* Hamburger — mobile only */}
