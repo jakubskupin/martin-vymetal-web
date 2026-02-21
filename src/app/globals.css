@@ -26,3 +26,23 @@
     font-family: "IBM Plex Mono", monospace;
   }
 }
+
+/* Animated logo */
+.logo-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  line-height: 1;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.8s cubic-bezier(0.77, 0, 0.18, 1);
+}
+
+.logo-text.visible {
+  clip-path: inset(0 0% 0 0);
+}
+
+.logo-text.gone {
+  clip-path: inset(0 0% 0 100%);
+  transition: clip-path 0.5s cubic-bezier(0.77, 0, 0.18, 1);
+}

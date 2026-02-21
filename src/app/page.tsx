@@ -1,11 +1,56 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useCallback, useState } from "react";
 
 export default function Home() {
   const heroImageRef = useRef<HTMLDivElement>(null);
   const footerImageRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLElement>(null);
+
+  // Animated logo state
+  const logoTexts = useRef<(HTMLSpanElement | null)[]>([null, null, null]);
+  const logoCurrent = useRef(0);
+  const logoNextState = useRef(1);
+  const logoBusy = useRef(false);
+
+  const handleLogoEnter = useCallback(() => {
+    if (logoBusy.current) return;
+    logoBusy.current = true;
+
+    const prev = logoCurrent.current;
+    logoCurrent.current = logoNextState.current;
+    logoNextState.current = logoNextState.current === 1 ? 2 : 1;
+
+    logoTexts.current[prev]?.classList.remove("visible");
+    logoTexts.current[prev]?.classList.add("gone");
+
+    setTimeout(() => {
+      logoTexts.current[logoCurrent.current]?.classList.add("visible");
+    }, 80);
+
+    setTimeout(() => {
+      logoTexts.current[prev]?.classList.remove("gone");
+      logoBusy.current = false;
+    }, 900);
+  }, []);
+
+  const handleLogoLeave = useCallback(() => {
+    const cur = logoCurrent.current;
+    if (cur === 0) return;
+
+    logoTexts.current[cur]?.classList.remove("visible");
+    logoTexts.current[cur]?.classList.add("gone");
+
+    setTimeout(() => {
+      logoTexts.current[0]?.classList.add("visible");
+    }, 80);
+
+    setTimeout(() => {
+      logoTexts.current[cur]?.classList.remove("gone");
+      logoCurrent.current = 0;
+      logoBusy.current = false;
+    }, 900);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,9 +82,35 @@ export default function Home() {
     <div className="flex flex-col bg-[var(--color-bg)]">
       {/* ─── Navigation ─── */}
       <nav className="flex items-center justify-between h-[60px] px-[24px] md:h-[80px] md:px-[56px]">
-        <span className="font-playfair text-[24px] md:text-[28px] font-bold text-[var(--color-gold)]">
+        {/* Mobile logo */}
+        <span className="font-playfair text-[24px] font-bold text-[var(--color-gold)] md:hidden">
           MV.
         </span>
+        {/* Desktop animated logo */}
+        <div
+          className="hidden md:inline-block relative w-[320px] h-[34px] cursor-pointer"
+          onMouseEnter={handleLogoEnter}
+          onMouseLeave={handleLogoLeave}
+        >
+          <span
+            ref={(el) => { logoTexts.current[0] = el; }}
+            className="logo-text visible font-playfair text-[28px] font-bold text-[var(--color-gold)] uppercase tracking-[0.1em]"
+          >
+            MV.
+          </span>
+          <span
+            ref={(el) => { logoTexts.current[1] = el; }}
+            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] uppercase tracking-[0.1em]"
+          >
+            MEDOVÝ VOICE
+          </span>
+          <span
+            ref={(el) => { logoTexts.current[2] = el; }}
+            className="logo-text font-playfair text-[28px] font-bold text-[var(--color-gold)] uppercase tracking-[0.1em]"
+          >
+            MARTIN VYMĚTAL
+          </span>
+        </div>
         {/* Hamburger — mobile only */}
         <button
           className="flex flex-col justify-center gap-[5px] w-[24px] h-[24px] md:hidden invisible"
