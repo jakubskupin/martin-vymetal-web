@@ -222,7 +222,7 @@ export default function Home() {
             <br />
             ztrácí
             <br />
-            pozornost.
+            pozornost
           </h2>
         </div>
         {/* Right */}
