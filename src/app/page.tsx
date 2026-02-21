@@ -70,7 +70,7 @@ export default function Home() {
         {/* Background image — parallax with safe top offset so head stays visible */}
         <div
           ref={heroImageRef}
-          className="absolute inset-0 -top-[80px] bottom-0 bg-cover bg-[center_15%] md:rounded-[94px] will-change-transform"
+          className="absolute inset-0 -top-[80px] bottom-0 bg-cover bg-[center_15%] rounded-[60px] md:rounded-[94px] will-change-transform"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
         {/* Gradient overlay */}
@@ -267,31 +267,44 @@ export default function Home() {
       {/* ─── Quote Section ─── */}
       <section className="flex px-[24px] md:px-[120px] py-[48px] md:py-[80px]">
         {/* Accent Line */}
-        <div className="hidden md:block w-[3px] shrink-0 bg-[var(--color-gold)]" />
+        <div className="w-[3px] shrink-0 bg-[var(--color-gold)]" />
         {/* Content */}
-        <div className="flex flex-col gap-[20px] md:gap-[24px] md:pl-[40px]">
+        <div className="flex flex-col gap-[20px] md:gap-[24px] pl-[24px] md:pl-[40px]">
           {/* Source */}
-          <div className="flex items-center gap-[12px]">
-            <span className="flex items-center justify-center bg-[#CC0000] rounded-[2px] px-[12px] h-[24px] font-[Inter] text-[12px] font-black text-white tracking-[1px]">
+          <div className="flex items-center gap-[10px] md:gap-[12px]">
+            <span className="flex items-center justify-center bg-[#CC0000] rounded-[2px] px-[12px] h-[20px] md:h-[24px] w-[64px] md:w-[80px] font-[Inter] text-[10px] md:text-[12px] font-black text-white tracking-[1px]">
               CNN
             </span>
-            <span className="font-[Inter] text-[13px] font-light text-[#555555]">
+            <span className="font-[Inter] text-[11px] md:text-[13px] font-light text-[#555555]">
               Prima NEWS
             </span>
           </div>
           <blockquote className="font-grotesk text-[28px] md:text-[42px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] md:max-w-[800px]">
             „Srdce z masa a mozek z křemíku."
           </blockquote>
-          <p className="font-mono text-[11px] md:text-[12px] text-[var(--color-gray)] tracking-[1px] leading-[1.6] md:max-w-[684px]">
+          {/* Mobile attribution */}
+          <span className="font-mono text-[10px] text-[var(--color-gray)] tracking-[1px] md:hidden">
+            — MARTIN VYMĚTAL
+          </span>
+          {/* Desktop attribution */}
+          <p className="hidden md:block font-mono text-[12px] text-[var(--color-gray)] tracking-[1px] leading-[1.6] max-w-[684px]">
             Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou
             empatii a citlivost s technologickou efektivitou AI a pochopí, že
             pozornost je dnes nejvzácnější měnou.
             <br />
             <br />— MARTIN VYMĚTAL
           </p>
+          {/* Mobile link */}
           <a
             href="#"
-            className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
+            className="font-mono text-[10px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition md:hidden"
+          >
+            ČÍST ČLÁNEK →
+          </a>
+          {/* Desktop link */}
+          <a
+            href="#"
+            className="hidden md:block font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
           >
             CELÝ ROZHOVOR →
           </a>
@@ -397,7 +410,7 @@ export default function Home() {
       <footer className="relative h-[500px] md:h-[900px] overflow-hidden">
         {/* Background image */}
         <div
-          className="absolute inset-x-0 w-full h-[700px] md:h-[1440px] bg-cover bg-center opacity-50 top-[-100px] md:top-[-180px]"
+          className="absolute inset-x-0 w-full h-[700px] md:h-[1440px] bg-cover bg-center opacity-50 top-[-50px] md:top-[-180px]"
           style={{ backgroundImage: "url('/90390.jpg')" }}
         />
         {/* Gradient overlay — mobile (top to bottom) */}
