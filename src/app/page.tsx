@@ -48,11 +48,14 @@ export default function Home() {
       <section className="relative h-[600px] md:h-[800px] overflow-hidden">
         {/* Background image */}
         <div
-          className="absolute inset-0 bg-cover bg-center md:rounded-[94px]"
+          className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
         {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0AEE] via-[#0A0A0A66] to-[#0A0A0AEE]" />
+        <div
+          className="absolute inset-0"
+          style={{ background: "linear-gradient(to bottom, #0A0A0AEE 0%, #0A0A0A66 60%, #0A0A0AEE 100%)" }}
+        />
         {/* Content */}
         <div className="relative flex flex-col justify-center h-full px-[24px] md:px-[56px] gap-[24px] md:gap-[32px]">
           <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
