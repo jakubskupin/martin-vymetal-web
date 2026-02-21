@@ -4,14 +4,29 @@ import { useEffect, useRef } from "react";
 
 export default function Home() {
   const heroImageRef = useRef<HTMLDivElement>(null);
+  const footerImageRef = useRef<HTMLDivElement>(null);
+  const footerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (!heroImageRef.current) return;
-      const speed = 0.3;
-      const maxShift = 80; // px — limit so the head never gets cropped
-      const offset = Math.min(window.scrollY * speed, maxShift);
-      heroImageRef.current.style.transform = `translate3d(0, ${offset}px, 0)`;
+      if (heroImageRef.current) {
+        const speed = 0.3;
+        const maxShift = 80;
+        const offset = Math.min(window.scrollY * speed, maxShift);
+        heroImageRef.current.style.transform = `translate3d(0, ${offset}px, 0)`;
+      }
+
+      if (footerImageRef.current && footerRef.current) {
+        const rect = footerRef.current.getBoundingClientRect();
+        const windowH = window.innerHeight;
+        if (rect.top < windowH && rect.bottom > 0) {
+          const progress = (windowH - rect.top) / (windowH + rect.height);
+          const speed = 0.3;
+          const maxShift = 100;
+          const offset = Math.min(progress * maxShift * (1 / speed), maxShift);
+          footerImageRef.current.style.transform = `translate3d(0, ${-offset}px, 0)`;
+        }
+      }
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -425,10 +440,11 @@ export default function Home() {
       </section>
 
       {/* ─── Footer ─── */}
-      <footer className="relative h-[500px] md:h-[900px] overflow-hidden">
-        {/* Background image */}
+      <footer ref={footerRef} className="relative h-[500px] md:h-[900px] overflow-hidden">
+        {/* Background image — parallax */}
         <div
-          className="absolute inset-x-0 w-full h-[700px] md:h-[1440px] bg-cover bg-center opacity-50 top-[-50px] md:top-[-180px]"
+          ref={footerImageRef}
+          className="absolute inset-x-0 w-full h-[700px] md:h-[1440px] bg-cover bg-center opacity-50 top-[-50px] md:top-[-180px] will-change-transform"
           style={{ backgroundImage: "url('/90390.jpg')" }}
         />
         {/* Top fade from content above */}
