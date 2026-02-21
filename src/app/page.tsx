@@ -329,18 +329,21 @@ export default function Home() {
               title: "Úspěch v hluku světa",
               desc: "Proč je marketing neustálým bojem o pozornost lidí a jak blízko hraně se musíme pohybovat, abychom zaujali? Co vlastně znamená být vidět a zároveň zůstat věrohodný?",
               img: "/podcast-thumb-1.png",
+              url: "https://www.youtube.com/watch?v=wLgRapMFBM8",
             },
             {
               label: "Jak na sítě #39",
               title: "Ekonomika pozornosti",
               desc: "Proč by značky měly přemýšlet jako mediální domy, jaká je skutečná cena pozornosti v dnešním marketingu a jak poznat, kdy vyhrává atraktivita nad opravdovou hodnotou?",
               img: "/podcast-thumb-2.png",
+              url: "https://www.youtube.com/watch?v=5PRd4q3y03A",
             },
             {
               label: "FINANČNÍ NEZÁVISLOST",
               title: "Podnikání je jako žvýkání skla",
               desc: "Jaká je skutečná cena podnikání a úspěchu, co obnáší tvrdá realita budování firmy a jak růst udržitelně, aniž by značka ztratila své hodnoty?",
               img: "/podcast-thumb-3.png",
+              url: "https://www.youtube.com/watch?v=YB8SFVSYu6M",
             },
           ].map((card) => (
             <div
@@ -372,7 +375,9 @@ export default function Home() {
                   {card.desc}
                 </p>
                 <a
-                  href="#"
+                  href={card.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-gold)] tracking-[1px] hover:brightness-110 transition"
                 >
                   POSLECHNOUT →
