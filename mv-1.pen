@@ -36487,9 +36487,8 @@
               "width": "fill_container",
               "height": 80,
               "stroke": {
-                "align": "inside",
-                "thickness": 1,
-                "fill": "#333333"
+                "thickness": 0,
+                "fill": "#33333300"
               },
               "padding": [
                 0,
@@ -36603,7 +36602,6 @@
                 },
                 {
                   "type": "rectangle",
-                  "cornerRadius": 94,
                   "id": "pNd1T",
                   "x": -55,
                   "y": -24,
@@ -36669,7 +36667,7 @@
                       "id": "MzAsF",
                       "name": "heroBLabel",
                       "fill": "#C9A962",
-                      "content": "MARTIN VYMĚTAL — MARKETING & STRATEGIE",
+                      "content": "MARTIN VYMĚTAL — MARKETING & KOMUNIKACE",
                       "fontFamily": "IBM Plex Mono",
                       "fontSize": 12,
                       "fontWeight": "normal",
@@ -36682,7 +36680,7 @@
                       "fill": "#FFFFFF",
                       "textGrowth": "fixed-width",
                       "width": 900,
-                      "content": "MARKETING JE\nBOJ O POZORNOST.\nVYHRAJTE HO.",
+                      "content": "MARKETING JE\nBOJ O POZORNOST.\nVYHRAJETE HO.",
                       "lineHeight": 0.95,
                       "fontFamily": "Space Grotesk",
                       "fontSize": 72,
@@ -36694,7 +36692,7 @@
                       "id": "FTYPy",
                       "name": "heroBSub",
                       "fill": "#777777",
-                      "content": "Najdeme 3 rozhodnutí, která změní marketing během 14 dní.",
+                      "content": "Najdeme tři rozhodnutí, která změní váš marketing během 14 dní.",
                       "lineHeight": 1.6,
                       "fontFamily": "IBM Plex Mono",
                       "fontSize": 16,
@@ -36715,7 +36713,7 @@
                           "id": "tMYtt",
                           "name": "heroBCtaT",
                           "fill": "#0A0A0A",
-                          "content": "NAPSAT MARTINOVI →",
+                          "content": "OZVĚTE SE MI →",
                           "fontFamily": "IBM Plex Mono",
                           "fontSize": 12,
                           "fontWeight": "600",
@@ -36733,9 +36731,8 @@
               "name": "Problems Section",
               "width": "fill_container",
               "stroke": {
-                "align": "inside",
-                "thickness": 1,
-                "fill": "#333333"
+                "thickness": 0,
+                "fill": "#33333300"
               },
               "gap": 80,
               "padding": [
@@ -37291,7 +37288,7 @@
                           "id": "FB2GU",
                           "name": "pm1l",
                           "fill": "#0A0A0A",
-                          "content": "BOOMERANG AGENCY",
+                          "content": "ZALOŽENÍ BOOMERANGU",
                           "fontFamily": "IBM Plex Mono",
                           "fontSize": 11,
                           "fontWeight": "normal",
@@ -37328,7 +37325,7 @@
                           "id": "dJ55a",
                           "name": "pm2l",
                           "fill": "#777777",
-                          "content": "AGENTURA ROKU",
+                          "content": "BOOMERANG JE AGENTURA ROKU",
                           "fontFamily": "IBM Plex Mono",
                           "fontSize": 11,
                           "fontWeight": "normal",
@@ -37420,49 +37417,126 @@
               "name": "Quote Section",
               "width": "fill_container",
               "stroke": {
-                "align": "inside",
-                "thickness": 1,
-                "fill": "#C9A962"
+                "thickness": 0,
+                "fill": "#C9A96200"
               },
-              "layout": "vertical",
-              "gap": 24,
               "padding": [
                 80,
                 120
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "KotMr",
-                  "name": "quoteBT",
-                  "fill": "#FFFFFF",
-                  "textGrowth": "fixed-width",
-                  "width": 800,
-                  "content": "Neporadím vám metodiku. \nČlověk je důležitější než proces.",
-                  "lineHeight": 1.1,
-                  "fontFamily": "Space Grotesk",
-                  "fontSize": 42,
-                  "fontWeight": "700",
-                  "letterSpacing": -1
+                  "type": "rectangle",
+                  "id": "oKpun",
+                  "name": "Accent Line",
+                  "fill": "#C9A962",
+                  "width": 3,
+                  "height": "fill_container"
                 },
                 {
-                  "type": "text",
-                  "id": "ItQMc",
-                  "name": "quoteBA",
-                  "fill": "#777777",
-                  "content": "— MARTIN VYMĚTAL, CNN PRIMA NEWS",
-                  "fontFamily": "IBM Plex Mono",
-                  "fontSize": 12,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
+                  "type": "frame",
+                  "id": "ltYXr",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3rM2v",
+                      "name": "Source",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CYpEi",
+                          "name": "CNN Logo",
+                          "width": 80,
+                          "height": 24,
+                          "fill": "#CC0000",
+                          "cornerRadius": 2,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yU0OA",
+                              "name": "logoTxt",
+                              "fill": "#FFFFFF",
+                              "content": "CNN",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "900",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "PqJAT",
+                          "name": "primaTxt",
+                          "fill": "#555555",
+                          "content": "Prima NEWS",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "300"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "9MOki",
+                      "name": "Quote",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": 800,
+                      "content": "„Srdce z masa a mozek z křemíku.“",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 42,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "WRe8o",
+                      "name": "Attribution",
+                      "fill": "#777777",
+                      "content": "— MARTIN VYMĚTAL",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "cuS7W",
+                      "name": "Article Link",
+                      "fill": "#C9A962",
+                      "content": "CELÝ ROZHOVOR →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "MDWDc",
-              "name": "Podcasts Section",
-              "width": "fill_container",
+              "id": "yWj2E",
+              "name": "Podcasts V3 — Fade overlay",
+              "width": 1440,
+              "fill": "#0A0A0A",
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
@@ -37477,7 +37551,7 @@
               "children": [
                 {
                   "type": "text",
-                  "id": "JAoey",
+                  "id": "n2ZHm",
                   "name": "podLabel",
                   "fill": "#C9A962",
                   "content": "SLYŠET & VIDĚT",
@@ -37488,7 +37562,7 @@
                 },
                 {
                   "type": "text",
-                  "id": "2StD0",
+                  "id": "ZyW9z",
                   "name": "podH",
                   "fill": "#FFFFFF",
                   "content": "PODCASTY & ROZHOVORY",
@@ -37499,14 +37573,14 @@
                 },
                 {
                   "type": "frame",
-                  "id": "Jdffy",
+                  "id": "BPmSi",
                   "name": "podGrid",
                   "width": "fill_container",
                   "gap": 24,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "shCvv",
+                      "id": "MKV5W",
                       "name": "card1",
                       "width": "fill_container",
                       "stroke": {
@@ -37517,26 +37591,80 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "j6bgw",
-                          "name": "Thumbnail středo/věk",
+                          "id": "JiGvR",
+                          "name": "Thumbnail 1",
                           "metadata": {
                             "type": "unsplash",
-                            "username": "winsome_baknai",
-                            "link": "https://unsplash.com/@winsome_baknai",
-                            "author": "winsome_Baknai Basumatary"
+                            "username": "lt_ngema04",
+                            "link": "https://unsplash.com/@lt_ngema04",
+                            "author": "LT Ngema"
                           },
+                          "clip": true,
                           "width": "fill_container",
                           "height": 240,
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1675177181386-47292e886953?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2MDc4MjJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "https://images.unsplash.com/photo-1606943537055-6cef4e5d3b68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2ODk2MTB8&ixlib=rb-4.1.0&q=80&w=1080",
                             "mode": "fill"
-                          }
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "7bPuW",
+                              "x": -25.806629834252817,
+                              "y": -5.087817331614133,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "Snímek obrazovky 2026-02-21 v 16.47.54.png",
+                                "mode": "fill"
+                              },
+                              "width": 460,
+                              "height": 300
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RAr53",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Bottom Fade",
+                              "width": 427,
+                              "height": 240,
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 90,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0.4
+                                  },
+                                  {
+                                    "color": "#0A0A0ABB",
+                                    "position": 0.8
+                                  },
+                                  {
+                                    "color": "#0A0A0AFF",
+                                    "position": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
                         },
                         {
                           "type": "frame",
-                          "id": "bnLXQ",
+                          "id": "Qkvct",
                           "name": "card1content",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -37545,10 +37673,10 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "S3Q3f",
+                              "id": "3PuCT",
                               "name": "card1label",
                               "fill": "#C9A962",
-                              "content": "PODCAST",
+                              "content": "GS Talks #26",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 10,
                               "fontWeight": "normal",
@@ -37556,22 +37684,22 @@
                             },
                             {
                               "type": "text",
-                              "id": "wKVDY",
+                              "id": "43XpJ",
                               "name": "card1title",
                               "fill": "#FFFFFF",
-                              "content": "středo/věk",
+                              "content": "Úspěch v hluku světa",
                               "fontFamily": "Space Grotesk",
                               "fontSize": 22,
                               "fontWeight": "700"
                             },
                             {
                               "type": "text",
-                              "id": "hGYRS",
+                              "id": "vdXYK",
                               "name": "card1desc",
                               "fill": "#777777",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "98+ epizod o životě, práci a věcech mezi tím. Aktivní podcast.",
+                              "content": "Proč je marketing neustálým bojem o pozornost lidí a jak blízko hraně se  musíme pohybovat, abychom zaujali? Co vlastně znamená být vidět a zároveň zůstat věrohodný?",
                               "lineHeight": 1.5,
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 13,
@@ -37579,7 +37707,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "xKeSo",
+                              "id": "2IqrY",
                               "name": "card1link",
                               "fill": "#C9A962",
                               "content": "POSLECHNOUT →",
@@ -37594,7 +37722,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "DQj8I",
+                      "id": "4i1uD",
                       "name": "card2",
                       "width": "fill_container",
                       "stroke": {
@@ -37605,26 +37733,80 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "k3V2Q",
-                          "name": "Thumbnail Jak na sítě",
+                          "id": "CHTJf",
+                          "name": "Thumbnail 2",
                           "metadata": {
                             "type": "unsplash",
-                            "username": "jerrografie",
-                            "link": "https://unsplash.com/@jerrografie",
-                            "author": "James Jeremy Beckers"
+                            "username": "salcrocejpg",
+                            "link": "https://unsplash.com/@salcrocejpg",
+                            "author": "Salvatore Andrea Santacroce"
                           },
+                          "clip": true,
                           "width": "fill_container",
                           "height": 240,
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1722842253307-7c2e99bc16d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2MDc4MjJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "https://images.unsplash.com/photo-1705420423968-7b1342fa9138?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2ODk2MTJ8&ixlib=rb-4.1.0&q=80&w=1080",
                             "mode": "fill"
-                          }
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "UZRMV",
+                              "x": -40.41440275981222,
+                              "y": -30.29285714285652,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "Snímek obrazovky 2026-02-21 v 16.50.49.png",
+                                "mode": "fill"
+                              },
+                              "width": 543,
+                              "height": 334
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IFOKY",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Bottom Fade",
+                              "width": 427,
+                              "height": 240,
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 90,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0.4
+                                  },
+                                  {
+                                    "color": "#0A0A0ABB",
+                                    "position": 0.8
+                                  },
+                                  {
+                                    "color": "#0A0A0AFF",
+                                    "position": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
                         },
                         {
                           "type": "frame",
-                          "id": "CfFNA",
+                          "id": "FkSWF",
                           "name": "card2content",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -37633,10 +37815,10 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "xNwQ8",
+                              "id": "fcLUs",
                               "name": "card2label",
                               "fill": "#C9A962",
-                              "content": "ROZHOVOR · 59:28",
+                              "content": "Jak na sítě #39",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 10,
                               "fontWeight": "normal",
@@ -37644,22 +37826,22 @@
                             },
                             {
                               "type": "text",
-                              "id": "WmGve",
+                              "id": "R92s1",
                               "name": "card2title",
                               "fill": "#FFFFFF",
-                              "content": "Jak na sítě",
+                              "content": "Ekonomika pozornosti",
                               "fontFamily": "Space Grotesk",
                               "fontSize": 22,
                               "fontWeight": "700"
                             },
                             {
                               "type": "text",
-                              "id": "YPcv8",
+                              "id": "diBL1",
                               "name": "card2desc",
                               "fill": "#777777",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Ekonomika pozornosti — když značka přemýšlí jako redaktor.",
+                              "content": "Proč by značky měly přemýšlet jako mediální domy, jaká je skutečná cena pozornosti v dnešním marketingu a jak poznat, kdy vyhrává atraktivita nad opravdovou hodnotou?",
                               "lineHeight": 1.5,
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 13,
@@ -37667,7 +37849,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "J5qgy",
+                              "id": "FJnd1",
                               "name": "card2link",
                               "fill": "#C9A962",
                               "content": "POSLECHNOUT →",
@@ -37682,7 +37864,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "mkxRn",
+                      "id": "rbLaE",
                       "name": "card3",
                       "width": "fill_container",
                       "stroke": {
@@ -37693,26 +37875,80 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "TIAWW",
-                          "name": "Thumbnail GS Talks",
+                          "id": "KtwPH",
+                          "name": "Thumbnail 3",
                           "metadata": {
                             "type": "unsplash",
-                            "username": "my_redgiulia",
-                            "link": "https://unsplash.com/@my_redgiulia",
-                            "author": "Daniela P"
+                            "username": "lucasdixsept",
+                            "link": "https://unsplash.com/@lucasdixsept",
+                            "author": "dix sept"
                           },
+                          "clip": true,
                           "width": "fill_container",
                           "height": 240,
                           "fill": {
                             "type": "image",
                             "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1658310073290-ab48982d69d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2MDc4MjN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "url": "https://images.unsplash.com/photo-1624351231514-aa7a3189d9cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2ODk2MTJ8&ixlib=rb-4.1.0&q=80&w=1080",
                             "mode": "fill"
-                          }
+                          },
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "IDlJx",
+                              "x": -141.25572697522512,
+                              "y": -43.8262411347514,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "Snímek obrazovky 2026-02-21 v 16.48.49.png",
+                                "mode": "fill"
+                              },
+                              "width": 613,
+                              "height": 389
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hq39W",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Bottom Fade",
+                              "width": 427,
+                              "height": 240,
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 90,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0.4
+                                  },
+                                  {
+                                    "color": "#0A0A0ABB",
+                                    "position": 0.8
+                                  },
+                                  {
+                                    "color": "#0A0A0AFF",
+                                    "position": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
                         },
                         {
                           "type": "frame",
-                          "id": "uMzas",
+                          "id": "gP03I",
                           "name": "card3content",
                           "width": "fill_container",
                           "layout": "vertical",
@@ -37721,10 +37957,10 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "GQtmY",
+                              "id": "Oc40m",
                               "name": "card3label",
                               "fill": "#C9A962",
-                              "content": "ROZHOVOR · ~1H10M",
+                              "content": "FINANČNÍ NEZÁVISLOST",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 10,
                               "fontWeight": "normal",
@@ -37732,22 +37968,22 @@
                             },
                             {
                               "type": "text",
-                              "id": "YmJod",
+                              "id": "jYdWO",
                               "name": "card3title",
                               "fill": "#FFFFFF",
-                              "content": "GS Talks #26",
+                              "content": "Podnikání je jako žvýkání skla",
                               "fontFamily": "Space Grotesk",
                               "fontSize": 22,
                               "fontWeight": "700"
                             },
                             {
                               "type": "text",
-                              "id": "1f2ay",
+                              "id": "JCeVj",
                               "name": "card3desc",
                               "fill": "#777777",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Marketing, AI a budoucnost komunikace. YouRadio.",
+                              "content": "Jaká je skutečná cena podnikání a úspěchu, co obnáší tvrdá realita budování firmy a jak růst  udržitelně, aniž by značka ztratila své hodnoty?",
                               "lineHeight": 1.5,
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 13,
@@ -37755,7 +37991,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "wxwGl",
+                              "id": "ky1ZL",
                               "name": "card3link",
                               "fill": "#C9A962",
                               "content": "POSLECHNOUT →",
@@ -37824,7 +38060,7 @@
                       "id": "rKATH",
                       "name": "ctaBBtnT",
                       "fill": "#0A0A0A",
-                      "content": "POSLAT ZPRÁVU NA LINKEDIN →",
+                      "content": "NAPIŠTE MI NA LINKEDIN →",
                       "fontFamily": "IBM Plex Mono",
                       "fontSize": 12,
                       "fontWeight": "600",
@@ -39535,20 +39771,6 @@
       ]
     },
     {
-      "type": "rectangle",
-      "id": "94Drj",
-      "x": -11757,
-      "y": -27948,
-      "fill": {
-        "type": "image",
-        "enabled": true,
-        "url": "TheGreatAlone_gestalten_book_travel_pacificcresttrail_front_2806e721-64c3-41cb-8664-5efcb9aceff3_2000x.webp",
-        "mode": "fill"
-      },
-      "width": 3401,
-      "height": 2800
-    },
-    {
       "type": "frame",
       "id": "wAo6k",
       "x": -20872,
@@ -39577,9 +39799,8 @@
               "width": "fill_container",
               "height": 60,
               "stroke": {
-                "align": "inside",
-                "thickness": 1,
-                "fill": "#333333"
+                "thickness": 0,
+                "fill": "#33333300"
               },
               "padding": [
                 0,
@@ -39727,7 +39948,7 @@
                       "fill": "#FFFFFF",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "MARKETING JE\nBOJ O POZORNOST.\nVYHRAJTE HO.",
+                      "content": "MARKETING JE\nBOJ O POZORNOST.\nVYHRAJETE HO.",
                       "lineHeight": 0.95,
                       "fontFamily": "Space Grotesk",
                       "fontSize": 36,
@@ -39741,7 +39962,7 @@
                       "fill": "#777777",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Najdeme 3 rozhodnutí, která změní marketing během 14 dní.",
+                      "content": "Najdeme tři rozhodnutí, která změní váš marketing během 14 dní.",
                       "lineHeight": 1.6,
                       "fontFamily": "IBM Plex Mono",
                       "fontSize": 13,
@@ -39762,7 +39983,7 @@
                           "id": "zbuMM",
                           "name": "heroCtaT",
                           "fill": "#0A0A0A",
-                          "content": "NAPSAT MARTINOVI →",
+                          "content": "OZVĚTE SE MI →",
                           "fontFamily": "IBM Plex Mono",
                           "fontSize": 11,
                           "fontWeight": "600",
@@ -39781,9 +40002,8 @@
               "width": "fill_container",
               "fill": "#0A0A0A",
               "stroke": {
-                "align": "inside",
-                "thickness": 1,
-                "fill": "#333333"
+                "thickness": 0,
+                "fill": "#33333300"
               },
               "layout": "vertical",
               "gap": 40,
@@ -40343,7 +40563,7 @@
                               "id": "DpH9G",
                               "name": "pm1l",
                               "fill": "#0A0A0A",
-                              "content": "BOOMERANG AGENCY",
+                              "content": "ZALOŽENÍ BOOMERANGU",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 9,
                               "fontWeight": "normal",
@@ -40380,7 +40600,7 @@
                               "id": "YZH4v",
                               "name": "pm2l",
                               "fill": "#777777",
-                              "content": "AGENTURA ROKU",
+                              "content": "BOOMERANG JE AGENTURA ROKU",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 9,
                               "fontWeight": "normal",
@@ -40484,41 +40704,117 @@
               "width": "fill_container",
               "fill": "#0A0A0A",
               "stroke": {
-                "align": "inside",
-                "thickness": 1,
-                "fill": "#C9A962"
+                "thickness": 0,
+                "fill": "#C9A96200"
               },
-              "layout": "vertical",
-              "gap": 20,
               "padding": [
                 48,
                 24
               ],
               "children": [
                 {
-                  "type": "text",
-                  "id": "F6w34",
-                  "name": "quoteT",
-                  "fill": "#FFFFFF",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "„Neporadím vám metodiku.\nČlověk je důležitější než proces.“",
-                  "lineHeight": 1.1,
-                  "fontFamily": "Space Grotesk",
-                  "fontSize": 28,
-                  "fontWeight": "700",
-                  "letterSpacing": -1
+                  "type": "rectangle",
+                  "id": "BQDXf",
+                  "name": "Accent Line",
+                  "fill": "#C9A962",
+                  "width": 3,
+                  "height": "fill_container"
                 },
                 {
-                  "type": "text",
-                  "id": "bYU4I",
-                  "name": "quoteA",
-                  "fill": "#777777",
-                  "content": "— MARTIN VYMĚTAL, CNN PRIMA NEWS",
-                  "fontFamily": "IBM Plex Mono",
-                  "fontSize": 10,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
+                  "type": "frame",
+                  "id": "Qk3o3",
+                  "name": "Content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oaUce",
+                      "name": "Source",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wn5Sc",
+                          "name": "CNN Logo",
+                          "width": 64,
+                          "height": 20,
+                          "fill": "#CC0000",
+                          "cornerRadius": 2,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xQWuS",
+                              "name": "logoTxtM",
+                              "fill": "#FFFFFF",
+                              "content": "CNN",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "900",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "XrQAG",
+                          "name": "primaTxtM",
+                          "fill": "#555555",
+                          "content": "Prima NEWS",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "300"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "nOR2t",
+                      "name": "Quote",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "„Srdce z masa a mozek z křemíku.“",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 28,
+                      "fontWeight": "700",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "BYsAE",
+                      "name": "Attribution",
+                      "fill": "#777777",
+                      "content": "— MARTIN VYMĚTAL",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "E4dDK",
+                      "name": "Article Link",
+                      "fill": "#C9A962",
+                      "content": "ČÍST ČLÁNEK →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
                 }
               ]
             },
@@ -40616,7 +40912,7 @@
                               "id": "qSN2B",
                               "name": "card1label",
                               "fill": "#C9A962",
-                              "content": "PODCAST",
+                              "content": "GS Talks #26",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 9,
                               "fontWeight": "normal",
@@ -40627,7 +40923,7 @@
                               "id": "tbuBa",
                               "name": "card1title",
                               "fill": "#FFFFFF",
-                              "content": "středo/věk",
+                              "content": "Úspěch v hluku světa",
                               "fontFamily": "Space Grotesk",
                               "fontSize": 18,
                               "fontWeight": "700"
@@ -40639,7 +40935,7 @@
                               "fill": "#777777",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "98+ epizod o životě, práci a věcech mezi tím.",
+                              "content": "Proč je marketing neustálým bojem o pozornost lidí a jak blízko hraně se musíme pohybovat, abychom zaujali?",
                               "lineHeight": 1.5,
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 11,
@@ -40704,7 +41000,7 @@
                               "id": "f7MNE",
                               "name": "card2label",
                               "fill": "#C9A962",
-                              "content": "ROZHOVOR · 59:28",
+                              "content": "Jak na sítě #39",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 9,
                               "fontWeight": "normal",
@@ -40715,7 +41011,7 @@
                               "id": "KrkvJ",
                               "name": "card2title",
                               "fill": "#FFFFFF",
-                              "content": "Jak na sítě",
+                              "content": "Ekonomika pozornosti",
                               "fontFamily": "Space Grotesk",
                               "fontSize": 18,
                               "fontWeight": "700"
@@ -40727,7 +41023,7 @@
                               "fill": "#777777",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Ekonomika pozornosti — když značka přemýšlí jako redaktor.",
+                              "content": "Proč by značky měly přemýšlet jako mediální domy, jaká je skutečná cena pozornosti v dnešním marketingu?",
                               "lineHeight": 1.5,
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 11,
@@ -40792,7 +41088,7 @@
                               "id": "ZJwyt",
                               "name": "card3label",
                               "fill": "#C9A962",
-                              "content": "ROZHOVOR · ~1H10M",
+                              "content": "FINANČNÍ NEZÁVISLOST",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 9,
                               "fontWeight": "normal",
@@ -40803,7 +41099,7 @@
                               "id": "ljWQ7",
                               "name": "card3title",
                               "fill": "#FFFFFF",
-                              "content": "GS Talks #26",
+                              "content": "Podnikání je jako žvýkání skla",
                               "fontFamily": "Space Grotesk",
                               "fontSize": 18,
                               "fontWeight": "700"
@@ -40815,7 +41111,7 @@
                               "fill": "#777777",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": "Marketing, AI a budoucnost komunikace.",
+                              "content": "Jaká je skutečná cena podnikání a úspěchu, co obnáší tvrdá realita budování firmy?",
                               "lineHeight": 1.5,
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 11,
@@ -40896,7 +41192,7 @@
                       "id": "vD9gF",
                       "name": "ctaBtnT",
                       "fill": "#0A0A0A",
-                      "content": "POSLAT ZPRÁVU →",
+                      "content": "NAPIŠTE MI NA LINKEDIN →",
                       "fontFamily": "IBM Plex Mono",
                       "fontSize": 11,
                       "fontWeight": "600",
@@ -41053,6 +41349,2070 @@
                           ]
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "4KEM5",
+      "x": -25451,
+      "y": -22525,
+      "name": "OG Image V1 - Classic",
+      "clip": true,
+      "width": 1200,
+      "height": 630,
+      "fill": "#0A0A0A",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "SmKut",
+          "x": 300,
+          "y": 55,
+          "name": "Photo BG",
+          "opacity": 0.55,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "mv-most-hol.jpg",
+            "mode": "fill"
+          },
+          "width": 900,
+          "height": 900
+        },
+        {
+          "type": "frame",
+          "id": "dLa65",
+          "x": 0,
+          "y": 0,
+          "name": "Gradient Overlay",
+          "width": 1200,
+          "height": 630,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#0A0A0AEE",
+                "position": 0
+              },
+              {
+                "color": "#0A0A0ACC",
+                "position": 0.45
+              },
+              {
+                "color": "#0A0A0A44",
+                "position": 0.7
+              },
+              {
+                "color": "#0A0A0A22",
+                "position": 1
+              }
+            ]
+          }
+        },
+        {
+          "type": "frame",
+          "id": "WGd27",
+          "x": 0,
+          "y": 0,
+          "name": "Content",
+          "width": 1200,
+          "height": 630,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            0,
+            80,
+            60,
+            80
+          ],
+          "justifyContent": "end",
+          "children": [
+            {
+              "type": "text",
+              "id": "NHgs1",
+              "name": "Logo",
+              "fill": "#C9A962",
+              "content": "MV.",
+              "fontFamily": "Playfair Display",
+              "fontSize": 48,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "sJWUv",
+              "name": "Claim",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "MARKETING JE\nBOJ O POZORNOST.\nVYHRAJTE HO.",
+              "lineHeight": 0.95,
+              "fontFamily": "Space Grotesk",
+              "fontSize": 64,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "3DGho",
+              "name": "Subtitle",
+              "fill": "#C9A962",
+              "content": "MARTIN VYMĚTAL — MARKETING & STRATEGIE",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "aIY2m",
+      "x": -25451,
+      "y": -21791,
+      "name": "OG Image V2 - Split",
+      "clip": true,
+      "width": 1200,
+      "height": 630,
+      "fill": "#0A0A0A",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XYkTR",
+          "name": "Photo Side",
+          "clip": true,
+          "width": 500,
+          "height": 630,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "tF3Jp",
+              "x": -100,
+              "y": 30,
+              "name": "Photo",
+              "opacity": 0.85,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "mv-most-hol.jpg",
+                "mode": "fill"
+              },
+              "width": 700,
+              "height": 930
+            },
+            {
+              "type": "frame",
+              "id": "wAU7K",
+              "x": 0,
+              "y": 0,
+              "name": "Photo Overlay",
+              "width": 500,
+              "height": 630,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0A0A0A00",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0A0A0A00",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#0A0A0ACC",
+                    "position": 0.8
+                  },
+                  {
+                    "color": "#0A0A0AFF",
+                    "position": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NH0Wx",
+          "name": "Text Side",
+          "width": 700,
+          "height": 630,
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            60,
+            64
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gfR00",
+              "name": "Logo",
+              "fill": "#C9A962",
+              "content": "MV.",
+              "fontFamily": "Playfair Display",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "h0AXH",
+              "name": "Claim",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 572,
+              "content": "MARKETING JE\nBOJ O POZORNOST.\nVYHRAJTE HO.",
+              "lineHeight": 0.95,
+              "fontFamily": "Space Grotesk",
+              "fontSize": 52,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "rectangle",
+              "id": "M2L3J",
+              "name": "Divider",
+              "fill": "#C9A962",
+              "width": 60,
+              "height": 3
+            },
+            {
+              "type": "text",
+              "id": "DL2SA",
+              "name": "Subtitle",
+              "fill": "#777777",
+              "content": "MARKETING & STRATEGIE",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "fattE",
+      "x": -25366,
+      "y": -23425,
+      "name": "OG Image V4 – Bold",
+      "clip": true,
+      "width": 1200,
+      "height": 630,
+      "fill": "#0A0A0A",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "elSRE",
+          "x": -108,
+          "y": -106,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "mv-most-hol.jpg",
+            "mode": "fill"
+          },
+          "width": 1523,
+          "height": 2152
+        },
+        {
+          "type": "rectangle",
+          "id": "VK71g",
+          "x": 0,
+          "y": -316,
+          "name": "Photo BG",
+          "enabled": false,
+          "opacity": 0.5,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "mv-most-hol.jpg",
+            "mode": "fill"
+          },
+          "width": 1200,
+          "height": 946,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#000000ff"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#00000040",
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "blur": 4
+          }
+        },
+        {
+          "type": "frame",
+          "id": "kDRWs",
+          "x": 0,
+          "y": 0,
+          "name": "Overlay",
+          "width": 1200,
+          "height": 630,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "radial",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "width": 1.4,
+              "height": 1.4
+            },
+            "colors": [
+              {
+                "color": "#0A0A0A33",
+                "position": 0
+              },
+              {
+                "color": "#0A0A0A99",
+                "position": 0.45
+              },
+              {
+                "color": "#0A0A0ADD",
+                "position": 0.75
+              },
+              {
+                "color": "#0A0A0AFF",
+                "position": 1
+              }
+            ],
+            "center": {
+              "x": 0.7,
+              "y": 0.3
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "V3Hlh",
+          "x": 0,
+          "y": 0,
+          "name": "Content",
+          "width": 1200,
+          "height": 630,
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            100
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "sEEbj",
+              "name": "Label",
+              "fill": "#C9A962",
+              "content": "MARTIN VYMĚTAL",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 6
+            },
+            {
+              "type": "text",
+              "id": "ofo4D",
+              "name": "Logo",
+              "fill": "#C9A962",
+              "content": "MV.",
+              "fontFamily": "Playfair Display",
+              "fontSize": 80,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "n0HNI",
+              "name": "Claim",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "MARKETING JE BOJ\nO POZORNOST. VYHRAJTE HO.",
+              "lineHeight": 1.1,
+              "textAlign": "center",
+              "fontFamily": "Space Grotesk",
+              "fontSize": 42,
+              "fontWeight": "700",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "RrCjl",
+              "name": "Bottom Label",
+              "fill": "#555555",
+              "content": "MARKETING & STRATEGIE",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "h1OII",
+      "x": -20136.374248314118,
+      "y": -21141.06686405527,
+      "name": "CNN_Prima_News_SVG_Logo.svg",
+      "width": 802,
+      "height": 282,
+      "layout": "none",
+      "children": [
+        {
+          "type": "path",
+          "id": "rEbvF",
+          "x": -1.7059658203124854,
+          "y": -118.80100048828126,
+          "geometry": "M0 152.45697l0-152.45697 426.69006 0 0 152.45697-426.69006 0z",
+          "width": 426.6900634765625,
+          "height": 152.45697021484375
+        },
+        {
+          "type": "path",
+          "id": "UajjC",
+          "x": -1.689965820312409,
+          "y": 96.35000732421872,
+          "geometry": "M0 0l426.69104 0 0 78.29199-426.69104 0 0-78.29199z",
+          "width": 426.6910400390625,
+          "height": 78.2919921875
+        },
+        {
+          "type": "path",
+          "id": "EBPTl",
+          "x": 330.05291748046875,
+          "y": 205.09100341796875,
+          "geometry": "M391.06006 37.82399c1.90997 0.16 3.98297 0.39999 5.25201 2.076 0.39502 0.558 0.72303 1.27699 0.72303 1.915 0 1.037-0.72303 1.83501-0.94202 2.07299-1.20001 1.358-3.19098 1.59801-3.69599 1.67701-0.69598 0.16-2.38702 0.39999-4.39202 0.39999-6.38398 0-7.97998-2.23601-9.97199-4.71001l-28.63098-0.47799c0.54602 3.032 1.02301 5.586 2.70001 8.14 2.78302 4.308 7.28497 6.464 8.62201 7.02101 2.87799 1.27701 7.10602 2.47501 10.13397 2.95401 1.76001 0.23801 3.58802 0.39801 5.43 0.55801 3.19097 0.16 6.38299 0.39999 9.57501 0.4 3.66998 0 7.33899-0.23999 11.02197-0.4 7.25598-0.87799 14.20001-1.75601 19.56-6.94299 4.92401-4.78799 5.81-10.134 5.81-12.767 0-3.91-1.52698-6.623-2.33197-7.82001-3.47803-5.42599-8.98902-6.864-14.82703-8.22l-25.76703-4.07001c-1.44598-0.239-3.68298-0.558-4.37799-2.154-0.26001-0.398-0.328-1.117-0.328-1.196 0-0.71899 0.39599-1.438 0.94098-1.996 1.596-1.595 4.78802-1.834 6.862-1.834 0.24499 0 7.67999-0.16 10.29797 3.75 0.31402 0.39999 0.47803 0.718 0.85998 1.755l26.91199 0.558c-0.573-3.11099-1.18597-5.98399-3.10998-8.45801-1.59601-2.07401-3.66999-3.431-4.39203-3.91099-7.58399-4.946-17.01001-5.58501-26.01203-6.144-2.46997 0-4.85601 0-7.24401 0.08-2.57801 0.16-5.115 0.32001-7.59699 0.55901-5.42999 0.797-10.61298 1.597-15.08697 5.02699-0.573 0.478-1.84101 1.437-2.96003 3.03301-2.68701 3.67-2.94598 7.82001-2.94598 9.49499 0 5.905 2.646 9.258 4.31 10.77299 3.02899 2.713 6.94299 3.75 10.708 4.788l24.89411 4.069z m-210.55499-35.828l0 13.565-38.943 0 0 6.54401 32.082 0 0 13.804-32.14999 0 0 7.97799 41.39801 0 0 14.04502-63.345 0 0-55.937 60.95798 0.00098z m64.34301 0c1.49323 7.11505 2.92096 14.24368 4.28302 21.38501 0.88599 5.02699 1.59601 10.05501 2.38703 15.002 1.04999-6.064 2.169-12.049 3.43701-18.034 1.28198-6.145 2.81-12.289 4.31-18.353l16.04199 0 7.73401 37.185c0.72302-5.507 1.44598-11.01199 2.31897-16.438 1.20001-6.942 2.46899-13.806 3.76501-20.747l21.85199 0-14.268 55.93701-22.58899 0-7.107-31.52c-1.11798 5.66701-2.14099 11.332-3.42297 16.918-1.20001 4.866-2.388 9.735-3.68298 14.602l-22.57502 0-13.95501-55.93699 21.47094-0.00003z m-195.061 34.23301l0-34.233 20.51599 0 0 55.93701-25.38501 0c-1.992-2.71201-3.983-5.34601-5.82501-8.138-1.35001-1.91701-2.71399-3.91-4.07801-5.826-1.35001-1.996-2.86499-3.83-4.29699-5.82601-1.11899-1.595-2.237-3.35001-3.43701-5.026-1.03699-1.51601-2.224-3.033-3.26001-4.62899-1.44601-2.07401-2.81-4.30901-4.16001-6.543l0.31299 35.988-20.17401 0 0-55.93699 25.685 0 24.10208 34.23298z",
+          "width": 422.25506591796875,
+          "height": 59.850006103515625
+        },
+        {
+          "type": "path",
+          "id": "J7m8z",
+          "x": 315.4329833984375,
+          "y": 21.222999572753906,
+          "geometry": "M32.81101 143.246l-32.81101 0 0-143.246 58.11401 9.277c20.849 3.334 39.578 17.669 39.57801 49.15801 0 32.989-15.065 45.03-39.57801 43.72l-25.303-1.34301 0 42.434z m36.716-85.349c0-12.902-6.77701-18.967-15.93799-20.12l-20.77701-2.618 0 36.738 20.77701 1.78c9.31601 0.794 15.93799-3.257 15.93799-15.779m61.54001 85.348l-27.34 0 0-106.039 26.54999 3.57 0 18.766 0.323 0.034c3.86801-13.115 13.36401-17.401 24.177-15.92401 1.92801 0.235 5.186 0.683 5.186 0.683l0 30.09-6.85-0.638c-8.83802-0.85-22.04599 0.817-22.04599 21.038l0 48.42001z m56.259 0l-22.86002 0 0-96.729 22.85999 3.066 0.00003 93.663z m-0.29999-102.29001l-22.64603-3.27899 0-25.357 22.64499 4.04 0.00104 24.59599z m42.05399 102.29001l-30.32001 0 0-93.606 29.40997 0 0 13.427 0.37097 0c5.77198-9.847 16.02301-16.282 27.78199-16.282 12.13098 0 21.56701 3.995 26.78802 15.89 7.61701-10.384 17.14899-15.89 30.19-15.89 30.77503 0 32.763 23.667 32.763 42.36601l0 54.09402-30.34497 0 0-53.15401c0-10.574-5.04101-16.83-13.23199-16.83-13.59198 0-14.91998 10.597-14.91998 26.47599l0 43.50802-30.31 0 0-51.24002c0-11.537-3.388-18.744-11.93903-18.744-11.388 0-16.23797 6.625-16.23797 26.678l0 43.30699z m162.29498-65.408l-33.45099 0c0.49103-11.908 5.948-20.337 16.36902-25.264 7.63098-3.617 18.34802-5.42 32.15997-5.42 19.995 0 33.08301 3.858 39.26502 11.552 3.63702 4.57 5.45599 12.943 5.45599 25.092l0 38.45999c0 9.73801 1.45001 16.72001 4.36298 20.935l-36.71997 0c-1.094-3.01001-1.51203-5.96002-1.26599-8.84301l-0.36902 0c-6.65998 7.453-16.78699 11.18499-30.35401 11.18499q-14.729 0-23.448-6.85498c-6.53802-5.05301-9.81896-12.22001-9.81896-21.487 0-8.9 3.281-15.824 9.82-20.75 4.72998-3.492 11.93201-6.145 21.62799-7.948 4.85364-0.6048 9.69995-1.26684 14.53797-1.98599 6.30499-0.839 10.974-2.044 13.99798-3.606q3.09601-1.447 3.09601-5.96c0-5.777-3.94397-8.67-11.82202-8.67-4.84198 0-8.41803 1.09-10.716 3.25-1.81897 1.687-2.72803 3.789-2.72803 6.315m25.26599 23.29001c-2.81403 1.446-7.57001 2.94999-14.28003 4.513-4.03003 0.96399-6.83197 1.92899-8.41803 2.894-2.55603 1.688-3.84601 4.088-3.84601 7.22301 0 2.641 1.28998 4.81199 3.84601 6.5 2.20001 1.435 4.69501 2.159 7.49701 2.159 4.52197 0 8.18402-1.321 10.98602-3.974 2.80201-2.64101 4.21503-6.19001 4.21503-10.64501l0-8.67z",
+          "fill": "#f6f9ff",
+          "width": 455.5369873046875,
+          "height": 145.53498077392578
+        },
+        {
+          "type": "path",
+          "id": "o3kz1",
+          "x": 270.6910095214844,
+          "y": 182.45700073242188,
+          "geometry": "M0 0l530.46399 0 0 5.091-530.46399 0 0-5.091z",
+          "fill": "#c00",
+          "width": 530.4640197753906,
+          "height": 5.09100341796875
+        },
+        {
+          "type": "path",
+          "id": "mzK9b",
+          "x": 0.014000000432133675,
+          "y": 0.004999999888241291,
+          "geometry": "M0 0l281.19101 0 0 281.19-281.19001 0-0.001-281.19z",
+          "fill": "#c00",
+          "width": 281.1910170894116,
+          "height": 281.1900073243305
+        },
+        {
+          "type": "path",
+          "id": "I9Vdl",
+          "x": 45.1150016784668,
+          "y": 89.77799987792969,
+          "geometry": "M0 50.854c0 18.453 15.013 33.46699 33.463 33.467l31.598 0c1.74199 0 3.168-1.733 3.168-3.16499l0-61.96c0.00441-4.11049 3.33551-7.4416 7.446-7.44601 2.62 0 5.09399 1.396 6.385 3.646 0.183 0.272 9.72501 16.754 19.851 34.21 9.67599 16.671 19.67999 33.91 19.82699 34.196 0.45 0.756 1.328 1.25 2.24201 1.25 1.43457-0.00551 2.59491-1.16942 2.59599-2.604l0-63.251c0-4.106 3.339-7.447 7.433-7.447 2.63104-0.00356 5.06831 1.38276 6.41 3.646 0.17 0.272 9.72501 16.754 19.827 34.21 9.675 16.671 19.64399 33.905 19.81399 34.196 0.45101 0.756 1.32801 1.25 2.23 1.25 1.43835-0.0011 2.6047-1.16567 2.60801-2.604l0-82.004-12.113 0 0 48.816c0 0-22.54401-38.82601-23.287-40.073-3.29-5.631-9.53-9.187-16.159-9.187-10.431 0-18.85201 8.446-18.85201 18.854l0 30.40601c0 0-22.56799-38.826-23.3-40.073-3.28999-5.631-9.541-9.187-16.18199-9.18699-10.42 0-18.852 8.446-18.852 18.854l0 49.957c0 1.81799-1.365 3.403-3.363 3.40601l-19.18099 0c-11.796 0-21.362-9.569-21.362-21.36301 0-11.8 9.566-21.364 21.362-21.364l16.085 0 0-12.104-16.231 0c-18.45 0-33.463 15.012-33.463 33.468",
+          "fill": "#fff",
+          "width": 184.89799880981445,
+          "height": 85.052001953125
+        },
+        {
+          "type": "path",
+          "id": "YfqLd",
+          "x": 28.17599868774414,
+          "y": 90.22200012207031,
+          "geometry": "M206.67401 0l0 82.00499c-0.00441 4.11011-3.33491 7.44105-7.44501 7.44601-2.61999 0-5.09399-1.399-6.41-3.64799-0.158-0.272-9.7-16.758-19.826-34.213-9.652-16.664-19.65601-33.9-19.803-34.192-0.44999-0.76-1.31599-1.249-2.242-1.249-1.43418 0.00604-2.5939 1.1698-2.59499 2.60399l0 63.25199c0 4.10499-3.33999 7.446-7.45799 7.446-2.62343-0.00331-5.05064-1.38986-6.38602-3.648-0.14599-0.27-9.724-16.758-19.85-34.21299-9.676-16.67-19.644-33.91-19.81501-34.19201-0.451-0.76-1.328-1.249-2.23001-1.249-1.43832 0.00111-2.60468 1.16567-2.60798 2.60401l0 61.96c0 4.267-3.741 8.002-8.006 8.002l-31.598 0c-21.119 0-38.301-17.183-38.30099-38.30501 0-21.124 17.182-38.306 38.29999-38.306l16.233 0 0-12.10399-16.208 0c-27.857 0-50.426 22.567-50.426 50.41 0 27.843 22.569 50.41201 50.426 50.41201l31.88999 0c12.07701 0.005 19.82702-7.07401 19.82702-20.12601l0-28.752c0 0 22.71499 39.09801 23.28799 40.06801 3.302 5.63 9.53 9.187 16.158 9.187 10.43201 0 18.864-8.446 18.864-18.85401l0-30.39999c0 0 22.55701 38.81999 23.288 40.067 3.28999 5.63 9.554 9.187 16.183 9.187 10.419 0 18.852-8.446 18.852-18.85401l0-82.345-12.10199 0z",
+          "fill": "#fff",
+          "width": 218.77599716186523,
+          "height": 101.19900512695312
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QUkRr",
+      "x": -27448,
+      "y": -19815,
+      "name": "Quote V1 — Inline logo",
+      "width": 1440,
+      "fill": "#0A0A0A",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#C9A962"
+      },
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "XbSpc",
+          "name": "Quote",
+          "fill": "#FFFFFF",
+          "textGrowth": "fixed-width",
+          "width": 800,
+          "content": "„Srdce z masa a mozek z křemíku.“",
+          "lineHeight": 1.1,
+          "fontFamily": "Space Grotesk",
+          "fontSize": 42,
+          "fontWeight": "700",
+          "letterSpacing": -1
+        },
+        {
+          "type": "frame",
+          "id": "2ngiP",
+          "name": "Attribution",
+          "gap": 16,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "AubNp",
+              "name": "CNN Logo",
+              "width": 100,
+              "height": 28,
+              "fill": "#CC0000",
+              "cornerRadius": 2,
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Vs8jL",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "CNN",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "900",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "MqnDS",
+              "name": "primaText",
+              "fill": "#999999",
+              "content": "Prima NEWS",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "300"
+            },
+            {
+              "type": "text",
+              "id": "U5764",
+              "name": "dash1",
+              "fill": "#777777",
+              "content": "— MARTIN VYMĚTAL",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "BHwoy",
+          "name": "Article Link",
+          "fill": "#C9A962",
+          "content": "ČÍST ČLÁNEK →",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pfpF8",
+      "x": -25908,
+      "y": -19815,
+      "name": "Quote V2 — Logo above",
+      "width": 1440,
+      "fill": "#0A0A0A",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#C9A962"
+      },
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "IJ0hD",
+          "name": "Source",
+          "gap": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ARCfF",
+              "name": "CNN Logo",
+              "width": 80,
+              "height": 24,
+              "fill": "#CC0000",
+              "cornerRadius": 2,
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yTmtn",
+                  "name": "logo2txt",
+                  "fill": "#FFFFFF",
+                  "content": "CNN",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "900",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "gZVIS",
+              "name": "prima2",
+              "fill": "#555555",
+              "content": "Prima NEWS",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "300"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "54qAG",
+          "name": "Quote",
+          "fill": "#FFFFFF",
+          "textGrowth": "fixed-width",
+          "width": 800,
+          "content": "„Srdce z masa a mozek z křemíku.“",
+          "lineHeight": 1.1,
+          "fontFamily": "Space Grotesk",
+          "fontSize": 42,
+          "fontWeight": "700",
+          "letterSpacing": -1
+        },
+        {
+          "type": "frame",
+          "id": "clEpy",
+          "name": "Bottom Row",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "7ICf4",
+              "name": "name2",
+              "fill": "#777777",
+              "content": "— MARTIN VYMĚTAL",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "D5iBl",
+              "name": "Article Link",
+              "fill": "#C9A962",
+              "content": "ČÍST ČLÁNEK →",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "xZQcw",
+      "x": -24368,
+      "y": -19815,
+      "name": "Quote V3 — Side accent",
+      "width": 1440,
+      "fill": "#0A0A0A",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "6xBnC",
+          "name": "Accent Line",
+          "fill": "#C9A962",
+          "width": 3,
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "z1wMS",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            0,
+            0,
+            0,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "hipU7",
+              "name": "Source",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ewJS0",
+                  "name": "CNN Logo",
+                  "width": 80,
+                  "height": 24,
+                  "fill": "#CC0000",
+                  "cornerRadius": 2,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CKIph",
+                      "name": "logo3txt",
+                      "fill": "#FFFFFF",
+                      "content": "CNN",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "900",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ihzJu",
+                  "name": "prima3",
+                  "fill": "#555555",
+                  "content": "Prima NEWS",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "300"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "FzQJN",
+              "name": "Quote",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "„Srdce z masa a mozek z křemíku.“",
+              "lineHeight": 1.1,
+              "fontFamily": "Space Grotesk",
+              "fontSize": 42,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "A4bmS",
+              "name": "name3",
+              "fill": "#777777",
+              "content": "— MARTIN VYMĚTAL",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "PEkrf",
+              "name": "Article Link",
+              "fill": "#C9A962",
+              "content": "ČÍST ČLÁNEK →",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "Qk23C",
+      "x": -29664,
+      "y": -19093,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "Snímek obrazovky 2026-02-21 v 16.47.54.png",
+        "mode": "fill"
+      },
+      "width": 1664,
+      "height": 1086
+    },
+    {
+      "type": "rectangle",
+      "id": "5MIi3",
+      "x": -25996,
+      "y": -19093,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "Snímek obrazovky 2026-02-21 v 16.48.49.png",
+        "mode": "fill"
+      },
+      "width": 1692,
+      "height": 1074
+    },
+    {
+      "type": "rectangle",
+      "id": "3i5vw",
+      "x": -27845,
+      "y": -19093,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "Snímek obrazovky 2026-02-21 v 16.50.49.png",
+        "mode": "fill"
+      },
+      "width": 1708,
+      "height": 1052
+    },
+    {
+      "type": "frame",
+      "id": "EZARW",
+      "x": -30331,
+      "y": -15283,
+      "name": "Podcasts V1 — Desaturated",
+      "width": 1440,
+      "fill": "#0A0A0A",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#333333"
+      },
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        80,
+        56
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "wql9L",
+          "name": "podLabel",
+          "fill": "#C9A962",
+          "content": "SLYŠET & VIDĚT",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "dnzlY",
+          "name": "podH",
+          "fill": "#FFFFFF",
+          "content": "PODCASTY & ROZHOVORY",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 42,
+          "fontWeight": "700",
+          "letterSpacing": -1
+        },
+        {
+          "type": "frame",
+          "id": "zXh9j",
+          "name": "podGrid",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "iCCbd",
+              "name": "card1",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "29bBE",
+                  "name": "Thumbnail 1",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "rainporches",
+                    "link": "https://unsplash.com/@rainporches",
+                    "author": "Rebecca R"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1712932115370-4f9d354ced6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2ODk1NTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "6wfmz",
+                      "x": 0,
+                      "y": 0,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "Snímek obrazovky 2026-02-21 v 16.47.54.png",
+                        "mode": "fill"
+                      },
+                      "width": 365,
+                      "height": 238
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0eTn9",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Desaturate Overlay",
+                      "width": 420,
+                      "height": 240,
+                      "fill": {
+                        "type": "color",
+                        "color": "#8B8B8B55",
+                        "enabled": true,
+                        "blendMode": "saturation"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QExB9",
+                  "name": "card1content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ds2LM",
+                      "name": "card1label",
+                      "fill": "#C9A962",
+                      "content": "GS Talks #26",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "mfxhL",
+                      "name": "card1title",
+                      "fill": "#FFFFFF",
+                      "content": "Úspěch v hluku světa",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bkhbg",
+                      "name": "card1desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Proč je marketing neustálým bojem o pozornost lidí a jak blízko hraně se  musíme pohybovat, abychom zaujali? Co vlastně znamená být vidět a zároveň zůstat věrohodný?",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EqAXq",
+                      "name": "card1link",
+                      "fill": "#C9A962",
+                      "content": "POSLECHNOUT →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MkNg1",
+              "name": "card2",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Dm61v",
+                  "name": "Thumbnail 2",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "itsaizumi",
+                    "link": "https://unsplash.com/@itsaizumi",
+                    "author": "Izumi"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1679502026429-0599b995e16b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2ODk1NTN8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "SOAOC",
+                      "x": 0,
+                      "y": 0,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "Snímek obrazovky 2026-02-21 v 16.50.49.png",
+                        "mode": "fill"
+                      },
+                      "width": 417,
+                      "height": 257
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mKB6I",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Desaturate Overlay",
+                      "width": 420,
+                      "height": 240,
+                      "fill": {
+                        "type": "color",
+                        "color": "#8B8B8B55",
+                        "enabled": true,
+                        "blendMode": "saturation"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H7k2N",
+                  "name": "card2content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jKmtS",
+                      "name": "card2label",
+                      "fill": "#C9A962",
+                      "content": "Jak na sítě #39",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "t4cgU",
+                      "name": "card2title",
+                      "fill": "#FFFFFF",
+                      "content": "Ekonomika pozornosti",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Tc6iT",
+                      "name": "card2desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Proč by značky měly přemýšlet jako mediální domy, jaká je skutečná cena pozornosti v dnešním marketingu a jak poznat, kdy vyhrává atraktivita nad opravdovou hodnotou?",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XqlHT",
+                      "name": "card2link",
+                      "fill": "#C9A962",
+                      "content": "POSLECHNOUT →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rkUR1",
+              "name": "card3",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "l1gO1",
+                  "name": "Thumbnail 3",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "katoblackmore",
+                    "link": "https://unsplash.com/@katoblackmore",
+                    "author": "Kato Blackmore 🇺🇦"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1629190003061-6e9eafb9f5ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2ODk1NTN8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "6sqnB",
+                      "x": 0,
+                      "y": 0,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "Snímek obrazovky 2026-02-21 v 16.48.49.png",
+                        "mode": "fill"
+                      },
+                      "width": 424,
+                      "height": 269
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SvVaI",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Desaturate Overlay",
+                      "width": 420,
+                      "height": 240,
+                      "fill": {
+                        "type": "color",
+                        "color": "#8B8B8B55",
+                        "enabled": true,
+                        "blendMode": "saturation"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lKF2R",
+                  "name": "card3content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tlPNI",
+                      "name": "card3label",
+                      "fill": "#C9A962",
+                      "content": "FINANČNÍ NEZÁVISLOST",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "F8J0Z",
+                      "name": "card3title",
+                      "fill": "#FFFFFF",
+                      "content": "Podnikání je jako žvýkání skla",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qzx33",
+                      "name": "card3desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Jaká je skutečná cena podnikání a úspěchu, co obnáší tvrdá realita budování firmy a jak růst  udržitelně, aniž by značka ztratila své hodnoty?",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wDtlg",
+                      "name": "card3link",
+                      "fill": "#C9A962",
+                      "content": "POSLECHNOUT →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vxuSd",
+      "x": -30331,
+      "y": -14328,
+      "name": "Podcasts V2 — Gold tint",
+      "width": 1440,
+      "fill": "#0A0A0A",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#333333"
+      },
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        80,
+        56
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "i27lB",
+          "name": "podLabel",
+          "fill": "#C9A962",
+          "content": "SLYŠET & VIDĚT",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "nK0QF",
+          "name": "podH",
+          "fill": "#FFFFFF",
+          "content": "PODCASTY & ROZHOVORY",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 42,
+          "fontWeight": "700",
+          "letterSpacing": -1
+        },
+        {
+          "type": "frame",
+          "id": "yrjAr",
+          "name": "podGrid",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "h5HRu",
+              "name": "card1",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NnyfW",
+                  "name": "Thumbnail 1",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "egorkomarov",
+                    "link": "https://unsplash.com/@egorkomarov",
+                    "author": "Egor Komarov"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1655931546470-7b2e167b5fef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2ODk1ODl8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "cR2bm",
+                      "x": -42.287292817676644,
+                      "y": 0.06640106241684407,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "Snímek obrazovky 2026-02-21 v 16.47.54.png",
+                        "mode": "fill"
+                      },
+                      "width": 503,
+                      "height": 328
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w178H",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Gold Tint",
+                      "width": 427,
+                      "height": 240,
+                      "fill": "#C9A96266"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LyzRV",
+                  "name": "card1content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vzo3x",
+                      "name": "card1label",
+                      "fill": "#C9A962",
+                      "content": "GS Talks #26",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ja8xN",
+                      "name": "card1title",
+                      "fill": "#FFFFFF",
+                      "content": "Úspěch v hluku světa",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0apsA",
+                      "name": "card1desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Proč je marketing neustálým bojem o pozornost lidí a jak blízko hraně se  musíme pohybovat, abychom zaujali? Co vlastně znamená být vidět a zároveň zůstat věrohodný?",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zujWv",
+                      "name": "card1link",
+                      "fill": "#C9A962",
+                      "content": "POSLECHNOUT →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "t3jdY",
+              "name": "card2",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SKZyW",
+                  "name": "Thumbnail 2",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "leannk_jpg",
+                    "link": "https://unsplash.com/@leannk_jpg",
+                    "author": "Leann K."
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1560945481-0bafcb90f3ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2ODk1OTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "wqYUJ",
+                      "x": -51.33602323206287,
+                      "y": -43,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "Snímek obrazovky 2026-02-21 v 16.50.49.png",
+                        "mode": "fill"
+                      },
+                      "width": 677,
+                      "height": 417
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zAszr",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Gold Tint",
+                      "width": 427,
+                      "height": 240,
+                      "fill": "#C9A96266"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uf1y9",
+                  "name": "card2content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "emUFo",
+                      "name": "card2label",
+                      "fill": "#C9A962",
+                      "content": "Jak na sítě #39",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Zfmln",
+                      "name": "card2title",
+                      "fill": "#FFFFFF",
+                      "content": "Ekonomika pozornosti",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ly6KB",
+                      "name": "card2desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Proč by značky měly přemýšlet jako mediální domy, jaká je skutečná cena pozornosti v dnešním marketingu a jak poznat, kdy vyhrává atraktivita nad opravdovou hodnotou?",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zXClt",
+                      "name": "card2link",
+                      "fill": "#C9A962",
+                      "content": "POSLECHNOUT →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "17anl",
+              "name": "card3",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oDalE",
+                  "name": "Thumbnail 3",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "hoianphotographer",
+                    "link": "https://unsplash.com/@hoianphotographer",
+                    "author": "Hoi An and Da Nang Photographer"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1765614766565-28dbc4df0b1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2ODk1OTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "KaShk",
+                      "x": -128.73314866112923,
+                      "y": -38.327014218009936,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "Snímek obrazovky 2026-02-21 v 16.48.49.png",
+                        "mode": "fill"
+                      },
+                      "width": 591,
+                      "height": 375
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uUKAR",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Gold Tint",
+                      "width": 427,
+                      "height": 240,
+                      "fill": "#C9A96266"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5JjF1",
+                  "name": "card3content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Dxdri",
+                      "name": "card3label",
+                      "fill": "#C9A962",
+                      "content": "FINANČNÍ NEZÁVISLOST",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "kZK80",
+                      "name": "card3title",
+                      "fill": "#FFFFFF",
+                      "content": "Podnikání je jako žvýkání skla",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "loX93",
+                      "name": "card3desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Jaká je skutečná cena podnikání a úspěchu, co obnáší tvrdá realita budování firmy a jak růst  udržitelně, aniž by značka ztratila své hodnoty?",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vNGhv",
+                      "name": "card3link",
+                      "fill": "#C9A962",
+                      "content": "POSLECHNOUT →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "EhnYb",
+      "x": -32129,
+      "y": -16162,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "Snímek obrazovky 2026-02-21 v 16.47.54.png",
+        "mode": "fill"
+      },
+      "width": 1664,
+      "height": 1086
+    },
+    {
+      "type": "rectangle",
+      "id": "LStyn",
+      "x": -29561,
+      "y": -17286,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "Snímek obrazovky 2026-02-21 v 16.50.49.png",
+        "mode": "fill"
+      },
+      "width": 1708,
+      "height": 1052
+    },
+    {
+      "type": "rectangle",
+      "id": "7vdzG",
+      "x": -28117,
+      "y": -15076,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "Snímek obrazovky 2026-02-21 v 16.48.49.png",
+        "mode": "fill"
+      },
+      "width": 1692,
+      "height": 1074
+    },
+    {
+      "type": "frame",
+      "id": "MDWDc",
+      "x": -24251,
+      "y": -20859,
+      "name": "Podcasts Section",
+      "width": "fill_container(1440)",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#333333"
+      },
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        80,
+        56
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "JAoey",
+          "name": "podLabel",
+          "fill": "#C9A962",
+          "content": "SLYŠET & VIDĚT",
+          "fontFamily": "IBM Plex Mono",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "2StD0",
+          "name": "podH",
+          "fill": "#FFFFFF",
+          "content": "PODCASTY & ROZHOVORY",
+          "fontFamily": "Space Grotesk",
+          "fontSize": 42,
+          "fontWeight": "700",
+          "letterSpacing": -1
+        },
+        {
+          "type": "frame",
+          "id": "Jdffy",
+          "name": "podGrid",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "shCvv",
+              "name": "card1",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "j6bgw",
+                  "name": "Thumbnail středo/věk",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "winsome_baknai",
+                    "link": "https://unsplash.com/@winsome_baknai",
+                    "author": "winsome_Baknai Basumatary"
+                  },
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1675177181386-47292e886953?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2MDc4MjJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "bnLXQ",
+                  "name": "card1content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S3Q3f",
+                      "name": "card1label",
+                      "fill": "#C9A962",
+                      "content": "GS Talks #26",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "wKVDY",
+                      "name": "card1title",
+                      "fill": "#FFFFFF",
+                      "content": "Úspěch v hluku světa",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hGYRS",
+                      "name": "card1desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Proč je marketing neustálým bojem o pozornost lidí a jak blízko hraně se  musíme pohybovat, abychom zaujali? Co vlastně znamená být vidět a zároveň zůstat věrohodný?",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xKeSo",
+                      "name": "card1link",
+                      "fill": "#C9A962",
+                      "content": "POSLECHNOUT →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DQj8I",
+              "name": "card2",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k3V2Q",
+                  "name": "Thumbnail Jak na sítě",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "jerrografie",
+                    "link": "https://unsplash.com/@jerrografie",
+                    "author": "James Jeremy Beckers"
+                  },
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1722842253307-7c2e99bc16d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2MDc4MjJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "CfFNA",
+                  "name": "card2content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xNwQ8",
+                      "name": "card2label",
+                      "fill": "#C9A962",
+                      "content": "Jak na sítě #39",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "WmGve",
+                      "name": "card2title",
+                      "fill": "#FFFFFF",
+                      "content": "Ekonomika pozornosti",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YPcv8",
+                      "name": "card2desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Proč by značky měly přemýšlet jako mediální domy, jaká je skutečná cena pozornosti v dnešním marketingu a jak poznat, kdy vyhrává atraktivita nad opravdovou hodnotou?",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J5qgy",
+                      "name": "card2link",
+                      "fill": "#C9A962",
+                      "content": "POSLECHNOUT →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mkxRn",
+              "name": "card3",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TIAWW",
+                  "name": "Thumbnail GS Talks",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "my_redgiulia",
+                    "link": "https://unsplash.com/@my_redgiulia",
+                    "author": "Daniela P"
+                  },
+                  "width": "fill_container",
+                  "height": 240,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1658310073290-ab48982d69d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2MDc4MjN8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "uMzas",
+                  "name": "card3content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GQtmY",
+                      "name": "card3label",
+                      "fill": "#C9A962",
+                      "content": "FINANČNÍ NEZÁVISLOST",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "YmJod",
+                      "name": "card3title",
+                      "fill": "#FFFFFF",
+                      "content": "Podnikání je jako žvýkání skla",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1f2ay",
+                      "name": "card3desc",
+                      "fill": "#777777",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Jaká je skutečná cena podnikání a úspěchu, co obnáší tvrdá realita budování firmy a jak růst  udržitelně, aniž by značka ztratila své hodnoty?",
+                      "lineHeight": 1.5,
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wxwGl",
+                      "name": "card3link",
+                      "fill": "#C9A962",
+                      "content": "POSLECHNOUT →",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
                     }
                   ]
                 }

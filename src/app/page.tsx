@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-[var(--color-bg)]">
       {/* ─── Navigation ─── */}
-      <nav className="flex items-center justify-between h-[60px] px-[24px] md:h-[80px] md:px-[56px] border-b border-[var(--color-border)]">
+      <nav className="flex items-center justify-between h-[60px] px-[24px] md:h-[80px] md:px-[56px]">
         <span className="font-playfair text-[24px] md:text-[28px] font-bold text-[var(--color-gold)]">
           MV.
         </span>
@@ -65,6 +65,8 @@ export default function Home() {
 
       {/* ─── Hero ─── */}
       <section className="relative h-[600px] md:h-[800px] overflow-hidden">
+        {/* Top fade from nav */}
+        <div className="absolute top-0 left-0 right-0 h-[80px] md:h-[120px] bg-gradient-to-b from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
         {/* Background image — parallax with safe top offset so head stays visible */}
         <div
           ref={heroImageRef}
@@ -78,7 +80,7 @@ export default function Home() {
           <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
             <span className="md:hidden">MARTIN VYMĚTAL</span>
             <span className="hidden md:inline">
-              MARTIN VYMĚTAL — MARKETING &amp; STRATEGIE
+              MARTIN VYMĚTAL — MARKETING &amp; KOMUNIKACE
             </span>
           </span>
           <h1 className="font-grotesk text-[36px] md:text-[72px] font-bold text-[var(--color-white)] leading-[0.95] tracking-[-1px] md:max-w-[900px]">
@@ -86,22 +88,24 @@ export default function Home() {
             <br />
             BOJ O POZORNOST.
             <br />
-            VYHRAJTE HO.
+            VYHRAJETE HO.
           </h1>
           <p className="font-mono text-[13px] md:text-[16px] text-[var(--color-gray)] leading-[1.6]">
-            Najdeme 3 rozhodnutí, která změní marketing během 14 dní.
+            Najdeme tři rozhodnutí, která změní váš marketing během 14 dní.
           </p>
           <a
             href="#kontakt"
             className="font-mono text-[11px] md:text-[12px] font-semibold tracking-[1px] text-[var(--color-dark)] bg-[var(--color-gold)] px-[24px] md:px-[32px] py-[14px] md:py-[16px] w-fit hover:brightness-110 transition"
           >
-            NAPSAT MARTINOVI →
+            OZVĚTE SE MI →
           </a>
         </div>
       </section>
 
       {/* ─── Problems Section ─── */}
-      <section className="flex flex-col md:flex-row gap-[40px] md:gap-[80px] px-[24px] md:px-[56px] py-[48px] md:py-[80px] border-t border-[var(--color-border)]">
+      <section className="relative flex flex-col md:flex-row gap-[40px] md:gap-[80px] px-[24px] md:px-[56px] py-[48px] md:py-[80px]">
+        {/* Top fade */}
+        <div className="absolute top-0 left-0 right-0 h-[80px] bg-gradient-to-b from-[var(--color-bg)] to-transparent pointer-events-none" />
         {/* Left */}
         <div className="flex flex-col gap-[24px] md:w-[400px] md:shrink-0">
           <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
@@ -221,24 +225,24 @@ export default function Home() {
               2001
             </span>
             <span className="font-mono text-[9px] md:text-[11px] text-[var(--color-dark)] tracking-[1px]">
-              BOOMERANG AGENCY
+              ZALOŽENÍ BOOMERANGU
             </span>
           </div>
           {/* Cards 2-4 */}
           {[
             {
               value: "2025",
-              label: "AGENTURA ROKU",
+              label: "BOOMERANG JE AGENTURA ROKU",
               color: "var(--color-white)",
             },
             {
-              value: "98+",
-              label: "EPIZOD PODCASTU",
+              value: "200+",
+              label: "FIREM A PROJEKTŮ",
               color: "var(--color-white)",
             },
             {
-              value: "59:28",
-              label: "JAK NA SÍTĚ",
+              value: "5 970",
+              label: "KM NA TRAILU",
               color: "var(--color-gold)",
             },
           ].map((card) => (
@@ -261,15 +265,37 @@ export default function Home() {
       </section>
 
       {/* ─── Quote Section ─── */}
-      <section className="flex flex-col gap-[20px] md:gap-[24px] px-[24px] md:px-[120px] py-[48px] md:py-[80px] border border-[var(--color-gold)]">
-        <blockquote className="font-grotesk text-[28px] md:text-[42px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] md:max-w-[800px]">
-          Neporadím vám metodiku.
-          <br />
-          Člověk je důležitější než proces.
-        </blockquote>
-        <cite className="font-mono text-[10px] md:text-[12px] text-[var(--color-gray)] tracking-[1px] not-italic">
-          — MARTIN VYMĚTAL, CNN PRIMA NEWS
-        </cite>
+      <section className="flex px-[24px] md:px-[120px] py-[48px] md:py-[80px]">
+        {/* Accent Line */}
+        <div className="hidden md:block w-[3px] shrink-0 bg-[var(--color-gold)]" />
+        {/* Content */}
+        <div className="flex flex-col gap-[20px] md:gap-[24px] md:pl-[40px]">
+          {/* Source */}
+          <div className="flex items-center gap-[12px]">
+            <span className="flex items-center justify-center bg-[#CC0000] rounded-[2px] px-[12px] h-[24px] font-[Inter] text-[12px] font-black text-white tracking-[1px]">
+              CNN
+            </span>
+            <span className="font-[Inter] text-[13px] font-light text-[#555555]">
+              Prima NEWS
+            </span>
+          </div>
+          <blockquote className="font-grotesk text-[28px] md:text-[42px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] md:max-w-[800px]">
+            „Srdce z masa a mozek z křemíku."
+          </blockquote>
+          <p className="font-mono text-[11px] md:text-[12px] text-[var(--color-gray)] tracking-[1px] leading-[1.6] md:max-w-[684px]">
+            Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou
+            empatii a citlivost s technologickou efektivitou AI a pochopí, že
+            pozornost je dnes nejvzácnější měnou.
+            <br />
+            <br />— MARTIN VYMĚTAL
+          </p>
+          <a
+            href="#"
+            className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
+          >
+            CELÝ ROZHOVOR →
+          </a>
+        </div>
       </section>
 
       {/* ─── Podcasts Section ─── */}
@@ -286,32 +312,42 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-[16px] md:gap-[24px] w-full">
           {[
             {
-              label: "PODCAST",
-              title: "středo/věk",
-              desc: "98+ epizod o životě, práci a věcech mezi tím. Aktivní podcast.",
-              img: "https://images.unsplash.com/photo-1675177181386-47292e886953?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2MDc4MjJ8&ixlib=rb-4.1.0&q=80&w=1080",
+              label: "GS Talks #26",
+              title: "Úspěch v hluku světa",
+              desc: "Proč je marketing neustálým bojem o pozornost lidí a jak blízko hraně se musíme pohybovat, abychom zaujali? Co vlastně znamená být vidět a zároveň zůstat věrohodný?",
+              img: "/podcast-thumb-1.png",
             },
             {
-              label: "ROZHOVOR · 59:28",
-              title: "Jak na sítě",
-              desc: "Ekonomika pozornosti — když značka přemýšlí jako redaktor.",
-              img: "https://images.unsplash.com/photo-1722842253307-7c2e99bc16d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2MDc4MjJ8&ixlib=rb-4.1.0&q=80&w=1080",
+              label: "Jak na sítě #39",
+              title: "Ekonomika pozornosti",
+              desc: "Proč by značky měly přemýšlet jako mediální domy, jaká je skutečná cena pozornosti v dnešním marketingu a jak poznat, kdy vyhrává atraktivita nad opravdovou hodnotou?",
+              img: "/podcast-thumb-2.png",
             },
             {
-              label: "ROZHOVOR · ~1H10M",
-              title: "GS Talks #26",
-              desc: "Marketing, AI a budoucnost komunikace. YouRadio.",
-              img: "https://images.unsplash.com/photo-1658310073290-ab48982d69d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2MDc4MjN8&ixlib=rb-4.1.0&q=80&w=1080",
+              label: "FINANČNÍ NEZÁVISLOST",
+              title: "Podnikání je jako žvýkání skla",
+              desc: "Jaká je skutečná cena podnikání a úspěchu, co obnáší tvrdá realita budování firmy a jak růst udržitelně, aniž by značka ztratila své hodnoty?",
+              img: "/podcast-thumb-3.png",
             },
           ].map((card) => (
             <div
               key={card.title}
               className="flex flex-col border border-[var(--color-border)] md:flex-1 overflow-hidden"
             >
-              <div
-                className="h-[180px] md:h-[240px] w-full bg-cover bg-center"
-                style={{ backgroundImage: `url('${card.img}')` }}
-              />
+              {/* Thumbnail with bottom fade */}
+              <div className="relative h-[180px] md:h-[240px] w-full overflow-hidden">
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: `url('${card.img}')` }}
+                />
+                <div
+                  className="absolute inset-0"
+                  style={{
+                    background:
+                      "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 40%, #0A0A0ABB 80%, #0A0A0AFF 100%)",
+                  }}
+                />
+              </div>
               <div className="flex flex-col gap-[10px] md:gap-[12px] p-[20px] md:p-[24px]">
                 <span className="font-mono text-[9px] md:text-[10px] text-[var(--color-gold)] tracking-[1px]">
                   {card.label}
@@ -353,7 +389,7 @@ export default function Home() {
           href="#"
           className="font-mono text-[11px] md:text-[12px] font-semibold tracking-[1px] text-[var(--color-dark)] bg-[var(--color-gold)] px-[32px] md:px-[40px] py-[14px] md:py-[16px] hover:brightness-110 transition"
         >
-          POSLAT ZPRÁVU →
+          NAPIŠTE MI NA LINKEDIN →
         </a>
       </section>
 
@@ -361,8 +397,8 @@ export default function Home() {
       <footer className="relative h-[500px] md:h-[900px] overflow-hidden">
         {/* Background image */}
         <div
-          className="absolute inset-x-0 w-full h-[700px] md:h-[1440px] bg-cover bg-center opacity-50 top-[-100px] md:top-[-532px]"
-          style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
+          className="absolute inset-x-0 w-full h-[700px] md:h-[1440px] bg-cover bg-center opacity-50 top-[-100px] md:top-[-180px]"
+          style={{ backgroundImage: "url('/90390.jpg')" }}
         />
         {/* Gradient overlay — mobile (top to bottom) */}
         <div
