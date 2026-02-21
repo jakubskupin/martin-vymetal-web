@@ -550,7 +550,7 @@ export default function Home() {
           <div className="h-[300px] md:h-[560px] md:flex-1 bg-[#0A0A0A] overflow-hidden">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/dorc3Lajtyw?start=1060"
+              src="https://www.youtube.com/embed/1VF8_RRCPBk"
               title="Středo/věk"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
