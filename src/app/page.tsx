@@ -503,6 +503,187 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ─── Transition A — Headline Quote ─── */}
+      <section className="flex items-center justify-center h-[360px] md:h-[480px] px-[24px] md:px-0 bg-[var(--color-bg)]">
+        <div className="flex flex-col items-center gap-[24px] md:gap-[32px]">
+          <div className="w-[48px] h-[2px] bg-[var(--color-gold)]" />
+          <h2 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] text-center max-w-[800px]">
+            Nejen mluvit.
+            <br />
+            Taky dělat.
+          </h2>
+          <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] text-center max-w-[640px]">
+            Podcast je jen začátek. Přednáším, běhám traily, spolupracuji se
+            značkami a pomáhám firmám najít odvahu ke změně.
+          </p>
+          <div className="w-[120px] h-px bg-[var(--color-border)]" />
+        </div>
+      </section>
+
+      {/* ─── Layout B — Alternating Columns ─── */}
+      <section className="flex flex-col bg-[var(--color-bg)]">
+        {/* Středověk Row — text left, video right */}
+        <div className="flex flex-col md:flex-row h-auto md:h-[560px]">
+          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:w-[660px] md:shrink-0 md:h-[560px]">
+            <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+              POSLECHNĚTE
+            </span>
+            <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px]">
+              Středo/věk
+            </h3>
+            <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
+              Už pět let s kamarády Petrem Márou a Janem Dobrovským tvoříme
+              podcast středo/věk. Otevřený dialog o příležitostech, které
+              přináší střední věk. Pro dlouhé cesty autem perfektní parťák. Pro
+              váš zároveň vhled do toho, jak přemýšlím o životě, práci i
+              změnách.
+            </p>
+            <a
+              href="https://open.spotify.com/show/4PrpbPO5RQ03epa1XOUuJf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-gold)] tracking-[1px] hover:brightness-110 transition"
+            >
+              POSLECHNOUT NA SPOTIFY →
+            </a>
+          </div>
+          <div className="h-[300px] md:h-[560px] md:flex-1 bg-[#1A1A1A] flex items-center justify-center">
+            <span className="font-mono text-[14px] text-[#33333388]">
+              youtube video tady bude
+            </span>
+          </div>
+        </div>
+
+        {/* Přednášky Row — photo left, text right */}
+        <div className="flex flex-col-reverse md:flex-row h-auto md:h-[560px] border-t border-[var(--color-border)]">
+          <div className="relative h-[300px] md:h-[560px] md:w-[780px] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{ backgroundImage: "url('/mv-speaker.jpg')" }}
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                background:
+                  "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 40%, #0A0A0ABB 80%, #0A0A0AFF 100%)",
+              }}
+            />
+          </div>
+          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:w-[660px] md:shrink-0 md:h-[560px]">
+            <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+              POTKEJTE
+            </span>
+            <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px] leading-[1] max-w-[520px]">
+              Přednášky
+              <br />a workshopy
+            </h3>
+            <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
+              Přednáším, moderuji a vstupuji do workshopů. Pomáhám firmám
+              otevřít diskusi o značce, změně a věcech, které je občas potřeba
+              rozbít, aby se mohly znovu poskládat. Rád budu u vašeho eventu
+              nebo konference.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/martinvymetal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-gold)] tracking-[1px] hover:brightness-110 transition"
+            >
+              DOMLUVIT PŘEDNÁŠKU →
+            </a>
+          </div>
+        </div>
+
+        {/* Traily Row — text left, youtube right */}
+        <div className="flex flex-col md:flex-row h-auto md:h-[560px]">
+          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:w-[660px] md:shrink-0 md:h-[560px]">
+            <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+              POJĎME
+            </span>
+            <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px] leading-[1] max-w-[520px]">
+              Traily
+              <br />a průvodcovství
+            </h3>
+            <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
+              Kdo řekl, že nejlepší nápady vznikají v zasedačkách? Vezmu vás na
+              hike a budoucnost vaší značky probereme při chůzi. Za posledních
+              pět let jsem na dálkových cestách nachodil přes 6 000 kilometrů a
+              vím, že hlava nejlépe myslí právě v pohybu.
+            </p>
+          </div>
+          <a
+            href="https://www.youtube.com/watch?v=dorc3Lajtyw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative h-[300px] md:h-[560px] md:flex-1 overflow-hidden bg-[#0A0A0A] block"
+          >
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{
+                backgroundImage:
+                  "url('https://img.youtube.com/vi/dorc3Lajtyw/maxresdefault.jpg')",
+              }}
+            />
+            {/* Play button */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="flex items-center justify-center w-[72px] h-[50px] bg-[#FF0000] rounded-[12px]">
+                <svg
+                  width="20"
+                  height="22"
+                  viewBox="0 0 20 22"
+                  fill="white"
+                >
+                  <polygon points="0,0 20,11 0,22" />
+                </svg>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        {/* Influencing Row — photo left, text right */}
+        <div className="flex flex-col-reverse md:flex-row h-auto md:h-[560px] border-t border-[var(--color-border)]">
+          <div className="relative h-[300px] md:h-[560px] md:w-[780px] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{ backgroundImage: "url('/vymetal-drivalia.jpg')" }}
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                background:
+                  "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 40%, #0A0A0ABB 80%, #0A0A0AFF 100%)",
+              }}
+            />
+          </div>
+          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:w-[660px] md:shrink-0 md:h-[560px]">
+            <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+              INFLUENCING
+            </span>
+            <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px]">
+              Grandfluencer
+            </h3>
+            <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
+              Nelovím trendy na týden. Jsem grandfluencer, protože mám
+              zkušenosti, příběh a odvahu říkat značkám, co dává dlouhodobě
+              smysl. Jako hrdý ambasador operativního leasingu Drivalia Premium
+              GO jezdím ve Volvo XC60 a zároveň zastupuji prémiovou péči o pleť
+              Augustinus Bader v síti parfumérií Fann.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Transition B — Minimal Breather ─── */}
+      <section className="flex items-center justify-center h-[360px] md:h-[480px] bg-[var(--color-bg)]">
+        <div className="flex flex-col items-center gap-[24px]">
+          <div className="w-px h-[80px] bg-[var(--color-gold)]" />
+          <span className="font-mono text-[10px] md:text-[11px] text-[#555555] tracking-[3px] text-center">
+            ČEKÁ VÁS Z/LOM
+          </span>
+          <div className="w-px h-[80px] bg-[var(--color-gold)]" />
+        </div>
+      </section>
+
       {/* ─── CTA Section ─── */}
       <section
         id="kontakt"
@@ -515,8 +696,6 @@ export default function Home() {
         </h2>
         <p className="font-mono text-[13px] md:text-[16px] text-[var(--color-gray)] text-center">
           Bez formulářů. Jedna zpráva.
-          <br className="md:hidden" />
-          {" "}Jasné další kroky.
         </p>
         <a
           href="https://www.linkedin.com/in/martinvymetal/"

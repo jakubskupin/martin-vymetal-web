@@ -36466,7 +36466,7 @@
       "name": "Style B — gentleman",
       "clip": true,
       "width": 1440,
-      "height": 4632,
+      "height": 4759,
       "fill": "#0A0A0A",
       "layout": "none",
       "children": [
@@ -37351,7 +37351,7 @@
                           "id": "q1wDk",
                           "name": "pm3v",
                           "fill": "#FFFFFF",
-                          "content": "98+",
+                          "content": "200+",
                           "lineHeight": 0.85,
                           "fontFamily": "Space Grotesk",
                           "fontSize": 48,
@@ -37362,7 +37362,7 @@
                           "id": "umTdB",
                           "name": "pm3l",
                           "fill": "#777777",
-                          "content": "EPIZOD PODCASTU",
+                          "content": "FIREM A PROJEKTŮ",
                           "fontFamily": "IBM Plex Mono",
                           "fontSize": 11,
                           "fontWeight": "normal",
@@ -37388,7 +37388,7 @@
                           "id": "IGx28",
                           "name": "pm4v",
                           "fill": "#C9A962",
-                          "content": "59:28",
+                          "content": "5 970",
                           "lineHeight": 0.85,
                           "fontFamily": "Space Grotesk",
                           "fontSize": 48,
@@ -37399,7 +37399,7 @@
                           "id": "lTklT",
                           "name": "pm4l",
                           "fill": "#777777",
-                          "content": "JAK NA SÍTĚ",
+                          "content": "KM NA TRAILU",
                           "fontFamily": "IBM Plex Mono",
                           "fontSize": 11,
                           "fontWeight": "normal",
@@ -37510,7 +37510,9 @@
                       "id": "WRe8o",
                       "name": "Attribution",
                       "fill": "#777777",
-                      "content": "— MARTIN VYMĚTAL",
+                      "textGrowth": "fixed-width",
+                      "width": 684,
+                      "content": "Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou empatii a citlivost\ns technologickou efektivitou AI a pochopí, že pozornost je dnes nejvzácnější měnou.\n\n— MARTIN VYMĚTAL",
                       "fontFamily": "IBM Plex Mono",
                       "fontSize": 12,
                       "fontWeight": "normal",
@@ -38083,7 +38085,7 @@
                   "type": "frame",
                   "id": "Himku",
                   "x": 0,
-                  "y": -532,
+                  "y": -180,
                   "name": "Footer BG",
                   "opacity": 0.5,
                   "width": 1440,
@@ -38091,7 +38093,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "mv-most-hol.jpg",
+                    "url": "90390.jpg",
                     "mode": "fill"
                   }
                 },
@@ -40600,6 +40602,8 @@
                               "id": "YZH4v",
                               "name": "pm2l",
                               "fill": "#777777",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
                               "content": "BOOMERANG JE AGENTURA ROKU",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 9,
@@ -40635,7 +40639,7 @@
                               "id": "ShTPn",
                               "name": "pm3v",
                               "fill": "#FFFFFF",
-                              "content": "98+",
+                              "content": "200+",
                               "lineHeight": 0.85,
                               "fontFamily": "Space Grotesk",
                               "fontSize": 36,
@@ -40646,7 +40650,7 @@
                               "id": "UJUVs",
                               "name": "pm3l",
                               "fill": "#777777",
-                              "content": "EPIZOD PODCASTU",
+                              "content": "FIREM A PROJEKTŮ",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 9,
                               "fontWeight": "normal",
@@ -40672,7 +40676,7 @@
                               "id": "CqeIb",
                               "name": "pm4v",
                               "fill": "#C9A962",
-                              "content": "59:28",
+                              "content": "5 970",
                               "lineHeight": 0.85,
                               "fontFamily": "Space Grotesk",
                               "fontSize": 36,
@@ -40683,7 +40687,7 @@
                               "id": "t3WWB",
                               "name": "pm4l",
                               "fill": "#777777",
-                              "content": "JAK NA SÍTĚ",
+                              "content": "KM NA TRAILU",
                               "fontFamily": "IBM Plex Mono",
                               "fontSize": 9,
                               "fontWeight": "normal",
@@ -40889,14 +40893,64 @@
                             "link": "https://unsplash.com/@mattmoloney",
                             "author": "Matthew Moloney"
                           },
+                          "clip": true,
                           "width": "fill_container",
                           "height": 180,
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1621618806270-9e490bd9abe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NzgwODV8&ixlib=rb-4.1.0&q=80&w=1080",
-                            "mode": "fill"
-                          }
+                          "fill": "#0A0A0A",
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "bQgoh",
+                              "x": -20,
+                              "y": -10,
+                              "name": "sc1",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "Snímek obrazovky 2026-02-21 v 16.47.54.png",
+                                "mode": "fill"
+                              },
+                              "width": 380,
+                              "height": 250
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kHIf3",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Bottom Fade",
+                              "width": 327,
+                              "height": 180,
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 90,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0.4
+                                  },
+                                  {
+                                    "color": "#0A0A0ABB",
+                                    "position": 0.8
+                                  },
+                                  {
+                                    "color": "#0A0A0AFF",
+                                    "position": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
                         },
                         {
                           "type": "frame",
@@ -40977,14 +41031,64 @@
                             "link": "https://unsplash.com/@shutter_speed_",
                             "author": "Shutter Speed"
                           },
+                          "clip": true,
                           "width": "fill_container",
                           "height": 180,
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1675352161865-27816c76141a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NzgwOTl8&ixlib=rb-4.1.0&q=80&w=1080",
-                            "mode": "fill"
-                          }
+                          "fill": "#0A0A0A",
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "LbKPu",
+                              "x": -25,
+                              "y": -20,
+                              "name": "sc2",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "Snímek obrazovky 2026-02-21 v 16.50.49.png",
+                                "mode": "fill"
+                              },
+                              "width": 400,
+                              "height": 260
+                            },
+                            {
+                              "type": "frame",
+                              "id": "jgZyz",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Bottom Fade",
+                              "width": 327,
+                              "height": 180,
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 90,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0.4
+                                  },
+                                  {
+                                    "color": "#0A0A0ABB",
+                                    "position": 0.8
+                                  },
+                                  {
+                                    "color": "#0A0A0AFF",
+                                    "position": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
                         },
                         {
                           "type": "frame",
@@ -41065,14 +41169,64 @@
                             "link": "https://unsplash.com/@silverkblack",
                             "author": "Vitaly Gariev"
                           },
+                          "clip": true,
                           "width": "fill_container",
                           "height": 180,
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "https://images.unsplash.com/photo-1714976694703-dda500989cf4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE2NzgxMDB8&ixlib=rb-4.1.0&q=80&w=1080",
-                            "mode": "fill"
-                          }
+                          "fill": "#0A0A0A",
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "9uLQb",
+                              "x": -30,
+                              "y": -25,
+                              "name": "sc3",
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "Snímek obrazovky 2026-02-21 v 16.48.49.png",
+                                "mode": "fill"
+                              },
+                              "width": 400,
+                              "height": 270
+                            },
+                            {
+                              "type": "frame",
+                              "id": "G8OGm",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Bottom Fade",
+                              "width": 327,
+                              "height": 180,
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "linear",
+                                "enabled": true,
+                                "rotation": 90,
+                                "size": {
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "#0A0A0A00",
+                                    "position": 0.4
+                                  },
+                                  {
+                                    "color": "#0A0A0ABB",
+                                    "position": 0.8
+                                  },
+                                  {
+                                    "color": "#0A0A0AFF",
+                                    "position": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
                         },
                         {
                           "type": "frame",
@@ -41215,7 +41369,7 @@
                   "type": "frame",
                   "id": "BXZ0Y",
                   "x": 0,
-                  "y": -100,
+                  "y": -50,
                   "name": "Footer BG Mobile",
                   "opacity": 0.5,
                   "width": 375,
@@ -41223,7 +41377,7 @@
                   "fill": {
                     "type": "image",
                     "enabled": true,
-                    "url": "mv-most-hol.jpg",
+                    "url": "90390.jpg",
                     "mode": "fill"
                   }
                 },
@@ -43421,6 +43575,20 @@
           ]
         }
       ]
+    },
+    {
+      "type": "rectangle",
+      "id": "LyVR6",
+      "x": -24210,
+      "y": -19172,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "90390.jpg",
+        "mode": "fill"
+      },
+      "width": 1500,
+      "height": 1000
     }
   ]
 }
