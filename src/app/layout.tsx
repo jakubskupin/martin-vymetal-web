@@ -4,6 +4,26 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Martin Vymětal — Marketing & Strategie",
   description: "Najdeme 3 rozhodnutí, která změní marketing během 14 dní.",
+  openGraph: {
+    title: "Martin Vymětal — Marketing & Strategie",
+    description: "Najdeme 3 rozhodnutí, která změní marketing během 14 dní.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Martin Vymětal — Marketing & Strategie",
+      },
+    ],
+    locale: "cs_CZ",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Martin Vymětal — Marketing & Strategie",
+    description: "Najdeme 3 rozhodnutí, která změní marketing během 14 dní.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
