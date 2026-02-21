@@ -24,7 +24,7 @@ export default function Home() {
           const speed = 0.3;
           const maxShift = 100;
           const offset = Math.min(progress * maxShift * (1 / speed), maxShift);
-          footerImageRef.current.style.transform = `translate3d(0, ${-offset}px, 0)`;
+          footerImageRef.current.style.transform = `translate3d(0, ${offset}px, 0)`;
         }
       }
     };
