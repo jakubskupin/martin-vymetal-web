@@ -455,7 +455,7 @@ export default function Home() {
           <div className="w-full h-px bg-[var(--color-border)]" />
           <div className="flex flex-col md:flex-row md:justify-between md:items-center w-full gap-[16px]">
             <span className="font-mono text-[10px] md:text-[11px] text-[var(--color-gray)] tracking-[1px]">
-              © 2025 MARTIN VYMĚTAL
+              © 2026 MARTIN VYMĚTAL
             </span>
             <div className="flex gap-[20px] md:gap-[32px]">
               <a
