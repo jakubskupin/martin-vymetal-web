@@ -431,6 +431,8 @@ export default function Home() {
           className="absolute inset-x-0 w-full h-[700px] md:h-[1440px] bg-cover bg-center opacity-50 top-[-50px] md:top-[-180px]"
           style={{ backgroundImage: "url('/90390.jpg')" }}
         />
+        {/* Top fade from content above */}
+        <div className="absolute top-0 left-0 right-0 h-[120px] md:h-[180px] bg-gradient-to-b from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
         {/* Gradient overlay — mobile (top to bottom) */}
         <div
           className="absolute inset-0 md:hidden"
