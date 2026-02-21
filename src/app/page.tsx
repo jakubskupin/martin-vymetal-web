@@ -174,7 +174,7 @@ export default function Home() {
         {/* Background image — parallax with safe top offset so head stays visible */}
         <div
           ref={heroImageRef}
-          className="absolute inset-0 -top-[40px] md:-top-[20px] bottom-0 bg-cover bg-[center_15%] rounded-[60px] md:rounded-[94px] will-change-transform"
+          className="absolute inset-0 -top-[40px] md:-top-[20px] bottom-0 bg-cover bg-[center_15%] will-change-transform"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
         {/* Gradient overlay */}
