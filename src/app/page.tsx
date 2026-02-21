@@ -1,4 +1,23 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+
 export default function Home() {
+  const heroImageRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!heroImageRef.current) return;
+      const speed = 0.3;
+      const maxShift = 80; // px — limit so the head never gets cropped
+      const offset = Math.min(window.scrollY * speed, maxShift);
+      heroImageRef.current.style.transform = `translate3d(0, ${offset}px, 0)`;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="flex flex-col bg-[var(--color-bg)]">
       {/* ─── Navigation ─── */}
@@ -46,16 +65,14 @@ export default function Home() {
 
       {/* ─── Hero ─── */}
       <section className="relative h-[600px] md:h-[800px] overflow-hidden">
-        {/* Background image */}
+        {/* Background image — parallax with safe top offset so head stays visible */}
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          ref={heroImageRef}
+          className="absolute inset-0 -top-[80px] bottom-0 bg-cover bg-[center_15%] md:rounded-[94px] will-change-transform"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
         {/* Gradient overlay */}
-        <div
-          className="absolute inset-0"
-          style={{ background: "linear-gradient(to bottom, #0A0A0AEE 0%, #0A0A0A66 60%, #0A0A0AEE 100%)" }}
-        />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0AEE] via-[#0A0A0A66] to-[#0A0A0AEE]" />
         {/* Content */}
         <div className="relative flex flex-col justify-center h-full px-[24px] md:px-[56px] gap-[24px] md:gap-[32px]">
           <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
