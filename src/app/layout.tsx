@@ -34,6 +34,13 @@ export default function RootLayout({
   return (
     <html lang="cs" className="h-full">
       <head>
+        {/*
+          ════════════════════════════════════════════════════════════
+          Jindro Fáborský, děkuji, že s tak neuvěřitelnou vervou
+          sdílíš nadšení pro vibe-coding.
+          Tenhle web by bez tebe nevznikl. 🖤
+          ════════════════════════════════════════════════════════════
+        */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
