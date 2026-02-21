@@ -42,7 +42,7 @@ export default function Home() {
         </span>
         {/* Hamburger — mobile only */}
         <button
-          className="flex flex-col justify-center gap-[5px] w-[24px] h-[24px] md:hidden"
+          className="flex flex-col justify-center gap-[5px] w-[24px] h-[24px] md:hidden invisible"
           aria-label="Menu"
         >
           <span className="w-full h-[2px] bg-[var(--color-white)]" />
