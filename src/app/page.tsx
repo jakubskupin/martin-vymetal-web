@@ -615,33 +615,15 @@ export default function Home() {
               vím, že hlava nejlépe myslí právě v pohybu.
             </p>
           </div>
-          <a
-            href="https://www.youtube.com/watch?v=dorc3Lajtyw"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative h-[300px] md:h-[560px] md:flex-1 overflow-hidden bg-[#0A0A0A] block"
-          >
-            <div
-              className="absolute inset-0 bg-cover bg-center"
-              style={{
-                backgroundImage:
-                  "url('https://img.youtube.com/vi/dorc3Lajtyw/maxresdefault.jpg')",
-              }}
+          <div className="h-[300px] md:h-[560px] md:flex-1 bg-[#0A0A0A] overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/dorc3Lajtyw?start=1060"
+              title="Traily"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
             />
-            {/* Play button */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="flex items-center justify-center w-[72px] h-[50px] bg-[#FF0000] rounded-[12px]">
-                <svg
-                  width="20"
-                  height="22"
-                  viewBox="0 0 20 22"
-                  fill="white"
-                >
-                  <polygon points="0,0 20,11 0,22" />
-                </svg>
-              </div>
-            </div>
-          </a>
+          </div>
         </div>
 
         {/* Influencing Row — photo left, text right */}
