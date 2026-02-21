@@ -508,9 +508,9 @@ export default function Home() {
         <div className="flex flex-col items-center gap-[24px] md:gap-[32px]">
           <div className="w-[48px] h-[2px] bg-[var(--color-gold)]" />
           <h2 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] text-center max-w-[800px]">
-            Nejen mluvit.
+            Nejem mluvím.
             <br />
-            Taky dělat.
+            Taky dělám.
           </h2>
           <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] text-center max-w-[640px]">
             Podcast je jen začátek. Přednáším, běhám traily, spolupracuji se
