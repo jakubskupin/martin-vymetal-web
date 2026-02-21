@@ -399,7 +399,9 @@ export default function Home() {
           {" "}Jasné další kroky.
         </p>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/martinvymetal/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="font-mono text-[11px] md:text-[12px] font-semibold tracking-[1px] text-[var(--color-dark)] bg-[var(--color-gold)] px-[32px] md:px-[40px] py-[14px] md:py-[16px] hover:brightness-110 transition"
         >
           NAPIŠTE MI NA LINKEDIN →
