@@ -386,7 +386,7 @@ export default function Home() {
             </span>
           </div>
           <blockquote className="font-grotesk text-[28px] md:text-[42px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] md:max-w-[800px]">
-            „Srdce z masa a mozek z křemíku."
+            „Srdce z masa, mozek z křemíku."
           </blockquote>
           {/* Mobile attribution */}
           <span className="font-mono text-[10px] text-[var(--color-gray)] tracking-[1px] md:hidden">
