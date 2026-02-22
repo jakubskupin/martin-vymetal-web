@@ -525,9 +525,9 @@ export default function Home() {
         {/* Středověk Row — text left, video right */}
         <div className="flex flex-col md:flex-row h-auto md:h-[560px]">
           <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:w-[660px] md:shrink-0 md:h-[560px]">
-            <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+            {/* <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
               POSLECHNĚTE
-            </span>
+            </span> */}
             <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px]">
               Středo/věk
             </h3>
@@ -574,9 +574,9 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:flex-1 md:h-[560px]">
-            <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+            {/* <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
               POTKEJTE
-            </span>
+            </span> */}
             <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px] leading-[1] max-w-[520px]">
               Přednášky
               <br />a workshopy
@@ -601,9 +601,9 @@ export default function Home() {
         {/* Traily Row — text left, youtube right */}
         <div className="flex flex-col md:flex-row h-auto md:h-[560px]">
           <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:w-[660px] md:shrink-0 md:h-[560px]">
-            <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+            {/* <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
               POJĎME
-            </span>
+            </span> */}
             <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px] leading-[1] max-w-[520px]">
               Traily
               <br />a průvodcovství
@@ -642,9 +642,9 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[56px_56px] md:flex-1 md:h-[420px]">
-            <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+            {/* <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
               INFLUENCING
-            </span>
+            </span> */}
             <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px]">
               Grandfluencer
             </h3>
