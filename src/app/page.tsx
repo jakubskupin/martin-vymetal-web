@@ -194,7 +194,7 @@ export default function Home() {
             <br />
             VYHRAJETE HO
           </h1>
-          <p className="font-mono text-[13px] md:text-[16px] text-[var(--color-gray)] leading-[1.6]">
+          <p className="font-mono text-[15px] md:text-[16px] text-[var(--color-gray)] leading-[1.6]">
             Najdeme tři rozhodnutí, která změní váš marketing během 14 dní.
           </p>
           <a
@@ -260,7 +260,7 @@ export default function Home() {
                 <h3 className="font-grotesk text-[16px] md:text-[18px] font-semibold text-[var(--color-white)]">
                   {item.title}
                 </h3>
-                <p className="font-mono text-[12px] md:text-[13px] text-[var(--color-gray)] leading-[1.5]">
+                <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.5]">
                   {item.desc}
                 </p>
               </div>
@@ -308,7 +308,7 @@ export default function Home() {
               <span className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-white)] tracking-[1px]">
                 {step.title}
               </span>
-              <p className="font-mono text-[12px] md:text-[13px] text-[var(--color-gray)] leading-[1.5]">
+              <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.5]">
                 {step.desc}
               </p>
             </div>
@@ -486,7 +486,7 @@ export default function Home() {
                 <h3 className="font-grotesk text-[18px] md:text-[22px] font-bold text-[var(--color-white)]">
                   {card.title}
                 </h3>
-                <p className="font-mono text-[11px] md:text-[13px] text-[var(--color-gray)] leading-[1.5]">
+                <p className="font-mono text-[13px] md:text-[13px] text-[var(--color-gray)] leading-[1.5]">
                   {card.desc}
                 </p>
                 <a
@@ -512,7 +512,7 @@ export default function Home() {
             <br />
             Taky dělám.
           </h2>
-          <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] text-center max-w-[640px]">
+          <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] text-center max-w-[640px]">
             Podcast je jen začátek. Přednáším, běhám traily, spolupracuji se
             značkami a pomáhám firmám najít odvahu ke změně.
           </p>
@@ -531,7 +531,7 @@ export default function Home() {
             <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px]">
               Středo/věk
             </h3>
-            <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
+            <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
               Už pět let s kamarády Petrem Márou a Janem Dobrovským tvoříme
               podcast středo/věk. Otevřený dialog o příležitostech, které
               přináší střední věk. Pro dlouhé cesty autem perfektní parťák. Pro
@@ -581,7 +581,7 @@ export default function Home() {
               Přednášky
               <br />a workshopy
             </h3>
-            <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
+            <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
               Přednáším, moderuji a vstupuji do workshopů. Pomáhám firmám
               otevřít diskusi o značce, změně a věcech, které je občas potřeba
               rozbít, aby se mohly znovu poskládat. Rád budu u vašeho eventu
@@ -608,7 +608,7 @@ export default function Home() {
               Traily
               <br />a průvodcovství
             </h3>
-            <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
+            <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
               Kdo řekl, že nejlepší nápady vznikají v zasedačkách? Vezmu vás na
               hike a budoucnost vaší značky probereme při chůzi. Za posledních
               pět let jsem na dálkových cestách nachodil přes 6 000 kilometrů a
@@ -648,7 +648,7 @@ export default function Home() {
             <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px]">
               Grandfluencer
             </h3>
-            <p className="font-mono text-[12px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
+            <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
               Nelovím trendy na týden. Jsem grandfluencer, protože mám
               zkušenosti, příběh a odvahu říkat značkám, co dává dlouhodobě
               smysl. Jako hrdý ambasador operativního leasingu Drivalia Premium
@@ -680,7 +680,7 @@ export default function Home() {
           <br className="md:hidden" />
           {" "}NÁZOR?
         </h2>
-        <p className="font-mono text-[13px] md:text-[16px] text-[var(--color-gray)] text-center">
+        <p className="font-mono text-[15px] md:text-[16px] text-[var(--color-gray)] text-center">
           Bez formulářů. Jedna zpráva.
         </p>
         <a
