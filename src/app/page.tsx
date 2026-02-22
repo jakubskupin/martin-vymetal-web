@@ -508,7 +508,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-[24px] md:gap-[32px]">
           <div className="w-[48px] h-[2px] bg-[var(--color-gold)]" />
           <h2 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] text-center max-w-[800px]">
-            Nejem mluvím.
+            Nejen mluvím.
             <br />
             Taky dělám.
           </h2>
