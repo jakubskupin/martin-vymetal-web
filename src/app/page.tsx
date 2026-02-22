@@ -720,16 +720,13 @@ export default function Home() {
           }}
         />
         {/* Content */}
-        <div className="relative flex flex-col justify-end h-full gap-[20px] md:gap-[24px] px-[24px] md:px-[56px] py-[40px] md:py-[60px]">
+        <div className="relative flex flex-col items-center md:items-start justify-end h-full gap-[20px] md:gap-[24px] px-[24px] md:px-[56px] py-[40px] md:py-[60px]">
           <span className="font-playfair text-[28px] md:text-[32px] font-bold text-[var(--color-gold)]">
             MV.
           </span>
           <div className="w-full h-px bg-[var(--color-border)]" />
-          <div className="flex flex-col md:flex-row md:justify-between md:items-center w-full gap-[16px]">
-            <span className="font-mono text-[10px] md:text-[11px] text-[var(--color-gray)] tracking-[1px]">
-              © 2026 MARTIN VYMĚTAL
-            </span>
-            <div className="flex gap-[20px] md:gap-[32px]">
+          <div className="flex flex-col items-center md:items-start md:flex-row md:justify-between md:items-center w-full gap-[16px]">
+            <div className="flex gap-[20px] md:gap-[32px] order-first md:order-last">
               <a
                 href="https://www.linkedin.com/in/martinvymetal/"
                 target="_blank"
@@ -755,6 +752,9 @@ export default function Home() {
                 BOOMERANG
               </a>
             </div>
+            <span className="font-mono text-[10px] md:text-[11px] text-[var(--color-gray)] tracking-[1px] order-last md:order-first">
+              © 2026 MARTIN VYMĚTAL
+            </span>
           </div>
         </div>
       </footer>
