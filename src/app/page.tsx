@@ -702,7 +702,7 @@ export default function Home() {
           style={{ backgroundImage: "url('/90390.jpg')" }}
         />
         {/* Top fade from content above */}
-        <div className="absolute top-0 left-0 right-0 h-[120px] md:h-[180px] bg-gradient-to-b from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
+        <div className="absolute top-0 left-0 right-0 h-[240px] md:h-[300px] bg-gradient-to-b from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
         {/* Gradient overlay — mobile (top to bottom) */}
         <div
           className="absolute inset-0 md:hidden"
