@@ -601,9 +601,9 @@ export default function Home() {
         {/* Traily Row — text left, youtube right */}
         <div className="flex flex-col md:flex-row h-auto md:h-[560px]">
           <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[80px_56px] md:w-[660px] md:shrink-0 md:h-[560px]">
-            {/* <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
-              POJĎME
-            </span> */}
+            <span className="inline-block font-mono text-[10px] md:text-[11px] font-bold text-[#1A1A1A] tracking-[2px] bg-[var(--color-gold)] px-[16px] py-[8px] rounded-[4px] self-start">
+              NEW
+            </span>
             <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px] leading-[1] max-w-[520px]">
               Traily
               <br />a průvodcovství
