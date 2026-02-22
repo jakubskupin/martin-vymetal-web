@@ -427,7 +427,7 @@ export default function Home() {
         className="flex flex-col gap-[32px] md:gap-[48px] px-[24px] md:px-[56px] py-[48px] md:py-[80px] border-t border-[var(--color-border)]"
       >
         <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
-          SLYŠET &amp; VIDĚT
+          PSSST
         </span>
         <h2 className="font-grotesk text-[32px] md:text-[42px] font-bold text-[var(--color-white)] tracking-[-1px]">
           Povědomí &amp; porozumění
