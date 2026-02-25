@@ -214,7 +214,7 @@ export default function Home() {
             VYHRAJETE HO
           </h1>
           <p className="font-mono text-[15px] md:text-[20px] text-[var(--color-gray)] md:text-[rgba(255,255,255,0.75)] leading-[1.6] md:max-w-[600px]">
-            Najdeme <strong className="font-semibold text-[var(--color-white)] md:text-[rgba(255,255,255,0.9)]">tři rozhodnutí</strong>, která změní{"\n"}váš marketing během <strong className="font-semibold text-[var(--color-white)] md:text-[rgba(255,255,255,0.9)]">14 dní</strong>.
+            Najdeme <strong className="font-semibold text-[var(--color-white)] md:text-[rgba(255,255,255,0.9)]">tři rozhodnutí</strong>, která změní<br />váš marketing během <strong className="font-semibold text-[var(--color-white)] md:text-[rgba(255,255,255,0.9)]">14 dní</strong>.
           </p>
           <a
             href="https://www.linkedin.com/in/martinvymetal/"
