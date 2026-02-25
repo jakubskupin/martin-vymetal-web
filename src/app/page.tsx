@@ -169,15 +169,15 @@ export default function Home() {
 
       {/* ─── Hero ─── */}
       <section className="relative h-[600px] md:h-[800px] overflow-hidden">
-        {/* Top fade from nav */}
-        <div className="absolute top-0 left-0 right-0 h-[60px] md:h-[60px] bg-gradient-to-b from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
-        {/* Background image — parallax */}
+        {/* Top fade — mobile: subtle 30px, desktop: full 60px */}
+        <div className="absolute top-0 left-0 right-0 h-[30px] md:h-[60px] bg-gradient-to-b from-[#0A0A0A99] md:from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
+        {/* Background image — mobile (full bleed, parallax) */}
         <div
           ref={heroImageRef}
-          className="absolute inset-0 -top-[40px] md:-top-[20px] bottom-0 bg-cover bg-[center_15%] will-change-transform"
+          className="absolute inset-0 bg-cover bg-center will-change-transform md:hidden"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
-        {/* Desktop background image — person right */}
+        {/* Background image — desktop (person right) */}
         <div
           className="absolute inset-0 hidden md:block bg-cover will-change-transform"
           style={{
@@ -185,8 +185,14 @@ export default function Home() {
             backgroundPosition: "70% center",
           }}
         />
-        {/* Gradient overlay — mobile (top to bottom) */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0AEE] via-[#0A0A0A66] to-[#0A0A0AEE] md:hidden" />
+        {/* Gradient overlay — mobile (sharp bottom fade) */}
+        <div
+          className="absolute inset-0 md:hidden"
+          style={{
+            background:
+              "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 35%, #0A0A0ABB 50%, #0A0A0AEE 60%, #0A0A0A 70%)",
+          }}
+        />
         {/* Gradient overlay — desktop (left to right) */}
         <div
           className="absolute inset-0 hidden md:block"
@@ -198,8 +204,8 @@ export default function Home() {
         {/* Desktop top/bottom edge fades */}
         <div className="absolute top-0 left-0 right-0 h-[80px] bg-gradient-to-b from-[#0A0A0A99] to-transparent pointer-events-none hidden md:block" />
         <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-[var(--color-bg)] to-transparent pointer-events-none hidden md:block" />
-        {/* Content */}
-        <div className="relative flex flex-col justify-center h-full px-[24px] md:px-[56px] gap-[24px] md:gap-[32px]">
+        {/* Content — mobile: bottom-aligned, desktop: centered */}
+        <div className="relative flex flex-col justify-end md:justify-center h-full px-[24px] md:px-[56px] pb-[40px] md:pb-0 gap-[16px] md:gap-[32px]">
           <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
             <span className="md:hidden">MARTIN VYMĚTAL</span>
             <span className="hidden md:inline">
@@ -213,8 +219,8 @@ export default function Home() {
             <br />
             VYHRAJETE HO
           </h1>
-          <p className="font-mono text-[15px] md:text-[20px] text-[var(--color-gray)] md:text-[rgba(255,255,255,0.75)] leading-[1.6] md:max-w-[600px]">
-            Najdeme <strong className="font-semibold text-[var(--color-white)] md:text-[rgba(255,255,255,0.9)]">tři rozhodnutí</strong>, která změní<br />váš marketing během <strong className="font-semibold text-[var(--color-white)] md:text-[rgba(255,255,255,0.9)]">14 dní</strong>.
+          <p className="font-mono text-[15px] md:text-[20px] text-[#FFFFFFBF] leading-[1.6] md:max-w-[600px]">
+            Najdeme <strong className="font-semibold text-[#FFFFFFE6]">tři rozhodnutí</strong>, která změní<br />váš marketing během <strong className="font-semibold text-[#FFFFFFE6]">14 dní</strong>.
           </p>
           <a
             href="https://www.linkedin.com/in/martinvymetal/"
