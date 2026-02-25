@@ -328,10 +328,10 @@ export default function Home() {
           {/* Card 1 — gold bg */}
           <div className="flex flex-col gap-[6px] p-[24px] md:p-[32px] bg-[var(--color-gold)]">
             <span className="font-grotesk text-[36px] md:text-[48px] font-bold text-[var(--color-dark)] leading-[0.85]">
-              2001
+              250+
             </span>
             <span className="font-mono text-[9px] md:text-[11px] text-[var(--color-dark)] tracking-[1px]">
-              ZALOŽENÍ BOOMERANGU
+              ZNAČEK, FIREM A PROJEKTŮ
             </span>
           </div>
           {/* Cards 2-4 */}
@@ -342,8 +342,8 @@ export default function Home() {
               color: "var(--color-white)",
             },
             {
-              value: "200+",
-              label: "FIREM A PROJEKTŮ",
+              value: "150",
+              label: "OCENĚNÍ VČETNĚ 5 EFFIE",
               color: "var(--color-white)",
             },
             {
