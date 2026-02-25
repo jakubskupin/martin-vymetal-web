@@ -639,7 +639,7 @@ export default function Home() {
           <div className="relative h-auto aspect-[4/5] md:aspect-auto md:h-[420px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
             <div
               className="absolute inset-0 bg-contain bg-center bg-no-repeat md:bg-cover md:bg-bottom"
-              style={{ backgroundImage: "url('/vymetal-drivalia.jpg')" }}
+              style={{ backgroundImage: "url('/Drivalia_Martin-vymetal.jpg')" }}
             />
             <div
               className="absolute inset-0"
