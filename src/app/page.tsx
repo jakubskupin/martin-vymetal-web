@@ -171,14 +171,33 @@ export default function Home() {
       <section className="relative h-[600px] md:h-[800px] overflow-hidden">
         {/* Top fade from nav */}
         <div className="absolute top-0 left-0 right-0 h-[60px] md:h-[60px] bg-gradient-to-b from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
-        {/* Background image — parallax with safe top offset so head stays visible */}
+        {/* Background image — parallax */}
         <div
           ref={heroImageRef}
           className="absolute inset-0 -top-[40px] md:-top-[20px] bottom-0 bg-cover bg-[center_15%] will-change-transform"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0AEE] via-[#0A0A0A66] to-[#0A0A0AEE]" />
+        {/* Desktop background image — person right */}
+        <div
+          className="absolute inset-0 hidden md:block bg-cover will-change-transform"
+          style={{
+            backgroundImage: "url('/mv-most-hol-hero-desktop.png')",
+            backgroundPosition: "70% center",
+          }}
+        />
+        {/* Gradient overlay — mobile (top to bottom) */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0AEE] via-[#0A0A0A66] to-[#0A0A0AEE] md:hidden" />
+        {/* Gradient overlay — desktop (left to right) */}
+        <div
+          className="absolute inset-0 hidden md:block"
+          style={{
+            background:
+              "linear-gradient(to right, #0A0A0AF5 0%, #0A0A0ADD 25%, #0A0A0A88 40%, #0A0A0A22 50%, #0A0A0A00 60%)",
+          }}
+        />
+        {/* Desktop top/bottom edge fades */}
+        <div className="absolute top-0 left-0 right-0 h-[120px] bg-gradient-to-b from-[var(--color-bg)] to-transparent pointer-events-none hidden md:block" />
+        <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-[var(--color-bg)] to-transparent pointer-events-none hidden md:block" />
         {/* Content */}
         <div className="relative flex flex-col justify-center h-full px-[24px] md:px-[56px] gap-[24px] md:gap-[32px]">
           <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
@@ -194,8 +213,8 @@ export default function Home() {
             <br />
             VYHRAJETE HO
           </h1>
-          <p className="font-mono text-[15px] md:text-[16px] text-[var(--color-gray)] leading-[1.6]">
-            Najdeme tři rozhodnutí, která změní váš marketing během 14 dní.
+          <p className="font-mono text-[15px] md:text-[20px] text-[var(--color-gray)] md:text-[rgba(255,255,255,0.75)] leading-[1.6] md:max-w-[600px]">
+            Najdeme <strong className="font-semibold text-[var(--color-white)] md:text-[rgba(255,255,255,0.9)]">tři rozhodnutí</strong>, která změní{"\n"}váš marketing během <strong className="font-semibold text-[var(--color-white)] md:text-[rgba(255,255,255,0.9)]">14 dní</strong>.
           </p>
           <a
             href="https://www.linkedin.com/in/martinvymetal/"
