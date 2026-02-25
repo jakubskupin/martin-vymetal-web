@@ -128,22 +128,22 @@ export default function Home() {
         {/* Nav links */}
         <div className="flex items-center gap-[32px]">
           <a
+            href="#spoluprace"
+            className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-gray)] hover:text-[var(--color-white)] transition-colors"
+          >
+            SPOLUPRÁCE
+          </a>
+          <a
             href="#proces"
             className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-gray)] hover:text-[var(--color-white)] transition-colors"
           >
             PROCES
           </a>
           <a
-            href="#dukazy"
+            href="#psst"
             className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-gray)] hover:text-[var(--color-white)] transition-colors"
           >
-            DŮKAZY
-          </a>
-          <a
-            href="#podcast"
-            className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-gray)] hover:text-[var(--color-white)] transition-colors"
-          >
-            PODCAST
+            PSST
           </a>
           <a
             href="#kontakt"
@@ -221,7 +221,7 @@ export default function Home() {
       </section>
 
       {/* ─── Problems Section ─── */}
-      <section className="relative flex flex-col md:flex-row gap-[40px] md:gap-[80px] px-[24px] md:px-[56px] py-[48px] md:py-[80px]">
+      <section id="spoluprace" className="relative flex flex-col md:flex-row gap-[40px] md:gap-[80px] px-[24px] md:px-[56px] py-[48px] md:py-[80px]">
         {/* Top fade */}
         <div className="absolute top-0 left-0 right-0 h-[80px] bg-gradient-to-b from-[var(--color-bg)] to-transparent pointer-events-none" />
         {/* Left */}
@@ -435,7 +435,7 @@ export default function Home() {
 
       {/* ─── Podcasts Section ─── */}
       <section
-        id="podcast"
+        id="psst"
         className="flex flex-col gap-[32px] md:gap-[48px] px-[24px] md:px-[56px] py-[48px] md:py-[80px] border-t border-[var(--color-border)]"
       >
         <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
