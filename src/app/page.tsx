@@ -476,12 +476,12 @@ export default function Home() {
               href={card.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col border border-[var(--color-border)] md:flex-1 overflow-hidden hover:border-[var(--color-gold)] transition-colors"
+              className="group flex flex-col border border-[var(--color-border)] md:flex-1 overflow-hidden hover:border-[var(--color-gold)] transition-colors"
             >
               {/* Thumbnail with bottom fade */}
               <div className="relative h-[180px] md:h-[240px] w-full overflow-hidden">
                 <div
-                  className="absolute inset-0 bg-cover bg-[center_20%]"
+                  className="absolute inset-0 bg-cover bg-[center_20%] transition-transform duration-500 group-hover:scale-[1.03]"
                   style={{ backgroundImage: `url('${card.img}')` }}
                 />
                 <div
