@@ -230,23 +230,23 @@ export default function Home() {
           {[
             {
               num: "01",
-              title: "Obsah bez dopadu",
-              desc: "Redakční páteř + měření. Víte co publikovat a proč.",
+              title: "Slabá značka",
+              desc: "Definujeme 1–2 klíčové signály. Konzistence, rozpoznatelnost, dopad.",
             },
             {
               num: "02",
-              title: "Nuda značky",
-              desc: "1–2 jasné signály a konzistence. Značka, která není nudná.",
+              title: "Roztříštěný marketing",
+              desc: "Škrtáme zbytečné aktivity. Fokus, efektivita, výsledky.",
             },
             {
               num: "03",
-              title: "AI chaos",
-              desc: "Rámec kvality a použití. AI jako orchestr, člověk jako dirigent.",
+              title: "Značka jako médium",
+              desc: "Přepneme myšlení na vydavatelský model. Dobrovolná pozornost místo tlaku.",
             },
             {
               num: "04",
-              title: "Příliš aktivit",
-              desc: "Seznam toho, co škrtnout. Méně hluku, víc výsledků.",
+              title: "Pozornost = růst",
+              desc: "Získanou pozornost převádíme do měřitelného obchodního růstu.",
             },
           ].map((item) => (
             <div
