@@ -437,7 +437,7 @@ export default function Home() {
               CELÝ ČLÁNEK →
             </a>
             <a
-              href="https://cnn.iprima.cz/srdce-z-masa-turbo-z-kremiku-jak-uspet-v-ere-ai-488670"
+              href="https://cnn.iprima.cz/porady/co-na-to-vase-penezenka/co-na-to-vase-penezenka-31-10-v-17-55-1"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
