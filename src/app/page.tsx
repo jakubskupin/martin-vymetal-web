@@ -503,10 +503,10 @@ export default function Home() {
           <h2 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] text-center max-w-[800px]">
             Nejen mluvím.
             <br />
-            Taky dělám.
+            Hlavně dělám.
           </h2>
           <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] text-center max-w-[640px]">
-            Podcast je jen začátek. Přednáším, běhám traily, spolupracuji se
+            Podcasty jsou jen začátek. Přednáším, vymýšlím, spolupracuji se
             značkami a pomáhám firmám najít odvahu ke změně.
           </p>
           <div className="w-[120px] h-px bg-[var(--color-border)]" />
