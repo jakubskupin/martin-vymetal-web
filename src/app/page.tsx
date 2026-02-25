@@ -196,7 +196,7 @@ export default function Home() {
           }}
         />
         {/* Desktop top/bottom edge fades */}
-        <div className="absolute top-0 left-0 right-0 h-[120px] bg-gradient-to-b from-[var(--color-bg)] to-transparent pointer-events-none hidden md:block" />
+        <div className="absolute top-0 left-0 right-0 h-[80px] bg-gradient-to-b from-[#0A0A0A99] to-transparent pointer-events-none hidden md:block" />
         <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-[var(--color-bg)] to-transparent pointer-events-none hidden md:block" />
         {/* Content */}
         <div className="relative flex flex-col justify-center h-full px-[24px] md:px-[56px] gap-[24px] md:gap-[32px]">
