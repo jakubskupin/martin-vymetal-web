@@ -369,9 +369,6 @@ export default function Home() {
           <p className="font-mono text-[11px] md:text-[12px] text-[#AAAAAA] tracking-[0.5px] leading-[1.6]">
             Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou empatii a citlivost s technologickou efektivitou AI a pochopí, že pozornost je dnes nejvzácnější měnou.
           </p>
-          <span className="font-mono text-[11px] font-semibold text-[#777777] tracking-[2px]">
-            — MARTIN VYMĚTAL
-          </span>
           <div className="flex gap-[24px] md:gap-[32px]">
             <a
               href="https://cnn.iprima.cz/srdce-z-masa-turbo-z-kremiku-jak-uspet-v-ere-ai-488670"
