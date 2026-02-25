@@ -99,14 +99,10 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-[var(--color-bg)] overflow-x-hidden">
       {/* ─── Navigation ─── */}
-      <nav className="flex items-center justify-between h-[60px] px-[24px] md:h-[80px] md:px-[56px]">
-        {/* Mobile logo */}
-        <span className="font-playfair text-[24px] font-bold text-[var(--color-gold)] md:hidden">
-          MV.
-        </span>
-        {/* Desktop animated logo */}
+      <nav className="hidden md:flex items-center justify-between h-[80px] px-[56px]">
+        {/* Animated logo */}
         <div
-          className="hidden md:inline-block relative w-[320px] h-[34px] cursor-pointer"
+          className="relative w-[320px] h-[34px] cursor-pointer"
           onMouseEnter={handleLogoEnter}
           onMouseLeave={handleLogoLeave}
         >
@@ -129,17 +125,8 @@ export default function Home() {
             MARTIN VYMĚTAL
           </span>
         </div>
-        {/* Hamburger — mobile only */}
-        <button
-          className="flex flex-col justify-center gap-[5px] w-[24px] h-[24px] md:hidden invisible"
-          aria-label="Menu"
-        >
-          <span className="w-full h-[2px] bg-[var(--color-white)]" />
-          <span className="w-full h-[2px] bg-[var(--color-white)]" />
-          <span className="w-full h-[2px] bg-[var(--color-white)]" />
-        </button>
-        {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-[32px]">
+        {/* Nav links */}
+        <div className="flex items-center gap-[32px]">
           <a
             href="#proces"
             className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-gray)] hover:text-[var(--color-white)] transition-colors"
