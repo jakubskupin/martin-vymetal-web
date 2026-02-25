@@ -328,60 +328,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── Proof Section ─── */}
-      <section
-        id="dukazy"
-        className="flex flex-col gap-[32px] md:gap-[48px] px-[24px] md:px-[56px] py-[48px] md:py-[80px] border-t border-[var(--color-border)]"
-      >
-        <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
-          DŮKAZY
-        </span>
-        <div className="grid grid-cols-2 gap-[12px] md:grid-cols-4 md:gap-0">
-          {/* Card 1 — gold bg */}
-          <div className="flex flex-col gap-[6px] p-[24px] md:p-[32px] bg-[var(--color-gold)]">
-            <span className="font-grotesk text-[36px] md:text-[48px] font-bold text-[var(--color-dark)] leading-[0.85]">
-              250+
-            </span>
-            <span className="font-mono text-[9px] md:text-[11px] text-[var(--color-dark)] tracking-[1px]">
-              ZNAČEK, FIREM A PROJEKTŮ
-            </span>
-          </div>
-          {/* Cards 2-4 */}
-          {[
-            {
-              value: "2025",
-              label: "BOOMERANG JE AGENTURA ROKU",
-              color: "var(--color-white)",
-            },
-            {
-              value: "150",
-              label: "OCENĚNÍ VČETNĚ 5 EFFIE",
-              color: "var(--color-white)",
-            },
-            {
-              value: "5 970",
-              label: "KM NA TRAILU",
-              color: "var(--color-gold)",
-            },
-          ].map((card) => (
-            <div
-              key={card.label}
-              className="flex flex-col gap-[6px] p-[24px] md:p-[32px] border border-[var(--color-border)]"
-            >
-              <span
-                className="font-grotesk text-[36px] md:text-[48px] font-bold leading-[0.85]"
-                style={{ color: card.color }}
-              >
-                {card.value}
-              </span>
-              <span className="font-mono text-[9px] md:text-[11px] text-[var(--color-gray)] tracking-[1px]">
-                {card.label}
-              </span>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* ─── Quote Section ─── */}
       <section className="relative h-[480px] md:h-[560px] overflow-hidden">
         {/* Background photo */}
@@ -446,6 +392,60 @@ export default function Home() {
               SLEDOVAT V TELEVIZI →
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* ─── Proof Section ─── */}
+      <section
+        id="dukazy"
+        className="flex flex-col gap-[32px] md:gap-[48px] px-[24px] md:px-[56px] py-[48px] md:py-[80px] border-t border-[var(--color-border)]"
+      >
+        <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+          DŮKAZY
+        </span>
+        <div className="grid grid-cols-2 gap-[12px] md:grid-cols-4 md:gap-0">
+          {/* Card 1 — gold bg */}
+          <div className="flex flex-col gap-[6px] p-[24px] md:p-[32px] bg-[var(--color-gold)]">
+            <span className="font-grotesk text-[36px] md:text-[48px] font-bold text-[var(--color-dark)] leading-[0.85]">
+              250+
+            </span>
+            <span className="font-mono text-[9px] md:text-[11px] text-[var(--color-dark)] tracking-[1px]">
+              ZNAČEK, FIREM A PROJEKTŮ
+            </span>
+          </div>
+          {/* Cards 2-4 */}
+          {[
+            {
+              value: "2025",
+              label: "BOOMERANG JE AGENTURA ROKU",
+              color: "var(--color-white)",
+            },
+            {
+              value: "150",
+              label: "OCENĚNÍ VČETNĚ 5 EFFIE",
+              color: "var(--color-white)",
+            },
+            {
+              value: "5 970",
+              label: "KM NA TRAILU",
+              color: "var(--color-gold)",
+            },
+          ].map((card) => (
+            <div
+              key={card.label}
+              className="flex flex-col gap-[6px] p-[24px] md:p-[32px] border border-[var(--color-border)]"
+            >
+              <span
+                className="font-grotesk text-[36px] md:text-[48px] font-bold leading-[0.85]"
+                style={{ color: card.color }}
+              >
+                {card.value}
+              </span>
+              <span className="font-mono text-[9px] md:text-[11px] text-[var(--color-gray)] tracking-[1px]">
+                {card.label}
+              </span>
+            </div>
+          ))}
         </div>
       </section>
 
