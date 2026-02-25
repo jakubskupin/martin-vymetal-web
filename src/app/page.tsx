@@ -456,17 +456,15 @@ export default function Home() {
               url: "https://www.youtube.com/watch?v=YB8SFVSYu6M",
             },
           ].map((card) => (
-            <div
+            <a
               key={card.title}
-              className="flex flex-col border border-[var(--color-border)] md:flex-1 overflow-hidden"
+              href={card.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col border border-[var(--color-border)] md:flex-1 overflow-hidden hover:border-[var(--color-gold)] transition-colors"
             >
               {/* Thumbnail with bottom fade */}
-              <a
-                href={card.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative h-[180px] md:h-[240px] w-full overflow-hidden block"
-              >
+              <div className="relative h-[180px] md:h-[240px] w-full overflow-hidden">
                 <div
                   className="absolute inset-0 bg-cover bg-[center_20%]"
                   style={{ backgroundImage: `url('${card.img}')` }}
@@ -478,7 +476,7 @@ export default function Home() {
                       "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 40%, #0A0A0ABB 80%, #0A0A0AFF 100%)",
                   }}
                 />
-              </a>
+              </div>
               <div className="flex flex-col gap-[10px] md:gap-[12px] p-[20px] md:p-[24px]">
                 <span className="font-mono text-[9px] md:text-[10px] text-[var(--color-gold)] tracking-[1px]">
                   {card.label}
@@ -489,16 +487,11 @@ export default function Home() {
                 <p className="font-mono text-[13px] md:text-[13px] text-[var(--color-gray)] leading-[1.5]">
                   {card.desc}
                 </p>
-                <a
-                  href={card.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-gold)] tracking-[1px] hover:brightness-110 transition"
-                >
+                <span className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-gold)] tracking-[1px]">
                   POSLECHNOUT →
-                </a>
+                </span>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </section>
