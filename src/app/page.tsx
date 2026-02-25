@@ -636,7 +636,7 @@ export default function Home() {
 
         {/* Influencing Row — photo left, text right */}
         <div className="flex flex-col-reverse md:flex-row h-auto md:h-[420px] border-t border-[var(--color-border)]">
-          <div className="relative h-auto aspect-[4/5] md:aspect-auto md:h-[420px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
+          <div className="relative h-auto aspect-[4/3] md:aspect-auto md:h-[420px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
             <div
               className="absolute inset-0 bg-cover bg-center md:bg-bottom"
               style={{ backgroundImage: "url('/Drivalia_Martin-vymetal.jpg')" }}
@@ -649,7 +649,7 @@ export default function Home() {
               }}
             />
           </div>
-          <div className="flex flex-col gap-[24px] px-[24px] py-[48px] md:p-[56px_56px] md:flex-1 md:h-[420px]">
+          <div className="flex flex-col gap-[24px] px-[24px] py-[32px] md:p-[56px_56px] md:flex-1 md:h-[420px]">
             {/* <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
               INFLUENCING
             </span> */}
