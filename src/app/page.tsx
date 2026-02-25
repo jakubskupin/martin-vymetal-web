@@ -383,53 +383,68 @@ export default function Home() {
       </section>
 
       {/* ─── Quote Section ─── */}
-      <section className="flex px-[24px] md:px-[120px] py-[48px] md:py-[80px]">
-        {/* Accent Line */}
-        <div className="w-[3px] shrink-0 bg-[var(--color-gold)]" />
+      <section className="relative h-[480px] md:h-[560px] overflow-hidden">
+        {/* Background photo */}
+        <div
+          className="absolute inset-0 bg-cover bg-center md:bg-[center_30%]"
+          style={{ backgroundImage: "url('/CNN-Prima-1.png')" }}
+        />
+        {/* Gradient overlay — mobile (bottom heavy) */}
+        <div
+          className="absolute inset-0 md:hidden"
+          style={{
+            background:
+              "linear-gradient(to bottom, #0A0A0AEE 0%, #0A0A0ACC 30%, #0A0A0A88 50%, #0A0A0A44 70%, #0A0A0A22 100%)",
+          }}
+        />
+        {/* Gradient overlay — desktop (left to right) */}
+        <div
+          className="absolute inset-0 hidden md:block"
+          style={{
+            background:
+              "linear-gradient(to right, #0A0A0AF5 0%, #0A0A0ADD 35%, #0A0A0A66 55%, #0A0A0A11 70%)",
+          }}
+        />
         {/* Content */}
-        <div className="flex flex-col gap-[20px] md:gap-[24px] pl-[24px] md:pl-[40px]">
+        <div className="relative flex flex-col justify-center h-full px-[24px] md:px-[120px] gap-[20px] md:gap-[24px] max-w-[700px]">
           {/* Source */}
-          <div className="flex items-center gap-[10px] md:gap-[12px]">
-            <span className="flex items-center justify-center bg-[#CC0000] rounded-[2px] px-[12px] h-[20px] md:h-[24px] w-[64px] md:w-[80px] font-[Inter] text-[10px] md:text-[12px] font-black text-white tracking-[1px]">
+          <div className="flex items-center gap-[12px]">
+            <span className="flex items-center justify-center bg-[#CC0000] rounded-[2px] px-[12px] h-[20px] w-[56px] font-[Inter] text-[10px] font-black text-white tracking-[1px]">
               CNN
             </span>
-            <span className="font-[Inter] text-[11px] md:text-[13px] font-light text-[#555555]">
+            <span className="font-[Inter] text-[12px] font-light text-[#999999]">
               Prima NEWS
             </span>
           </div>
-          <blockquote className="font-grotesk text-[28px] md:text-[42px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] md:max-w-[800px]">
-            „Srdce z masa, mozek z křemíku."
+          <blockquote className="font-grotesk text-[32px] md:text-[48px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px]">
+            „Srdce z masa
+            <br />a mozek z křemíku."
           </blockquote>
-          {/* Mobile attribution */}
-          <span className="font-mono text-[10px] text-[var(--color-gray)] tracking-[1px] md:hidden">
+          <p className="font-mono text-[11px] md:text-[12px] text-[#AAAAAA] tracking-[0.5px] leading-[1.6]">
+            Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou empatii
+            <br className="hidden md:inline" /> a citlivost s technologickou efektivitou AI.
+          </p>
+          <span className="font-mono text-[11px] font-semibold text-[#777777] tracking-[2px]">
             — MARTIN VYMĚTAL
           </span>
-          {/* Desktop attribution */}
-          <p className="hidden md:block font-mono text-[12px] text-[var(--color-gray)] tracking-[1px] leading-[1.6] max-w-[684px]">
-            Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou
-            empatii a citlivost s technologickou efektivitou AI a pochopí, že
-            pozornost je dnes nejvzácnější měnou.
-            <br />
-            <br />— MARTIN VYMĚTAL
-          </p>
-          {/* Mobile link */}
-          <a
-            href="https://cnn.iprima.cz/srdce-z-masa-turbo-z-kremiku-jak-uspet-v-ere-ai-488670"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-mono text-[10px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition md:hidden"
-          >
-            ČÍST ČLÁNEK →
-          </a>
-          {/* Desktop link */}
-          <a
-            href="https://cnn.iprima.cz/srdce-z-masa-turbo-z-kremiku-jak-uspet-v-ere-ai-488670"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden md:block font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
-          >
-            CELÝ ROZHOVOR →
-          </a>
+          <div className="flex gap-[24px] md:gap-[32px]">
+            <a
+              href="https://cnn.iprima.cz/srdce-z-masa-turbo-z-kremiku-jak-uspet-v-ere-ai-488670"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
+            >
+              CELÝ ČLÁNEK →
+            </a>
+            <a
+              href="https://cnn.iprima.cz/srdce-z-masa-turbo-z-kremiku-jak-uspet-v-ere-ai-488670"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
+            >
+              SLEDOVAT V TELEVIZI →
+            </a>
+          </div>
         </div>
       </section>
 
