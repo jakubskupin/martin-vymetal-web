@@ -329,10 +329,15 @@ export default function Home() {
       </section>
 
       {/* ─── Quote Section ─── */}
-      <section className="relative h-[480px] md:h-[560px] overflow-hidden">
-        {/* Background photo */}
+      <a
+        href="https://cnn.iprima.cz/porady/co-na-to-vase-penezenka/co-na-to-vase-penezenka-31-10-v-17-55-1"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group relative block h-[480px] md:h-[560px] overflow-hidden cursor-pointer"
+      >
+        {/* Background photo — zoom on hover */}
         <div
-          className="absolute inset-0 bg-cover bg-center md:bg-[center_30%]"
+          className="absolute inset-0 bg-cover bg-center md:bg-[center_30%] transition-transform duration-500 group-hover:scale-[1.03]"
           style={{ backgroundImage: "url('/CNN-Prima-1.png')" }}
         />
         {/* Gradient overlay — mobile (bottom heavy) */}
@@ -351,6 +356,8 @@ export default function Home() {
               "linear-gradient(to right, #0A0A0AF5 0%, #0A0A0ADD 35%, #0A0A0A66 55%, #0A0A0A11 70%)",
           }}
         />
+        {/* Gold border on hover */}
+        <div className="absolute inset-0 border-[2px] border-transparent group-hover:border-[var(--color-gold)] transition-colors duration-300 pointer-events-none z-10" />
         {/* Content */}
         <div className="relative flex flex-col justify-center h-full px-[24px] md:px-[120px] gap-[20px] md:gap-[24px] max-w-[700px]">
           {/* Source */}
@@ -369,26 +376,11 @@ export default function Home() {
           <p className="font-mono text-[11px] md:text-[12px] text-[#AAAAAA] tracking-[0.5px] leading-[1.6]">
             Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou empatii a citlivost s technologickou efektivitou AI a pochopí, že pozornost je dnes nejvzácnější měnou.
           </p>
-          <div className="flex gap-[24px] md:gap-[32px]">
-            <a
-              href="https://cnn.iprima.cz/srdce-z-masa-turbo-z-kremiku-jak-uspet-v-ere-ai-488670"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
-            >
-              CELÝ ČLÁNEK →
-            </a>
-            <a
-              href="https://cnn.iprima.cz/porady/co-na-to-vase-penezenka/co-na-to-vase-penezenka-31-10-v-17-55-1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] hover:brightness-110 transition"
-            >
-              SLEDOVAT V TELEVIZI →
-            </a>
-          </div>
+          <span className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] group-hover:brightness-110 transition">
+            SLEDOVAT V TELEVIZI →
+          </span>
         </div>
-      </section>
+      </a>
 
       {/* ─── Proof Section ─── */}
       <section
