@@ -659,9 +659,9 @@ export default function Home() {
             <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
               Nelovím trendy na týden. Jsem grandfluencer, protože mám
               zkušenosti, příběh a odvahu říkat značkám, co dává dlouhodobě
-              smysl. Jako hrdý ambasador operativního leasingu Drivalia Premium
+              smysl. Jako hrdý ambasador operativního leasingu <a href="https://www.drivaliago.cz/martin" target="_blank" rel="noopener noreferrer" className="text-[var(--color-gold)] hover:brightness-110 transition">Drivalia</a> Premium
               GO jezdím ve Volvo XC60 a zároveň zastupuji prémiovou péči o pleť
-              Augustinus Bader v síti parfumérií Fann.
+              Augustinus Bader v síti parfumérií <a href="https://www.fann.cz/produkty?znacky%5B0%5D=297&_gl=1*1cruach*_up*MQ..*_ga*MTE4NTU0ODA3My4xNzcxODU2NjM4*_ga_45N5HDELDL*czE3NzE4NTY2MzckbzEkZzEkdDE3NzE4NTY2NDAkajU3JGwwJGgw" target="_blank" rel="noopener noreferrer" className="text-[var(--color-gold)] hover:brightness-110 transition">Fann</a>.
             </p>
           </div>
         </div>
