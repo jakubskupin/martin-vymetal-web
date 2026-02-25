@@ -367,9 +367,7 @@ export default function Home() {
             <br />a mozek z křemíku."
           </blockquote>
           <p className="font-mono text-[11px] md:text-[12px] text-[#AAAAAA] tracking-[0.5px] leading-[1.6]">
-            Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou empatii
-            <br className="hidden md:inline" /> a citlivost s technologickou efektivitou AI a pochopí,
-            <br className="hidden md:inline" /> že pozornost je dnes nejvzácnější měnou.
+            Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou empatii a citlivost s technologickou efektivitou AI a pochopí, že pozornost je dnes nejvzácnější měnou.
           </p>
           <span className="font-mono text-[11px] font-semibold text-[#777777] tracking-[2px]">
             — MARTIN VYMĚTAL
