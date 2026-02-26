@@ -7,6 +7,8 @@ export default function Home() {
   const footerImageRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLElement>(null);
 
+  const [showTop, setShowTop] = useState(false);
+
   // Animated logo state
   const logoTexts = useRef<(HTMLSpanElement | null)[]>([null, null, null]);
   const logoCurrent = useRef(0);
@@ -72,6 +74,8 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
+      setShowTop(window.scrollY > 800);
+
       if (heroImageRef.current) {
         const speed = 0.3;
         const maxShift = 80;
@@ -818,6 +822,15 @@ export default function Home() {
           </span>
         </div>
       </footer>
+
+      {/* Back to top */}
+      <button
+        onClick={() => window.scrollTo({ top: 0 })}
+        className={`fixed bottom-[24px] right-[24px] w-[40px] h-[40px] flex items-center justify-center bg-[var(--color-gold)] text-[var(--color-dark)] text-[16px] font-bold transition-all duration-300 z-50 ${showTop ? "opacity-100 translate-y-0" : "opacity-0 translate-y-[8px] pointer-events-none"}`}
+        aria-label="Zpět nahoru"
+      >
+        ↑
+      </button>
     </div>
   );
 }
