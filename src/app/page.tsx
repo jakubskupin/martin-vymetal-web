@@ -341,7 +341,7 @@ export default function Home() {
       >
         {/* Background photo — zoom on hover */}
         <div
-          className="absolute inset-0 bg-cover bg-center md:bg-[center_30%] transition-transform duration-500 group-hover:scale-[1.03]"
+          className="absolute inset-0 bg-cover bg-center md:bg-[right_bottom] transition-transform duration-500 group-hover:scale-[1.03]"
           style={{ backgroundImage: "url('/CNN-Prima-1.png')" }}
         />
         {/* Gradient overlay — mobile (bottom heavy) */}
