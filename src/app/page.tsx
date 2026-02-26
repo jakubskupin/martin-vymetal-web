@@ -351,7 +351,7 @@ export default function Home() {
           className="absolute inset-0 md:hidden"
           style={{
             background:
-              "linear-gradient(to bottom, #0A0A0A99 0%, #0A0A0A66 40%, #0A0A0A22 60%, #0A0A0A00 100%)",
+              "linear-gradient(to bottom, #0A0A0A88 0%, #0A0A0A44 25%, #0A0A0A00 40%)",
           }}
         />
         {/* Gradient overlay — desktop (left to right, lighter) */}
