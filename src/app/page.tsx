@@ -544,8 +544,8 @@ export default function Home() {
               Dobrovským tvoříme podcast Středo/věk. Otevřený dialog
               o příležitostech, které přináší střední věk. Ideální parťák na
               dlouhé cesty autem a zároveň vhled do toho, jak přemýšlím
-              o změnách, rozhodování a smyslu věcí. Pravidelně nás poslouchá
-              přes 40 000 lidí, kteří berou střední věk ne jako krizi, ale jako
+              o změnách, rozhodování a smyslu věcí. Pravidelně nás{" "}
+              <span className="font-semibold text-[var(--color-white)]">poslouchá přes 40 000 lidí</span>, kteří berou střední věk ne jako krizi, ale jako
               startovní čáru.
             </p>
             <a
