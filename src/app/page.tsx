@@ -202,7 +202,7 @@ export default function Home() {
           <h1 className="font-grotesk text-[36px] md:text-[72px] font-bold text-[var(--color-white)] leading-[0.95] tracking-[-1px] md:max-w-[900px]">
             MARKETING JE
             <br />
-            BOJ O POZORNOST.
+            BOJ O POZORNOST
             <br />
             VYHRAJETE HO
           </h1>
