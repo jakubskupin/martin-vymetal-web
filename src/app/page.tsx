@@ -558,7 +558,7 @@ export default function Home() {
               <span className="font-semibold text-[var(--color-white)]">poslouchá přes 40 000 lidí</span>, kteří berou střední věk ne jako krizi, ale jako
               startovní čáru.
             </p>
-            <div className="flex items-center gap-[20px]">
+            <div className="flex flex-col gap-[12px] md:flex-row md:items-center md:gap-[20px]">
               <a
                 href="https://open.spotify.com/show/4PrpbPO5RQ03epa1XOUuJf"
                 target="_blank"
@@ -567,7 +567,7 @@ export default function Home() {
               >
                 POSLECHNOUT NA SPOTIFY →
               </a>
-              <span className="font-mono text-[11px] md:text-[12px] text-[var(--color-gray)] tracking-[0.5px] border border-[var(--color-border)] rounded-[20px] px-[12px] py-[5px]">
+              <span className="font-mono text-[11px] md:text-[12px] text-[var(--color-gray)] tracking-[0.5px] border border-[var(--color-border)] rounded-[20px] px-[12px] py-[5px] self-start md:self-auto">
                 4,9 ★ <span className="opacity-60">(1,7 tis.)</span>
               </span>
             </div>
