@@ -764,6 +764,17 @@ export default function Home() {
               © 2026 MARTIN VYMĚTAL
             </span>
           </div>
+          <span className="font-mono text-[9px] md:text-[10px] text-[var(--color-gray)] tracking-[1px] opacity-50 text-center md:text-left">
+            Foto:{" "}
+            <a
+              href="https://www.gentlemanstore.cz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[var(--color-gold)] hover:opacity-100 transition-colors"
+            >
+              Gentleman Store
+            </a>
+          </span>
         </div>
       </footer>
     </div>
