@@ -548,14 +548,19 @@ export default function Home() {
               <span className="font-semibold text-[var(--color-white)]">poslouchá přes 40 000 lidí</span>, kteří berou střední věk ne jako krizi, ale jako
               startovní čáru.
             </p>
-            <a
-              href="https://open.spotify.com/show/4PrpbPO5RQ03epa1XOUuJf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-gold)] tracking-[1px] hover:brightness-110 transition"
-            >
-              POSLECHNOUT NA SPOTIFY →
-            </a>
+            <div className="flex items-center gap-[20px]">
+              <a
+                href="https://open.spotify.com/show/4PrpbPO5RQ03epa1XOUuJf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-gold)] tracking-[1px] hover:brightness-110 transition"
+              >
+                POSLECHNOUT NA SPOTIFY →
+              </a>
+              <span className="font-mono text-[11px] md:text-[12px] text-[var(--color-gray)] tracking-[0.5px] border border-[var(--color-border)] rounded-[20px] px-[12px] py-[5px]">
+                4,9 ★ <span className="opacity-60">(1,7 tis.)</span>
+              </span>
+            </div>
           </div>
           <div className="h-[300px] md:h-[560px] md:flex-1 bg-[#0A0A0A] overflow-hidden">
             <iframe
