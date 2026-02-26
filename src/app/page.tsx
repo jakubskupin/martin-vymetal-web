@@ -477,7 +477,7 @@ export default function Home() {
               url: "https://www.youtube.com/watch?v=5PRd4q3y03A",
             },
             {
-              label: "FINANČNÍ NEZÁVISLOST",
+              label: "Finanční nezávislost",
               title: "Podnikání je jako žvýkání skla",
               desc: "Jaká je skutečná cena podnikání a úspěchu, co obnáší tvrdá realita budování firmy a jak růst udržitelně, aniž by značka ztratila své hodnoty?",
               img: "/podcast-thumb-3.png",
