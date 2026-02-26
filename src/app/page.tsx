@@ -344,7 +344,7 @@ export default function Home() {
         <img
           src="/CNN-Prima-1.png"
           alt="Martin Vymětal — CNN Prima NEWS"
-          className="absolute w-full h-full object-cover object-[center_60%] transition-transform duration-500 group-hover:scale-[1.03]"
+          className="absolute w-full h-full object-contain object-center transition-transform duration-500 group-hover:scale-[1.03]"
         />
         {/* Gradient overlay — mobile (bottom heavy) */}
         <div
