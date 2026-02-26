@@ -337,11 +337,11 @@ export default function Home() {
         href="https://cnn.iprima.cz/porady/co-na-to-vase-penezenka/co-na-to-vase-penezenka-31-10-v-17-55-1"
         target="_blank"
         rel="noopener noreferrer"
-        className="group relative block h-[480px] md:h-[560px] overflow-hidden cursor-pointer"
+        className="group relative block h-[480px] md:h-[680px] overflow-hidden cursor-pointer"
       >
         {/* Background photo — zoom on hover */}
         <div
-          className="absolute inset-0 bg-cover bg-center md:bg-[right_bottom] transition-transform duration-500 group-hover:scale-[1.03]"
+          className="absolute inset-0 bg-cover bg-center md:bg-[center_bottom] transition-transform duration-500 group-hover:scale-[1.03]"
           style={{ backgroundImage: "url('/CNN-Prima-1.png')" }}
         />
         {/* Gradient overlay — mobile (bottom heavy) */}
