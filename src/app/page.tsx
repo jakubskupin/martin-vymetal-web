@@ -55,8 +55,10 @@ export default function Home() {
   }, []);
 
   const handleLogoLeave = useCallback(() => {
+    if (logoBusy.current) return;
     const cur = logoCurrent.current;
     if (cur === 0) return;
+    logoBusy.current = true;
 
     logoTexts.current[cur]?.classList.remove("visible");
     logoTexts.current[cur]?.classList.add("gone");
