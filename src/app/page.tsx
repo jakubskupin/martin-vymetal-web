@@ -379,6 +379,9 @@ export default function Home() {
             „Srdce z masa
             <br />a mozek z křemíku."
           </blockquote>
+          <p className="hidden md:block font-mono text-[12px] text-[#AAAAAA] tracking-[0.5px] leading-[1.6]">
+            Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou empatii a citlivost s technologickou efektivitou AI a pochopí, že pozornost je dnes nejvzácnější měnou.
+          </p>
           <span className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] group-hover:brightness-110 transition">
             SLEDOVAT V TELEVIZI →
           </span>
