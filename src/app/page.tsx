@@ -163,8 +163,8 @@ export default function Home() {
 
       {/* ─── Hero ─── */}
       <section className="relative h-[600px] md:h-[800px] overflow-hidden">
-        {/* Top fade — mobile: subtle 30px, desktop: full 60px */}
-        <div className="absolute top-0 left-0 right-0 h-[30px] md:h-[60px] bg-gradient-to-b from-[#0A0A0A99] md:from-[var(--color-bg)] to-transparent z-10 pointer-events-none" />
+        {/* Top fade — mobile: subtle 30px, desktop: soft 60px */}
+        <div className="absolute top-0 left-0 right-0 h-[30px] md:h-[60px] bg-gradient-to-b from-[#0A0A0A66] md:from-[#0A0A0A88] to-transparent z-10 pointer-events-none" />
         {/* Background image — mobile (full bleed, parallax) */}
         <div
           ref={heroImageRef}
@@ -196,7 +196,7 @@ export default function Home() {
           }}
         />
         {/* Desktop top/bottom edge fades */}
-        <div className="absolute top-0 left-0 right-0 h-[80px] bg-gradient-to-b from-[#0A0A0A99] to-transparent pointer-events-none hidden md:block" />
+        <div className="absolute top-0 left-0 right-0 h-[80px] bg-gradient-to-b from-[#0A0A0A55] to-transparent pointer-events-none hidden md:block" />
         <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-[var(--color-bg)] to-transparent pointer-events-none hidden md:block" />
         {/* Content — mobile: bottom-aligned, desktop: centered */}
         <div className="relative flex flex-col justify-end md:justify-center h-full px-[24px] md:px-[56px] pb-[40px] md:pb-0 gap-[16px] md:gap-[32px]">
