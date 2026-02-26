@@ -253,7 +253,7 @@ export default function Home() {
             {
               num: "03",
               title: "Značka jako médium",
-              desc: "Přepneme myšlení na vydavatelský model. Dobrovolná pozornost místo tlaku.",
+              desc: "Přepneme myšlení na vydavatelský model. Dobrovolná pozornost cílovky místo reklamního tlaku.",
             },
             {
               num: "04",
