@@ -105,8 +105,9 @@ export default function Home() {
       {/* ─── Navigation ─── */}
       <nav className="hidden md:flex items-center justify-between h-[80px] px-[56px]">
         {/* Animated logo */}
-        <div
-          className="relative w-[320px] h-[34px] cursor-pointer"
+        <a
+          href="/"
+          className="relative w-[320px] h-[34px] cursor-pointer block"
           onMouseEnter={handleLogoEnter}
           onMouseLeave={handleLogoLeave}
         >
@@ -128,7 +129,7 @@ export default function Home() {
           >
             MARTIN VYMĚTAL
           </span>
-        </div>
+        </a>
         {/* Nav links */}
         <div className="flex items-center gap-[32px]">
           <a
