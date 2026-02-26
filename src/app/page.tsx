@@ -307,7 +307,7 @@ export default function Home() {
             {
               num: "03",
               title: "TAHÁK",
-              desc: "Kroky na 14 dní. Co udělat, co škrtnout.",
+              desc: "Najdeme tři rozhodnutí, která změní váš marketing během 14 dní.",
             },
           ].map((step) => (
             <div
