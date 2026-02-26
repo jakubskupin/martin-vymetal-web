@@ -518,7 +518,7 @@ export default function Home() {
           <h2 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] text-center max-w-[800px]">
             Mluvím,
             <br />
-            ale hlavně dělám.
+            ale hlavně dělám
           </h2>
           <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] text-center max-w-[640px]">
             Podcasty jsou jen začátek. Tvořím strategie, přednáším, vymýšlím
