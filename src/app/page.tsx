@@ -703,13 +703,13 @@ export default function Home() {
       </section>
 
       {/* ─── Transition B — Minimal Breather ─── */}
-      <section className="flex items-center justify-center h-[360px] md:h-[480px] bg-[var(--color-bg)]">
-        <div className="flex flex-col items-center gap-[24px]">
-          <div className="w-px h-[80px] bg-[var(--color-gold)]" />
+      <section className="flex items-center justify-center h-[200px] md:h-[280px] bg-[var(--color-bg)]">
+        <div className="flex flex-col items-center gap-[16px]">
+          <div className="w-px h-[48px] bg-[var(--color-gold)]" />
           <span className="font-mono text-[10px] md:text-[11px] text-[#555555] tracking-[3px] text-center">
             ČEKÁ VÁS Z/LOM
           </span>
-          <div className="w-px h-[80px] bg-[var(--color-gold)]" />
+          <div className="w-px h-[48px] bg-[var(--color-gold)]" />
         </div>
       </section>
 
