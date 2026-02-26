@@ -516,13 +516,13 @@ export default function Home() {
         <div className="flex flex-col items-center gap-[24px] md:gap-[32px]">
           <div className="w-[48px] h-[2px] bg-[var(--color-gold)]" />
           <h2 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] leading-[1.1] tracking-[-1px] text-center max-w-[800px]">
-            Nejen mluvím.
+            Mluvím,
             <br />
-            Hlavně dělám.
+            ale hlavně dělám.
           </h2>
           <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] text-center max-w-[640px]">
-            Podcasty jsou jen začátek. Přednáším, vymýšlím, spolupracuji se
-            značkami a pomáhám firmám najít odvahu ke změně.
+            Podcasty jsou jen začátek. Tvořím strategie, přednáším, vymýšlím
+            a spolupracuji se značkami, které mají odvahu ke změně.
           </p>
           <div className="w-[120px] h-px bg-[var(--color-border)]" />
         </div>
