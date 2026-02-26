@@ -143,7 +143,7 @@ export default function Home() {
             href="#psst"
             className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-gray)] hover:text-[var(--color-white)] transition-colors"
           >
-            PSST
+            PSSST
           </a>
           <a
             href="#kontakt"
@@ -400,13 +400,17 @@ export default function Home() {
               ZNAČEK, FIREM A PROJEKTŮ
             </span>
           </div>
-          {/* Cards 2-4 */}
+          {/* Card 2 — Agentura roku */}
+          <div className="flex flex-col gap-[6px] p-[24px] md:p-[32px] border border-[var(--color-border)]">
+            <span className="font-mono text-[9px] md:text-[11px] text-[var(--color-gray)] tracking-[1px]">
+              BOOMERANG 2025
+            </span>
+            <span className="font-grotesk text-[20px] md:text-[26px] font-bold text-[var(--color-white)] leading-[1.1]">
+              Agentura roku
+            </span>
+          </div>
+          {/* Cards 3-4 */}
           {[
-            {
-              value: "2025",
-              label: "BOOMERANG JE AGENTURA ROKU",
-              color: "var(--color-white)",
-            },
             {
               value: "150",
               label: "OCENĚNÍ VČETNĚ 5 EFFIE",
@@ -567,6 +571,7 @@ export default function Home() {
               className="w-full h-full"
               src="https://www.youtube.com/embed/1VF8_RRCPBk"
               title="Středo/věk"
+              loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
@@ -647,6 +652,7 @@ export default function Home() {
               className="w-full h-full"
               src="https://www.youtube.com/embed/dorc3Lajtyw?start=1060"
               title="Traily"
+              loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
@@ -668,7 +674,7 @@ export default function Home() {
               }}
             />
           </div>
-          <div className="flex flex-col gap-[24px] px-[24px] py-[32px] md:p-[56px_56px] md:flex-1 md:h-[420px]">
+          <div className="flex flex-col gap-[24px] px-[24px] py-[32px] md:p-[56px_56px] md:flex-1 md:h-[560px]">
             {/* <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
               INFLUENCING
             </span> */}
