@@ -105,7 +105,7 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-[var(--color-bg)] overflow-x-hidden">
       {/* ─── Navigation ─── */}
-      <nav className="hidden md:flex items-center justify-between h-[80px] px-[56px]">
+      <nav className="hidden md:flex items-center justify-between h-[80px] px-[56px] absolute top-0 left-0 right-0 z-20">
         {/* Animated logo */}
         <a
           href="/"
@@ -136,19 +136,22 @@ export default function Home() {
         <div className="flex items-center gap-[32px]">
           <a
             href="#spoluprace"
-            className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-gray)] hover:text-[var(--color-white)] transition-colors"
+            className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-white)] hover:text-[var(--color-gold)] transition-colors"
+            style={{ textShadow: "0 1px 8px rgba(0,0,0,0.6)" }}
           >
             SPOLUPRÁCE
           </a>
           <a
             href="#proces"
-            className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-gray)] hover:text-[var(--color-white)] transition-colors"
+            className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-white)] hover:text-[var(--color-gold)] transition-colors"
+            style={{ textShadow: "0 1px 8px rgba(0,0,0,0.6)" }}
           >
             PROCES
           </a>
           <a
             href="#psst"
-            className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-gray)] hover:text-[var(--color-white)] transition-colors"
+            className="font-mono text-[12px] font-semibold tracking-[1px] text-[var(--color-white)] hover:text-[var(--color-gold)] transition-colors"
+            style={{ textShadow: "0 1px 8px rgba(0,0,0,0.6)" }}
           >
             PSSST
           </a>
