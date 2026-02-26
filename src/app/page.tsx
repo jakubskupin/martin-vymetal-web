@@ -635,8 +635,8 @@ export default function Home() {
         </div>
 
         {/* Influencing Row — photo left, text right */}
-        <div className="flex flex-col-reverse md:flex-row h-auto md:h-[420px] border-t border-[var(--color-border)]">
-          <div className="relative h-auto aspect-[4/3] md:aspect-auto md:h-[420px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
+        <div className="flex flex-col-reverse md:flex-row h-auto md:h-[560px] border-t border-[var(--color-border)]">
+          <div className="relative h-auto aspect-[4/3] md:aspect-auto md:h-[560px] md:w-[54%] md:shrink-0 overflow-hidden bg-[#1A1A1A]">
             <div
               className="absolute inset-0 bg-cover bg-center md:bg-bottom"
               style={{ backgroundImage: "url('/Drivalia_Martin-vymetal.jpg')" }}
@@ -654,15 +654,31 @@ export default function Home() {
               INFLUENCING
             </span> */}
             <h3 className="font-grotesk text-[32px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px]">
-              Grandfluencer
+              Granfluencer
             </h3>
             <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
-              Nelovím trendy na týden. Jsem grandfluencer, protože mám
+              Nelovím trendy na týden. Jsem granfluencer, protože mám
               zkušenosti, příběh a odvahu říkat značkám, co dává dlouhodobě
               smysl. Jako hrdý ambasador operativního leasingu <a href="https://www.drivaliago.cz/martin" target="_blank" rel="noopener noreferrer" className="text-[var(--color-gold)] hover:brightness-110 transition">Drivalia</a> Premium
-              GO jezdím ve Volvo XC60 a zároveň zastupuji prémiovou péči o pleť
-              Augustinus Bader v síti parfumérií <a href="https://www.fann.cz/produkty?znacky%5B0%5D=297&_gl=1*1cruach*_up*MQ..*_ga*MTE4NTU0ODA3My4xNzcxODU2NjM4*_ga_45N5HDELDL*czE3NzE4NTY2MzckbzEkZzEkdDE3NzE4NTY2NDAkajU3JGwwJGgw" target="_blank" rel="noopener noreferrer" className="text-[var(--color-gold)] hover:brightness-110 transition">Fann</a>.
+              GO jezdím ve Volvo XC60, cvičím v <a href="https://zeleznakoule.cz/amazing12/" target="_blank" rel="noopener noreferrer" className="text-[var(--color-gold)] hover:brightness-110 transition">Železné kouli</a> a zároveň
+              zastupuji prémiovou péči o pleť Augustinus Bader v síti
+              parfumérií <a href="https://www.fann.cz/produkty?znacky%5B0%5D=297&_gl=1*1cruach*_up*MQ..*_ga*MTE4NTU0ODA3My4xNzcxODU2NjM4*_ga_45N5HDELDL*czE3NzE4NTY2MzckbzEkZzEkdDE3NzE4NTY2NDAkajU3JGwwJGgw" target="_blank" rel="noopener noreferrer" className="text-[var(--color-gold)] hover:brightness-110 transition">FAnn</a>.
             </p>
+            <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
+              Spolupracuji jen se značkami, za které se můžu postavit vlastním
+              jménem. Takovými, které žiju, používám a kterým opravdu věřím.
+              Pokud hledáte rychlý reach, nejsem pro vás. Pokud ale chcete
+              partnera, který pomůže vaší značce růst s důvěrou, kontinuitou
+              a obsahem, který má váhu, pojďme se potkat.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/martinvymetal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-gold)] tracking-[1px] hover:brightness-110 transition"
+            >
+              POJĎME SE POTKAT →
+            </a>
           </div>
         </div>
       </section>
