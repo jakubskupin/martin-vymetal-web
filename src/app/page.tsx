@@ -716,7 +716,7 @@ export default function Home() {
       {/* ─── CTA Section ─── */}
       <section
         id="kontakt"
-        className="flex flex-col items-center gap-[24px] md:gap-[32px] px-[24px] md:px-[56px] py-[64px] md:py-[100px] bg-[var(--color-bg)]"
+        className="flex flex-col items-center gap-[24px] md:gap-[32px] px-[24px] md:px-[56px] pt-[32px] pb-[64px] md:pt-[40px] md:pb-[100px] bg-[var(--color-bg)]"
       >
         <h2 className="font-grotesk text-[36px] md:text-[56px] font-bold text-[var(--color-white)] tracking-[-1px] text-center">
           CHCETE JASNÝ
