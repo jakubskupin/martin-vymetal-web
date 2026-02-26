@@ -617,11 +617,23 @@ export default function Home() {
               <br />a průvodcovství
             </h3>
             <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
-              Kdo řekl, že nejlepší nápady vznikají v zasedačkách? Vezmu vás na
-              hike a budoucnost vaší značky probereme při chůzi. Za posledních
-              pět let jsem na dálkových cestách nachodil přes 6 000 kilometrů a
-              vím, že hlava nejlépe myslí právě v pohybu.
+              Kdo řekl, že nejlepší nápady vznikají v zasedačkách? Za
+              posledních pět let jsem pěšky přešel Ameriku legendární cestou
+              Pacific Crest Trail, obešel Českou republiku po hranicích,
+              obkroužil Julské Alpy a prošel Skotsko. Na dálkových cestách jsem
+              nachodil přes 7 000 kilometrů a vím jedno: hlava myslí nejlépe,
+              když je tělo v pohybu. Bez slidů, bez tlaku, bez póz. Jen vy,
+              cesta a věci, které je potřeba si konečně říct. Pokud chcete
+              přemýšlet jinak než všichni ostatní, pojďte se mnou.
             </p>
+            <a
+              href="https://www.youtube.com/watch?v=g1rNmRCgero"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-mono text-[11px] md:text-[12px] font-semibold text-[var(--color-gold)] tracking-[1px] hover:brightness-110 transition"
+            >
+              VŠE O PACIFICKÉ HŘEBENOVCE →
+            </a>
           </div>
           <div className="h-[300px] md:h-[560px] md:flex-1 bg-[#0A0A0A] overflow-hidden">
             <iframe
