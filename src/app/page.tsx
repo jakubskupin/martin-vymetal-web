@@ -540,11 +540,13 @@ export default function Home() {
               Středo/věk
             </h3>
             <p className="font-mono text-[14px] md:text-[14px] text-[var(--color-gray)] leading-[1.7] max-w-[520px]">
-              Už pět let s kamarády Petrem Márou a Janem Dobrovským tvoříme
-              podcast středo/věk. Otevřený dialog o příležitostech, které
-              přináší střední věk. Pro dlouhé cesty autem perfektní parťák. Pro
-              váš zároveň vhled do toho, jak přemýšlím o životě, práci i
-              změnách.
+              Už pět let s kamarády <a href="https://www.youtube.com/c/petrmara" target="_blank" rel="noopener noreferrer" className="text-[var(--color-gold)] hover:brightness-110 transition">Petrem Márou</a> a Janem
+              Dobrovským tvoříme podcast Středo/věk. Otevřený dialog
+              o příležitostech, které přináší střední věk. Ideální parťák na
+              dlouhé cesty autem a zároveň vhled do toho, jak přemýšlím
+              o změnách, rozhodování a smyslu věcí. Pravidelně nás poslouchá
+              přes 40 000 lidí, kteří berou střední věk ne jako krizi, ale jako
+              startovní čáru.
             </p>
             <a
               href="https://open.spotify.com/show/4PrpbPO5RQ03epa1XOUuJf"
