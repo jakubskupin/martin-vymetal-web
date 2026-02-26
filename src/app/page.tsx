@@ -346,26 +346,26 @@ export default function Home() {
           alt="Martin Vymětal — CNN Prima NEWS"
           className="absolute w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-[1.03]"
         />
-        {/* Gradient overlay — mobile (bottom heavy) */}
+        {/* Gradient overlay — mobile (lighter top, text area only) */}
         <div
           className="absolute inset-0 md:hidden"
           style={{
             background:
-              "linear-gradient(to bottom, #0A0A0AEE 0%, #0A0A0ACC 30%, #0A0A0A88 50%, #0A0A0A44 70%, #0A0A0A22 100%)",
+              "linear-gradient(to bottom, #0A0A0A99 0%, #0A0A0A66 40%, #0A0A0A22 60%, #0A0A0A00 100%)",
           }}
         />
-        {/* Gradient overlay — desktop (left to right) */}
+        {/* Gradient overlay — desktop (left to right, lighter) */}
         <div
           className="absolute inset-0 hidden md:block"
           style={{
             background:
-              "linear-gradient(to right, #0A0A0AF5 0%, #0A0A0ADD 35%, #0A0A0A66 55%, #0A0A0A11 70%)",
+              "linear-gradient(to right, #0A0A0ADD 0%, #0A0A0ABB 30%, #0A0A0A55 45%, #0A0A0A00 60%)",
           }}
         />
         {/* Gold border on hover */}
         <div className="absolute inset-0 border-[2px] border-transparent group-hover:border-[var(--color-gold)] transition-colors duration-300 pointer-events-none z-10" />
-        {/* Content */}
-        <div className="relative flex flex-col justify-center h-full px-[24px] md:px-[120px] gap-[20px] md:gap-[24px] max-w-[700px]">
+        {/* Content — top-aligned to stay above TV bar */}
+        <div className="relative flex flex-col justify-start h-full px-[24px] md:px-[120px] pt-[20px] md:pt-[80px] gap-[12px] md:gap-[20px] max-w-[700px]">
           {/* Source */}
           <div className="flex items-center gap-[12px]">
             <span className="flex items-center justify-center bg-[#CC0000] rounded-[2px] px-[12px] h-[20px] w-[56px] font-[Inter] text-[10px] font-black text-white tracking-[1px]">
@@ -379,9 +379,6 @@ export default function Home() {
             „Srdce z masa
             <br />a mozek z křemíku."
           </blockquote>
-          <p className="font-mono text-[11px] md:text-[12px] text-[#AAAAAA] tracking-[0.5px] leading-[1.6]">
-            Jak v éře umělé inteligence uspět tím, že firmy spojí lidskou empatii a citlivost s technologickou efektivitou AI a pochopí, že pozornost je dnes nejvzácnější měnou.
-          </p>
           <span className="font-mono text-[11px] font-semibold text-[var(--color-gold)] tracking-[2px] group-hover:brightness-110 transition">
             SLEDOVAT V TELEVIZI →
           </span>
