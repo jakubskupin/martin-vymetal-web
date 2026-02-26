@@ -340,9 +340,11 @@ export default function Home() {
         className="group relative block h-[480px] md:h-[680px] overflow-hidden cursor-pointer"
       >
         {/* Background photo — zoom on hover */}
-        <div
-          className="absolute inset-x-0 bottom-0 transition-transform duration-500 group-hover:scale-[1.03]"
-          style={{ backgroundImage: "url('/CNN-Prima-1.png')", backgroundSize: "100% auto", backgroundRepeat: "no-repeat", backgroundPosition: "center bottom", height: "150%" }}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/CNN-Prima-1.png"
+          alt="Martin Vymětal — CNN Prima NEWS"
+          className="absolute w-full h-full object-cover object-[center_60%] transition-transform duration-500 group-hover:scale-[1.03]"
         />
         {/* Gradient overlay — mobile (bottom heavy) */}
         <div
