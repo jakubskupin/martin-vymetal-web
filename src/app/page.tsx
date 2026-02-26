@@ -413,8 +413,8 @@ export default function Home() {
               color: "var(--color-white)",
             },
             {
-              value: "5 970",
-              label: "KM NA TRAILU",
+              value: "7 250",
+              label: "KM NA TRAILECH",
               color: "var(--color-gold)",
             },
           ].map((card) => (
