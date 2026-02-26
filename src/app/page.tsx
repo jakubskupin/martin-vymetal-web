@@ -207,7 +207,7 @@ export default function Home() {
             VYHRAJETE HO
           </h1>
           <p className="font-mono text-[15px] md:text-[20px] text-[#FFFFFFBF] leading-[1.6] md:max-w-[600px]">
-            Najdeme <strong className="font-semibold text-[#FFFFFFE6]">tři rozhodnutí</strong>, která změní<br />váš marketing během <strong className="font-semibold text-[#FFFFFFE6]">14 dní</strong>.
+            Pomáhám firmám a značkám najít odvahu ke změně
           </p>
           <a
             href="https://www.linkedin.com/in/martinvymetal/"
