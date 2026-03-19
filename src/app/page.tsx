@@ -165,58 +165,58 @@ export default function Home() {
       </nav>
 
       {/* ─── Hero ─── */}
-      <section className="relative h-[600px] md:h-[800px] overflow-hidden">
-        {/* Top fade — mobile: subtle 30px, desktop: soft 60px */}
-        <div className="absolute top-0 left-0 right-0 h-[30px] md:h-[60px] bg-gradient-to-b from-[#0A0A0A66] md:from-[#0A0A0A88] to-transparent z-10 pointer-events-none" />
-        {/* Background image — mobile (full bleed, parallax) */}
+      <section className="relative h-[600px] md:h-[720px] lg:h-[800px] overflow-hidden">
+        {/* Top fade — mobile+tablet: subtle 30px, desktop: soft 60px */}
+        <div className="absolute top-0 left-0 right-0 h-[30px] lg:h-[60px] bg-gradient-to-b from-[#0A0A0A66] lg:from-[#0A0A0A88] to-transparent z-10 pointer-events-none" />
+        {/* Background image — mobile+tablet (full bleed, parallax) */}
         <div
           ref={heroImageRef}
-          className="absolute inset-0 bg-cover bg-center will-change-transform md:hidden"
+          className="absolute inset-0 bg-cover bg-center md:bg-top will-change-transform lg:hidden"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
         {/* Background image — desktop (person right) */}
         <div
-          className="absolute inset-0 hidden md:block bg-cover will-change-transform hero-bg-desktop"
+          className="absolute inset-0 hidden lg:block bg-cover will-change-transform hero-bg-desktop"
           style={{
             backgroundImage: "url('/mv-most-hol-hero-desktop.png')",
           }}
         />
-        {/* Gradient overlay — mobile (sharp bottom fade) */}
+        {/* Gradient overlay — mobile+tablet (sharp bottom fade) */}
         <div
-          className="absolute inset-0 md:hidden"
+          className="absolute inset-0 lg:hidden"
           style={{
             background:
               "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 35%, #0A0A0ABB 50%, #0A0A0AEE 60%, #0A0A0A 70%)",
           }}
         />
-        {/* Gradient overlay — desktop (left to right, stronger on tablet) */}
-        <div className="absolute inset-0 hidden md:block hero-gradient-desktop" />
+        {/* Gradient overlay — desktop (left to right) */}
+        <div className="absolute inset-0 hidden lg:block hero-gradient-desktop" />
         {/* Desktop top/bottom edge fades */}
-        <div className="absolute top-0 left-0 right-0 h-[80px] bg-gradient-to-b from-[#0A0A0A55] to-transparent pointer-events-none hidden md:block" />
-        <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-[var(--color-bg)] to-transparent pointer-events-none hidden md:block" />
-        {/* Content — mobile: bottom-aligned, desktop: centered */}
-        <div className="relative flex flex-col justify-end md:justify-center h-full px-[24px] md:px-[56px] pb-[40px] md:pb-0 gap-[16px] md:gap-[32px]">
-          <span className="font-mono text-[10px] md:text-[12px] text-[var(--color-gold)] tracking-[2px]">
-            <span className="md:hidden">MARTIN VYMĚTAL</span>
-            <span className="hidden md:inline">
+        <div className="absolute top-0 left-0 right-0 h-[80px] bg-gradient-to-b from-[#0A0A0A55] to-transparent pointer-events-none hidden lg:block" />
+        <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-[var(--color-bg)] to-transparent pointer-events-none hidden lg:block" />
+        {/* Content — mobile+tablet: bottom-aligned, desktop: centered */}
+        <div className="relative flex flex-col justify-end lg:justify-center h-full px-[24px] lg:px-[56px] pb-[40px] lg:pb-0 gap-[16px] lg:gap-[32px]">
+          <span className="font-mono text-[10px] lg:text-[12px] text-[var(--color-gold)] tracking-[2px]">
+            <span className="lg:hidden">MARTIN VYMĚTAL</span>
+            <span className="hidden lg:inline">
               MARTIN VYMĚTAL — MARKETING &amp; KOMUNIKACE
             </span>
           </span>
-          <h1 className="font-grotesk text-[36px] md:text-[52px] lg:text-[72px] font-bold text-[var(--color-white)] leading-[0.95] tracking-[-1px] md:max-w-[900px]">
+          <h1 className="font-grotesk text-[36px] lg:text-[72px] font-bold text-[var(--color-white)] leading-[0.95] tracking-[-1px] lg:max-w-[900px]">
             MARKETING JE
             <br />
             BOJ O POZORNOST
             <br />
             VYHRAJETE HO
           </h1>
-          <p className="font-mono text-[15px] md:text-[17px] lg:text-[20px] text-[#FFFFFFBF] leading-[1.6] md:max-w-[600px]">
+          <p className="font-mono text-[15px] lg:text-[20px] text-[#FFFFFFBF] leading-[1.6] lg:max-w-[600px]">
             Pomáhám firmám a značkám najít odvahu ke změně
           </p>
           <a
             href="https://www.linkedin.com/in/martinvymetal/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-mono text-[11px] md:text-[12px] font-semibold tracking-[1px] text-[var(--color-dark)] bg-[var(--color-gold)] px-[24px] md:px-[32px] py-[14px] md:py-[16px] w-fit hover:brightness-110 transition"
+            className="font-mono text-[11px] lg:text-[12px] font-semibold tracking-[1px] text-[var(--color-dark)] bg-[var(--color-gold)] px-[24px] lg:px-[32px] py-[14px] lg:py-[16px] w-fit hover:brightness-110 transition"
           >
             OZVĚTE SE MI →
           </a>
