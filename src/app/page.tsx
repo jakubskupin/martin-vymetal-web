@@ -176,10 +176,9 @@ export default function Home() {
         />
         {/* Background image — desktop (person right) */}
         <div
-          className="absolute inset-0 hidden md:block bg-cover will-change-transform"
+          className="absolute inset-0 hidden md:block bg-cover will-change-transform hero-bg-desktop"
           style={{
             backgroundImage: "url('/mv-most-hol-hero-desktop.png')",
-            backgroundPosition: "70% center",
           }}
         />
         {/* Gradient overlay — mobile (sharp bottom fade) */}
@@ -190,14 +189,8 @@ export default function Home() {
               "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 35%, #0A0A0ABB 50%, #0A0A0AEE 60%, #0A0A0A 70%)",
           }}
         />
-        {/* Gradient overlay — desktop (left to right) */}
-        <div
-          className="absolute inset-0 hidden md:block"
-          style={{
-            background:
-              "linear-gradient(to right, #0A0A0AF5 0%, #0A0A0ADD 25%, #0A0A0A88 40%, #0A0A0A22 50%, #0A0A0A00 60%)",
-          }}
-        />
+        {/* Gradient overlay — desktop (left to right, stronger on tablet) */}
+        <div className="absolute inset-0 hidden md:block hero-gradient-desktop" />
         {/* Desktop top/bottom edge fades */}
         <div className="absolute top-0 left-0 right-0 h-[80px] bg-gradient-to-b from-[#0A0A0A55] to-transparent pointer-events-none hidden md:block" />
         <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-[var(--color-bg)] to-transparent pointer-events-none hidden md:block" />
@@ -209,14 +202,14 @@ export default function Home() {
               MARTIN VYMĚTAL — MARKETING &amp; KOMUNIKACE
             </span>
           </span>
-          <h1 className="font-grotesk text-[36px] md:text-[72px] font-bold text-[var(--color-white)] leading-[0.95] tracking-[-1px] md:max-w-[900px]">
+          <h1 className="font-grotesk text-[36px] md:text-[52px] lg:text-[72px] font-bold text-[var(--color-white)] leading-[0.95] tracking-[-1px] md:max-w-[900px]">
             MARKETING JE
             <br />
             BOJ O POZORNOST
             <br />
             VYHRAJETE HO
           </h1>
-          <p className="font-mono text-[15px] md:text-[20px] text-[#FFFFFFBF] leading-[1.6] md:max-w-[600px]">
+          <p className="font-mono text-[15px] md:text-[17px] lg:text-[20px] text-[#FFFFFFBF] leading-[1.6] md:max-w-[600px]">
             Pomáhám firmám a značkám najít odvahu ke změně
           </p>
           <a
