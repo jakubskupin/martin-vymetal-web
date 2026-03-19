@@ -171,7 +171,7 @@ export default function Home() {
         {/* Background image — mobile+tablet (full bleed, parallax) */}
         <div
           ref={heroImageRef}
-          className="absolute inset-0 bg-cover bg-center sm:bg-top will-change-transform lg:hidden"
+          className="absolute inset-0 bg-cover bg-top will-change-transform lg:hidden"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
         {/* Background image — desktop (person right) */}
