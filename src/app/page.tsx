@@ -165,13 +165,13 @@ export default function Home() {
       </nav>
 
       {/* ─── Hero ─── */}
-      <section className="relative h-[600px] md:h-[720px] lg:h-[800px] overflow-hidden">
+      <section className="relative h-[600px] sm:h-[680px] md:h-[720px] lg:h-[800px] overflow-hidden">
         {/* Top fade — mobile+tablet: subtle 30px, desktop: soft 60px */}
         <div className="absolute top-0 left-0 right-0 h-[30px] lg:h-[60px] bg-gradient-to-b from-[#0A0A0A66] lg:from-[#0A0A0A88] to-transparent z-10 pointer-events-none" />
         {/* Background image — mobile+tablet (full bleed, parallax) */}
         <div
           ref={heroImageRef}
-          className="absolute inset-0 bg-cover bg-center md:bg-top will-change-transform lg:hidden"
+          className="absolute inset-0 bg-cover bg-center sm:bg-top will-change-transform lg:hidden"
           style={{ backgroundImage: "url('/mv-most-hol.jpg')" }}
         />
         {/* Background image — desktop (person right) */}
