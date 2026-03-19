@@ -451,6 +451,28 @@ export default function Home() {
             </div>
           ))}
         </div>
+
+        {/* Boomerang Communication card */}
+        <a
+          href="https://www.boomerang.agency"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col md:flex-row items-start gap-[16px] md:gap-[24px] p-[24px] md:p-[32px] border border-[var(--color-border)] hover:border-[var(--color-gold)] transition-colors duration-300"
+        >
+          <img
+            src="/boomerang-logo.png"
+            alt="Boomerang Communication"
+            className="w-[56px] h-[56px] md:w-[64px] md:h-[64px] rounded-[8px] flex-shrink-0"
+          />
+          <div className="flex flex-col gap-[8px]">
+            <span className="font-grotesk text-[18px] md:text-[22px] font-bold text-[var(--color-white)] leading-[1.2]">
+              Boomerang Communication
+            </span>
+            <p className="font-mono text-[12px] md:text-[13px] text-[var(--color-gray)] leading-[1.6]">
+              Můj lovebrand. Moje agentura. Druhá rodina. Před 25 lety jsme s&nbsp;Markem, Pavlem a&nbsp;Jindrou založili první content marketingovou agenturu v&nbsp;Česku. ČiliChili pro Vodafone nebo kampaně pro Radegast patří mezi projekty, které psaly historii. V&nbsp;Boomerangu se starám o&nbsp;obchod, řídím marketing agentury a&nbsp;tlačím inovace.
+            </p>
+          </div>
+        </a>
       </section>
 
       {/* ─── Podcasts Section ─── */}
