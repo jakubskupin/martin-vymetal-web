@@ -181,12 +181,20 @@ export default function Home() {
             backgroundImage: "url('/mv-most-hol-hero-desktop.png')",
           }}
         />
-        {/* Gradient overlay — mobile+tablet (sharp bottom fade) */}
+        {/* Gradient overlay — mobile (sharp bottom fade, original) */}
         <div
-          className="absolute inset-0 lg:hidden"
+          className="absolute inset-0 md:hidden"
           style={{
             background:
               "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 35%, #0A0A0ABB 50%, #0A0A0AEE 60%, #0A0A0A 70%)",
+          }}
+        />
+        {/* Gradient overlay — tablet (lower fade, Martin's face clear) */}
+        <div
+          className="absolute inset-0 hidden md:block lg:hidden"
+          style={{
+            background:
+              "linear-gradient(to bottom, #0A0A0A00 0%, #0A0A0A00 50%, #0A0A0ABB 62%, #0A0A0AEE 72%, #0A0A0A 82%)",
           }}
         />
         {/* Gradient overlay — desktop (left to right) */}

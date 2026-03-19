@@ -28,24 +28,14 @@
   }
 }
 
-/* Hero background — tablet vs desktop positioning */
+/* Hero background — desktop positioning */
 .hero-bg-desktop {
-  background-position: 85% center;
-}
-@media (min-width: 1024px) {
-  .hero-bg-desktop {
-    background-position: 70% center;
-  }
+  background-position: 70% center;
 }
 
-/* Hero gradient — stronger on tablet to protect text over face */
+/* Hero gradient — desktop (left to right) */
 .hero-gradient-desktop {
-  background: linear-gradient(to right, #0A0A0AF5 0%, #0A0A0AEE 30%, #0A0A0ABB 45%, #0A0A0A55 60%, #0A0A0A00 75%);
-}
-@media (min-width: 1024px) {
-  .hero-gradient-desktop {
-    background: linear-gradient(to right, #0A0A0AF5 0%, #0A0A0ADD 25%, #0A0A0A88 40%, #0A0A0A22 50%, #0A0A0A00 60%);
-  }
+  background: linear-gradient(to right, #0A0A0AF5 0%, #0A0A0ADD 25%, #0A0A0A88 40%, #0A0A0A22 50%, #0A0A0A00 60%);
 }
 
 /* Animated logo */
